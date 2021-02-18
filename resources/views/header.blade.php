@@ -120,14 +120,7 @@
     <div class="container">
         <div class="logo"> <a href="/"><img src="images/logo.png" alt="Image"></a> </div>
         <!-- end logo -->
-        <div class="languages">
-            <ul>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ge')}}">GE</a></li>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'en')}}">EN</a></li>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ru')}}">RU </a></li>
-            </ul>
-        </div>
-        <!-- end languages -->
+
         <div class="site-menu">
             <ul>
                 <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),\Illuminate\Support\Facades\App::getLocale()).'/servisebi'}}">{{__('მშენებლობა')}}</a>
@@ -148,7 +141,14 @@
                 <li><a href="contact.html">ჩვენს შესახებ</a></li>
             </ul>
         </div>
-
+        <div class="languages">
+            <ul>
+                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ge')}}">GE</a></li>
+                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'en')}}">EN</a></li>
+                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ru')}}">RU </a></li>
+            </ul>
+        </div>
+        <!-- end languages -->
     {{--        <li><a href="services.html">მშენებლობა</a></li>--}}
     {{--        <li><a href="projects.html">რემონტი</a></li>--}}
     {{--        <li><a href="about-company.html">დაგეგმარებაZ</a></li>--}}
