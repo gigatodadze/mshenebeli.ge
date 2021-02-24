@@ -3126,3 +3126,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-right: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
+    .footer-web{
+        opacity: 0.7;
+        font-size: 13px;
+        color: #fff; }
+    .footer-web:hover {
+        opacity: 1;
+        text-decoration-color: #feed01;
+        color: #fff;
+    }
