@@ -67,8 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-/* Asia/Tbilisi */
+    'timezone' => 'Asia/Tbilisi',
+
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -81,6 +81,18 @@ return [
     */
 
     'locale' => 'ge',
+
+    'locales' => [
+        'ge' => [
+            'display' => 'GE',
+        ],
+        'en' => [
+            'display' => 'EN',
+        ],
+        'ru' => [
+            'display' => 'RU',
+        ],
+    ],
 
     /*
     |--------------------------------------------------------------------------

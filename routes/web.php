@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 /*
@@ -12,17 +13,17 @@ use Illuminate\Support\Facades\App;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::redirect('/','/ge');
 
-Route::group(['prefix' => '{language}'],function (){
-    Route::get('/', function () {
-        return view('welcome');
-    });
-    Route::get('/servisebi',function (){
-        return view('servisebi');
-    });
-    Route::get('/momsakhurebebi',function (){
-        return view('momsakhurebebi');
-    });
+Route::get('/', function () {
+    return view('welcome');
+})->name('index');
+
+
+Route::get('services', fn () => view('services'))->name('services');
+
+//Route::get('services', [IndexController::class, 'services'])->name('services');
+
+Route::get('/momsakhurebebi',function (){
+    return view('momsakhurebebi');
 });
 

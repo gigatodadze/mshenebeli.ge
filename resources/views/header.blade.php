@@ -118,12 +118,12 @@
 <!-- end side-widget -->
 <nav class="navbar">
     <div class="container">
-        <div class="logo"> <a href="/"><img src="images/logo.png" alt="Image"></a> </div>
+        <div class="logo"> <a href="/"><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
         <!-- end logo -->
 
         <div class="site-menu">
             <ul>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),\Illuminate\Support\Facades\App::getLocale()).'/servisebi'}}">{{__('მშენებლობა')}}</a>
+                <li><a href="{{ route('services') }}">@lang('app.services')</a>
                     <ul>
                         <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),\Illuminate\Support\Facades\App::getLocale()).'/momsakhurebebi'}}">{{__('დაგეგმარება')}}</a></li>
                         <li><a href="core-values.html">ხარჯთაღრიცხვა</a></li>
@@ -143,9 +143,9 @@
         </div>
         <div class="languages">
             <ul>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ge')}}">GE</a></li>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'en')}}">EN</a></li>
-                <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),'ru')}}">RU </a></li>
+                @foreach (config('app.locales') as $key => $data)
+                    <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
+                @endforeach
             </ul>
         </div>
         <!-- end languages -->
