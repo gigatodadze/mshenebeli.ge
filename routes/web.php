@@ -19,11 +19,14 @@ Route::get('/', function () {
 })->name('index');
 
 
-Route::get('services', fn () => view('services'))->name('services');
+//Route::get('services', fn () => view('services'))->name('services');
+Route::get('servisebi', function (){
+    return view('servisebi');
+})->name('servisebi');
 
 //Route::get('services', [IndexController::class, 'services'])->name('services');
 
 Route::get('/momsakhurebebi',function (){
     return view('momsakhurebebi');
-});
+})->name('momsakhurebebi');
 

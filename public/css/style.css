@@ -2961,4 +2961,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .footer .footer-bottom ul li {
     margin-left: 0;
     margin-right: 10px; } }
+    .footer-web{
+        opacity: 0.7;
+        font-size: 13px;
+        color: #fff; }
+    .footer-web:hover {
+        opacity: 1;
+        -webkit-text-decoration-color: #feed01;
+                text-decoration-color: #feed01;
+        color: #fff;
+    }
 

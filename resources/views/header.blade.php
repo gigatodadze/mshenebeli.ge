@@ -123,9 +123,9 @@
 
         <div class="site-menu">
             <ul>
-                <li><a href="{{ route('services') }}">@lang('app.services')</a>
+                <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
                     <ul>
-                        <li><a href="{{route(\Illuminate\Support\Facades\Route::currentRouteName(),\Illuminate\Support\Facades\App::getLocale()).'/momsakhurebebi'}}">{{__('დაგეგმარება')}}</a></li>
+                        <li><a href="{{ route('momsakhurebebi') }}">@lang('app.routing')</a></li>
                         <li><a href="core-values.html">ხარჯთაღრიცხვა</a></li>
                     </ul>
                 </li>
