@@ -563,69 +563,69 @@
     </div>
     <!-- end container -->
 </div>
-<!-- end content-section -->
-<section class="content-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h6>REACH UPDATES</h6>
-                    <h2>Recent News</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-5">
-                <div class="recent-news">
-                    <figure> <img src="images/slide01.jpg" alt="Image"> </figure>
-                    <div class="content"> <small>29 February, 2020</small>
-                        <h3><a href="#">Result of a challenge I participated in as a guest on The Futuristic</a></h3>
-                        <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
-                        <!-- end author -->
-                    </div>
-                    <!-- end content -->
-                </div>
-                <!-- end recent-news -->
-            </div>
-            <!-- end col-5 -->
-            <div class="col-lg-7">
-                <div class="row inner">
-                    <div class="col-md-6">
-                        <div class="recent-news">
-                            <figure> <img src="images/slide02.jpg" alt="Image"> </figure>
-                            <div class="content"> <small>29 February, 2020</small>
-                                <h3><a href="#">Challenge I participated in as a guest on all font</a></h3>
-                                <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
-                                <!-- end author -->
-                            </div>
-                            <!-- end content -->
-                        </div>
-                        <!-- end recent-news -->
-                    </div>
-                    <!-- end col-4 -->
-                    <div class="col-md-6">
-                        <div class="recent-news">
-                            <figure> <img src="images/slide03.jpg" alt="Image"> </figure>
-                            <div class="content"> <small>29 February, 2020</small>
-                                <h3><a href="#">Participated challenge in as a guest on The Future</a></h3>
-                                <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
-                                <!-- end author -->
-                            </div>
-                            <!-- end content -->
-                        </div>
-                        <!-- end recent-news -->
-                    </div>
-                    <!-- end col-4 -->
-                </div>
-                <!-- end row inner -->
-            </div>
-            <!-- end col-7 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
-<!-- end content-section -->
+{{--<!-- end content-section -->--}}
+{{--<section class="content-section">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="section-title">--}}
+{{--                    <h6>REACH UPDATES</h6>--}}
+{{--                    <h2>Recent News</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12 -->--}}
+{{--            <div class="col-lg-5">--}}
+{{--                <div class="recent-news">--}}
+{{--                    <figure> <img src="images/slide01.jpg" alt="Image"> </figure>--}}
+{{--                    <div class="content"> <small>29 February, 2020</small>--}}
+{{--                        <h3><a href="#">Result of a challenge I participated in as a guest on The Futuristic</a></h3>--}}
+{{--                        <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>--}}
+{{--                        <!-- end author -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end content -->--}}
+{{--                </div>--}}
+{{--                <!-- end recent-news -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-5 -->--}}
+{{--            <div class="col-lg-7">--}}
+{{--                <div class="row inner">--}}
+{{--                    <div class="col-md-6">--}}
+{{--                        <div class="recent-news">--}}
+{{--                            <figure> <img src="images/slide02.jpg" alt="Image"> </figure>--}}
+{{--                            <div class="content"> <small>29 February, 2020</small>--}}
+{{--                                <h3><a href="#">Challenge I participated in as a guest on all font</a></h3>--}}
+{{--                                <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>--}}
+{{--                                <!-- end author -->--}}
+{{--                            </div>--}}
+{{--                            <!-- end content -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end recent-news -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end col-4 -->--}}
+{{--                    <div class="col-md-6">--}}
+{{--                        <div class="recent-news">--}}
+{{--                            <figure> <img src="images/slide03.jpg" alt="Image"> </figure>--}}
+{{--                            <div class="content"> <small>29 February, 2020</small>--}}
+{{--                                <h3><a href="#">Participated challenge in as a guest on The Future</a></h3>--}}
+{{--                                <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>--}}
+{{--                                <!-- end author -->--}}
+{{--                            </div>--}}
+{{--                            <!-- end content -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end recent-news -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end col-4 -->--}}
+{{--                </div>--}}
+{{--                <!-- end row inner -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-7 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
+{{--<!-- end content-section -->--}}
 @include('footer')
 
 </body>
