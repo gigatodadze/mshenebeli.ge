@@ -23,7 +23,7 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="row">
+{{--        <div class="row">--}}
 {{--            <div class="col-lg-4 col-md-6">--}}
 {{--                <h6 class="widget-title">HEADQUARTER</h6>--}}
 {{--                <address>--}}
@@ -38,7 +38,7 @@
                 <h6 class="widget-title">SALES OFFICES</h6>
                 <address>
                         <p>@lang('footer.address') : <a href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
-                    <p>@lang('footer.contact us') &nbsp<a href="tel:123-456-7890">123-456-7890</a></p>
+                    <p>@lang('footer.contact us') &nbsp<a href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
                 </address>
             </div>
             <!-- end col-4 -->
@@ -52,7 +52,7 @@
 {{--            </div>--}}
             <!-- end col-4 -->
             <div class="col-12">
-                <div class="footer-bottom"> <span>© 2020 <a class="footer-web" href="http://mshenebeli.ge/">mshenebeli.ge</a> | @lang('footer.rights')</span>
+                <div class="footer-bottom"> <span>© 2021 <a class="footer-web" href="http://mshenebeli.ge/">mshenebeli.ge</a> | @lang('footer.rights')</span>
                     <ul>
                         <li><a href="https://www.facebook.com/mshenebeli.ge">Facebook</a></li>
                         <li><a href="https://www.instagram.com/mshenebeli.ge/">Instagram</a></li>
@@ -69,9 +69,5 @@
     <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i> <small>Scroll Up</small> </a>
     <!-- end scroll-top -->
 </footer>
-
-
 <!-- end footer -->
-
-
 @include('scripts')
