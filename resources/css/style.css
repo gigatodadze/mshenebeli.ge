@@ -3135,3 +3135,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         text-decoration-color: #feed01;
         color: #fff;
     }
+    button, select {
+        text-transform: uppercase;
+    }

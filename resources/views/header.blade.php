@@ -7,23 +7,26 @@
     <title> მშენებელი.ჯი | mshenebeli.ge </title>
     <meta name="author" content="Themezinho">
     <meta name="description" content="For all kind of construction company website">
-    <meta name="keywords" content="consto, business, construction, company, industrial, building, projects, corporate, apartments, flat, condo, brick, website, design, animation, transition, themezinho">
+    <meta name="keywords" content="consto, business, construction, company, industrial, building, projects, corporate, apartments, flat, condo, brick, website, design, animation, transition, რემონტი: რემონტი, რემონტი დიზაინი, აბაზანის რემონტი, სამზარეულოს რემონტი, ბინა და რემონტი, დიზაინი და რემონტი, ბინების რემონტი, თაღი რემონტი, რა ჯდება რემონტი, რემონტი ბინის.
+Remonti: remonti, remonti da dizaini, remonti ge, abanos remonti, evro remonti dizaini, remontis fasebi, vana tualetis remonti, binebis remonti ge, mshenebloba remonti, samzareulos remonti.
+მშენებლობა: კერძო სახლების მშენებლობა, კოტეჯების მშენებლობა, მშენებლობა, სახლების მშენებლობა, იაფი სახლების მშენებლობა, ხის კოტეჯების მშენებლობა, კერძო სახლის მშენებლობა თეთრი კარკასი, 60 კვ მ სახლის მშენებლობა, სეისმომედეგი მშენებლობა.
+Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebloba, auzebis mshenebloba, finuri saxlebis mshenebloba, kerzo saxlebis mshenebloba, mshenebloba batumshi, mshenebloba tbilisshi, mshenebloba da remonti">
 
     <!-- SOCIAL MEDIA META -->
     <meta property="og:description" content="მშენებელი.ჯი | mshenebeli.ge">
-    <meta property="og:image" content="http://www.themezinho.net/consto/preview.png">
+{{--    <meta property="og:image" content="http://www.themezinho.net/consto/preview.png">--}}
     <meta property="og:site_name" content="მშენებელი.ჯი | mshenebeli.ge">
     <meta property="og:title" content="მშენებელი.ჯი | mshenebeli.ge" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://mshenebeli.ge" />
 
     <!-- TWITTER META -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@consto">
-    <meta name="twitter:creator" content="@consto">
-    <meta name="twitter:title" content="consto">
-    <meta name="twitter:description" content="Consto | Industrial Construction Company">
-    <meta name="twitter:image" content="http://www.themezinho.net/consto/preview.png">
+{{--    <meta name="twitter:card" content="summary">--}}
+{{--    <meta name="twitter:site" content="@consto">--}}
+{{--    <meta name="twitter:creator" content="@consto">--}}
+{{--    <meta name="twitter:title" content="consto">--}}
+{{--    <meta name="twitter:description" content="Consto | Industrial Construction Company">--}}
+{{--    <meta name="twitter:image" content="http://www.themezinho.net/consto/preview.png">--}}
 
     <!-- FAVICON FILES -->
     <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
@@ -148,6 +151,18 @@
                 @endforeach
             </ul>
         </div>
+{{--        <div class="languages">--}}
+{{--            <ul>--}}
+{{--                <select onChange="window.location.href=this.value">--}}
+{{--                    <option class="lang-dropdown" value="{{config('app.locale') }}">{{config('app.locale')}}</option>--}}
+{{--                    @foreach (config('app.locales') as $key => $data)--}}
+{{--                        <li>--}}
+{{--                            <option value="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</option>--}}
+{{--                        </li>--}}
+{{--                    @endforeach--}}
+{{--                </select>--}}
+{{--            </ul>--}}
+{{--        </div>--}}
         <!-- end languages -->
     {{--        <li><a href="services.html">მშენებლობა</a></li>--}}
     {{--        <li><a href="projects.html">რემონტი</a></li>--}}
