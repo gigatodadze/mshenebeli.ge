@@ -121,27 +121,23 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 <!-- end side-widget -->
 <nav class="navbar">
     <div class="container">
-        <div class="logo"> <a href="/"><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
+        <div class="logo"> <a href={{ route('index') }}><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
         <!-- end logo -->
 
         <div class="site-menu">
             <ul>
+                <li><a href="{{ route('index') }}">@lang('app.main')</a></li>
+                <li><a href="{{ route('mshenebloba') }}">@lang('app.construction')</a></li>
+                <li><a href="{{ route('remonti') }}">@lang('app.renovation')</a></li>
                 <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
-                    <ul>
-                        <li><a href="{{ route('momsakhurebebi') }}">@lang('app.routing')</a></li>
-                        <li><a href="core-values.html">ხარჯთაღრიცხვა</a></li>
-                    </ul>
+{{--                    <ul>--}}
+{{--                        <li><a href="{{ route('momsakhurebebi') }}">@lang('app.routing')</a></li>--}}
+{{--                        <li><a href="core-values.html">ხარჯთაღრიცხვა</a></li>--}}
+{{--                    </ul>--}}
                 </li>
-                <li><a href="services">მომსახურებები</a>
-                    <ul>
-                        <li><a href="news.html">რემონტი</a>
-                        <li><a href="news.html">დასუფთავება</a>
-                        <li><a href="news.html">ინტერიერი/ექსტერიერი</a>
-                        {{--                    <li><a href="news.html">ექსტერიერი</a>--}}
-                    </ul>
-                </li>
-                <li><a href="contact.html">ფასები</a></li>
-                <li><a href="contact.html">ჩვენს შესახებ</a></li>
+                <li><a href="{{ route('about') }}">@lang('app.about us')</a></li>
+                <li><a href="{{ route('kontaqti') }}">@lang('app.contact')</a></li>
+
             </ul>
         </div>
         <div class="languages">

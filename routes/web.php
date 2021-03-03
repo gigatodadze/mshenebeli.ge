@@ -26,6 +26,22 @@ Route::get('servisebi', function (){
 
 //Route::get('services', [IndexController::class, 'services'])->name('services');
 
+Route::get('/mshenebloba',function (){
+    return view('mshenebloba');
+})->name('mshenebloba');
+
+Route::get('/remonti',function (){
+    return view('remonti');
+})->name('remonti');
+
+Route::get('/about',function (){
+    return view('about');
+})->name('about');
+
+Route::get('/kontaqti',function (){
+    return view('kontaqti');
+})->name('kontaqti');
+
 Route::get('/momsakhurebebi',function (){
     return view('momsakhurebebi');
 })->name('momsakhurebebi');
