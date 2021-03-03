@@ -577,7 +577,8 @@ a:hover {
   left: 0;
   top: 0;
   z-index: 4;
-  transition: top ease 1s; }
+  transition: top ease 1s;
+    background: #0b0b0b; }
   .navbar.sticky {
     background: #0b0b0b; }
   .navbar.nav-down {
@@ -3137,4 +3138,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     }
     button, select {
         text-transform: uppercase;
+    }
+
+    .about-us {
+
     }
