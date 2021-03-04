@@ -6,6 +6,6 @@ return [
     'about us' => 'ჩვენს შესახებ',
     'contact' => 'კონტაქტი',
     'main'  =>  'მთავარი',
-    'construction' => 'კონტაქტი',
+    'construction' => 'მშენებლობა',
     'renovation' => 'რემონტი'
 ];
