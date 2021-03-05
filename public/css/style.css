@@ -534,7 +534,7 @@ a:hover {
   z-index: 9;
   right: 0;
   top: 0;
-  background: #feed01;
+  background: black;
   -webkit-animation: first-transition 1s;
           animation: first-transition 1s;
   -webkit-animation-fill-mode: forwards;
@@ -543,8 +543,6 @@ a:hover {
 .first-transition img {
     align-content: center;
     text-align: center;
-    width: 250px;
-    height: 250px;
     margin-left: 35%;
     margin-top: 25%;
 }
@@ -568,15 +566,13 @@ a:hover {
   z-index: 9;
   left: 0;
   top: 0;
-  background: #feed01;
+  background: black;
   transition: all ease 1s; }
   .page-transition.active {
     width: 100%; }
 .page-transition img{
     align-content: center;
     text-align: center;
-    width: 250px;
-    height: 250px;
     margin-left: 35%;
     margin-top: 25%;
 }

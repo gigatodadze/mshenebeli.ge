@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/icon-email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-global.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ge/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ge/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ru/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kontaqti.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kontaqti.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servisebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servisebi.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +185,7 @@
       <workItem from="1614165141443" duration="16551000" />
       <workItem from="1614604890431" duration="1171000" />
       <workItem from="1614757592072" duration="2345000" />
-      <workItem from="1614872511708" duration="11206000" />
+      <workItem from="1614872511708" duration="11783000" />
     </task>
     <servers />
   </component>
