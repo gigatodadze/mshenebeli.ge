@@ -52,9 +52,9 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     @include('styles')
 </head>
 <body>
-<div class="first-transition"><img src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg" > </div>
+<div class="first-transition"><img src="{{asset('images/logo.png')}}" > </div>
 <!-- end first-transition -->
-<div class="page-transition"><img src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg" > </div>
+<div class="page-transition"><img src="{{asset('images/logo.png')}}" > </div>
 <!-- end page-transition -->
 <div class="search-box">
     <div class="inner">
