@@ -526,7 +526,7 @@ a:hover {
     left: 0;
     bottom: 0; }
 
-/* PAGE TRANSITION */
+/* PAGE TRANSITION  როცა წასვლას იწყებს */
 .first-transition {
   width: 100%;
   height: 100%;
@@ -540,18 +540,28 @@ a:hover {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
+.first-transition img {
+    align-content: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 35%;
+    margin-top: 25%;
+}
 @-webkit-keyframes first-transition {
   from {
     right: 0; }
   to {
     right: -100%; } }
-
 @keyframes first-transition {
   from {
     right: 0; }
   to {
     right: -100%; } }
+/* როცა შემოდის */
 .page-transition {
+    /*background: url("")no-repeat;*/
+  background-size: contain;
   width: 0;
   height: 100%;
   position: fixed;
@@ -562,6 +572,14 @@ a:hover {
   transition: all ease 1s; }
   .page-transition.active {
     width: 100%; }
+.page-transition img{
+    align-content: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 35%;
+    margin-top: 25%;
+}
 
 /* NAVBAR */
 .navbar {

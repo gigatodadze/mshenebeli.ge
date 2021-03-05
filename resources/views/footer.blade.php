@@ -39,6 +39,7 @@
                 <address>
                         <p>@lang('footer.address') : <a href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
                     <p>@lang('footer.contact us') &nbsp<a href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
+                    <p>@lang('footer.message us')<a href="mailto:info@mshenebeli.ge">info@mshenebeli.ge</a><br></p>
                 </address>
             </div>
             <!-- end col-4 -->
@@ -66,7 +67,7 @@
         <!-- end row -->
     </div>
     <!-- end container -->
-    <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i> <small>Scroll Up</small> </a>
+    <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i>  </a>
     <!-- end scroll-top -->
 </footer>
 <!-- end footer -->
