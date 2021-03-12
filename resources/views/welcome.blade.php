@@ -102,40 +102,49 @@
     <!-- end container -->
 </section>
 <!-- end content-section -->
-<section class="content-section no-spacing">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <div class="section-title">
-                    <h6>OUR HISTORY</h6>
-                    <h2>Quality & Passion With<br>
-                        Our Services</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-6">
-                <figure class="side-image"><img src="images/side-image01.png" alt="Image"></figure>
-                <!-- end side-image -->
-            </div>
-            <!-- end col-6 -->
-            <div class="col-lg-6">
-                <div class="side-content">
-                    <h5>Departure performed exquisite</h5>
-                    <p>In it except to so temper mutual tastes working. Interested cultivated its continuing now yet are. Out interested acceptance our <u>partiality affronting</u> unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual expression acceptance.</p>
-                    <p>In astonished apartments resolution so an it. Unsatiable on by contrasted to <b>reasonable</b> companions an. Amounted repeated as believed in confined juvenile. </p>
-                    <figure><img src="images/signature.png" alt="Image"></figure>
-                    <h6>Dennis Rodman</h6>
-                    <small>Main Engineer of Consto</small> </div>
-                <!-- end side-content -->
-            </div>
-            <!-- end col-6 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+
+
+
+
+
+{{--<section class="content-section no-spacing">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row align-items-center">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="section-title">--}}
+{{--                    <h6>OUR HISTORY</h6>--}}
+{{--                    <h2>Quality & Passion With<br>--}}
+{{--                        Our Services</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12 -->--}}
+{{--            <div class="col-lg-6">--}}
+{{--                <figure class="side-image"><img src="images/side-image01.png" alt="Image"></figure>--}}
+{{--                <!-- end side-image -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-6 -->--}}
+{{--            <div class="col-lg-6">--}}
+{{--                <div class="side-content">--}}
+{{--                    <h5>Departure performed exquisite</h5>--}}
+{{--                    <p>In it except to so temper mutual tastes working. Interested cultivated its continuing now yet are. Out interested acceptance our <u>partiality affronting</u> unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual expression acceptance.</p>--}}
+{{--                    <p>In astonished apartments resolution so an it. Unsatiable on by contrasted to <b>reasonable</b> companions an. Amounted repeated as believed in confined juvenile. </p>--}}
+{{--                    <figure><img src="images/signature.png" alt="Image"></figure>--}}
+{{--                    <h6>Dennis Rodman</h6>--}}
+{{--                    <small>Main Engineer of Consto</small> </div>--}}
+{{--                <!-- end side-content -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-6 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 <!-- end content-section -->
+
+
+
+
 <section class="content-section ">
     <div class="container">
         <div class="row">
@@ -177,291 +186,291 @@
     <!-- end container -->
 </section>
 <!-- end content-section -->
-<section class="content-section white-space-bottom" data-background="#f7f6f1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="section-title text-left">
-                    <h6>FRIEND SALES TEAM</h6>
-                    <h2>Projects Completed</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-7 -->
-            <div class="col-lg-5">
-                <p>Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies.</p>
-            </div>
-            <!-- end col-5 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-    <div class="swiper-container project-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide02.jpg" alt="Image"></a>
-                    <figcaption>
-                        <h5>Life Science Center</h5>
-                        <p>The building opened in 2020 and includes more than 120+ flats</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <!-- end swiper-slide -->
-            <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide03.jpg" alt="Image"></a>
-                    <figcaption>
-                        <h5>Life Science Center</h5>
-                        <p>The building opened in 2020 and includes more than 120+ flats</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <!-- end swiper-slide -->
-            <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide01.jpg" alt="Image"></a>
-                    <figcaption>
-                        <h5>Life Science Center</h5>
-                        <p>The building opened in 2020 and includes more than 120+ flats</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <!-- end swiper-slide -->
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
-    <!-- end project-slider -->
-</section>
+{{--<section class="content-section white-space-bottom" data-background="#f7f6f1">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-7">--}}
+{{--                <div class="section-title text-left">--}}
+{{--                    <h6>FRIEND SALES TEAM</h6>--}}
+{{--                    <h2>Projects Completed</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-7 -->--}}
+{{--            <div class="col-lg-5">--}}
+{{--                <p>Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies.</p>--}}
+{{--            </div>--}}
+{{--            <!-- end col-5 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--    <div class="swiper-container project-slider">--}}
+{{--        <div class="swiper-wrapper">--}}
+{{--            <div class="swiper-slide">--}}
+{{--                <figure class="project-box"> <a href="#"><img src="images/slide02.jpg" alt="Image"></a>--}}
+{{--                    <figcaption>--}}
+{{--                        <h5>Life Science Center</h5>--}}
+{{--                        <p>The building opened in 2020 and includes more than 120+ flats</p>--}}
+{{--                    </figcaption>--}}
+{{--                </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end swiper-slide -->--}}
+{{--            <div class="swiper-slide">--}}
+{{--                <figure class="project-box"> <a href="#"><img src="images/slide03.jpg" alt="Image"></a>--}}
+{{--                    <figcaption>--}}
+{{--                        <h5>Life Science Center</h5>--}}
+{{--                        <p>The building opened in 2020 and includes more than 120+ flats</p>--}}
+{{--                    </figcaption>--}}
+{{--                </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end swiper-slide -->--}}
+{{--            <div class="swiper-slide">--}}
+{{--                <figure class="project-box"> <a href="#"><img src="images/slide01.jpg" alt="Image"></a>--}}
+{{--                    <figcaption>--}}
+{{--                        <h5>Life Science Center</h5>--}}
+{{--                        <p>The building opened in 2020 and includes more than 120+ flats</p>--}}
+{{--                    </figcaption>--}}
+{{--                </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end swiper-slide -->--}}
+{{--        </div>--}}
+{{--        <!-- Add Pagination -->--}}
+{{--        <div class="swiper-pagination"></div>--}}
+{{--    </div>--}}
+{{--    <!-- end project-slider -->--}}
+{{--</section>--}}
 <!-- end content-section -->
-<section class="content-section no-spacing">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="section-title text-left">
-                    <h6>ESTIMATIED PRICE</h6>
-                    <h2>Sectors We Work In</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
+{{--<section class="content-section no-spacing">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="section-title text-left">--}}
+{{--                    <h6>ESTIMATIED PRICE</h6>--}}
+{{--                    <h2>Sectors We Work In</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12 -->--}}
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
 
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Apartments</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Apartments</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
 
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Flats</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Flats</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
 
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Villas</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Villas</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
 
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Medical</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Medical</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
 
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Industrial</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+{{--            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Industrial</span> <i class="lni lni-arrow-right"></i> </a> </div>--}}
+{{--            <!-- end col-4 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 <!-- end content-section -->
-<section class="content-section calculator">
-    <div class="bg-image" data-background="images/section-bg01.jpg"></div>
-    <!-- end bg-image -->
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="section-title text-left">
-                    <h6>ESTIMATIED PRICE</h6>
-                    <h2>Mortage Calculator</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-10">
-                <form class="form">
-                    <div class="row">
-                        <div class="form-group col-md-6">
-                            <p>How many rooms :</p>
-                            <div class="range-slider">
-                                <input class="range-slider__range" type="range" value="4" min="0" max="8" step="1">
-                                <span class="range-slider__value">0</span> </div>
-                            <!-- edn range-slider -->
-                        </div>
-                        <!-- end form-group -->
-                        <div class="form-group col-md-6">
-                            <p>Number of floor :</p>
-                            <div class="range-slider">
-                                <input class="range-slider__range" type="range" value="2" min="0" max="12" step="2">
-                                <span class="range-slider__value">0</span> </div>
-                            <!-- edn range-slider -->
-                        </div>
-                        <!-- end form-group -->
-                        <div class="form-group col-lg-4 col-md-6">
-                            <p>Energy Type :</p>
-                            <select>
-                                <option>Bank of America</option>
-                            </select>
-                        </div>
-                        <!-- end form-group -->
+{{--<section class="content-section calculator">--}}
+{{--    <div class="bg-image" data-background="images/section-bg01.jpg"></div>--}}
+{{--    <!-- end bg-image -->--}}
+{{--    <div class="container">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="section-title text-left">--}}
+{{--                    <h6>ESTIMATIED PRICE</h6>--}}
+{{--                    <h2>Mortage Calculator</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12 -->--}}
+{{--            <div class="col-lg-10">--}}
+{{--                <form class="form">--}}
+{{--                    <div class="row">--}}
+{{--                        <div class="form-group col-md-6">--}}
+{{--                            <p>How many rooms :</p>--}}
+{{--                            <div class="range-slider">--}}
+{{--                                <input class="range-slider__range" type="range" value="4" min="0" max="8" step="1">--}}
+{{--                                <span class="range-slider__value">0</span> </div>--}}
+{{--                            <!-- edn range-slider -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
+{{--                        <div class="form-group col-md-6">--}}
+{{--                            <p>Number of floor :</p>--}}
+{{--                            <div class="range-slider">--}}
+{{--                                <input class="range-slider__range" type="range" value="2" min="0" max="12" step="2">--}}
+{{--                                <span class="range-slider__value">0</span> </div>--}}
+{{--                            <!-- edn range-slider -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
+{{--                        <div class="form-group col-lg-4 col-md-6">--}}
+{{--                            <p>Energy Type :</p>--}}
+{{--                            <select>--}}
+{{--                                <option>Bank of America</option>--}}
+{{--                            </select>--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
 
-                        <div class="form-group col-lg-4 col-md-6">
-                            <p>Bathroom :</p>
-                            <select>
-                                <option>Bank of America</option>
-                            </select>
-                        </div>
-                        <!-- end form-group -->
+{{--                        <div class="form-group col-lg-4 col-md-6">--}}
+{{--                            <p>Bathroom :</p>--}}
+{{--                            <select>--}}
+{{--                                <option>Bank of America</option>--}}
+{{--                            </select>--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
 
-                        <div class="form-group col-lg-4 col-md-12">
-                            <p>Terrace :</p>
-                            <div class="yes-no">
-                                <input type="radio" name="rdo" id="yes" checked />
-                                <input type="radio" name="rdo" id="no"/>
-                                <div class="switch">
-                                    <label for="yes">Yes</label>
-                                    <label for="no">No</label>
-                                    <span></span> </div>
-                            </div>
-                            <!-- end yes-no -->
-                        </div>
-                        <!-- end form-group -->
-                        <div class="form-group col-12">
-                            <p>Building Materials</p>
-                            <input type="checkbox" id="one" checked>
-                            <label class="custom-checkbox" for="one"> Cellular Concrete </label>
-                            <input type="checkbox" id="two">
-                            <label class="custom-checkbox" for="two"> Ventilated Brick </label>
-                            <input type="checkbox" id="three">
-                            <label class="custom-checkbox" for="three"> Wood </label>
-                            <input type="checkbox" id="four">
-                            <label class="custom-checkbox" for="four"> Prefabricated </label>
-                        </div>
-                        <!-- end form-group -->
-                        <div class="form-group col-12">
-                            <div class="info-box"> <i class="lni lni-checkmark-circle"></i> Explore Cheatsheet to Start Using With Your Projects. </div>
-                            <!-- end info-box -->
-                            <div class="price-box"> <small>Estimated Price :</small> <span>$ 67.800</span> </div>
-                            <!-- end price-box -->
-                        </div>
-                        <!-- end form-group -->
-                    </div>
-                    <!-- end form row -->
-                </form>
-                <!-- end mortgage-form -->
-            </div>
-            <!-- end col-9 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+{{--                        <div class="form-group col-lg-4 col-md-12">--}}
+{{--                            <p>Terrace :</p>--}}
+{{--                            <div class="yes-no">--}}
+{{--                                <input type="radio" name="rdo" id="yes" checked />--}}
+{{--                                <input type="radio" name="rdo" id="no"/>--}}
+{{--                                <div class="switch">--}}
+{{--                                    <label for="yes">Yes</label>--}}
+{{--                                    <label for="no">No</label>--}}
+{{--                                    <span></span> </div>--}}
+{{--                            </div>--}}
+{{--                            <!-- end yes-no -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
+{{--                        <div class="form-group col-12">--}}
+{{--                            <p>Building Materials</p>--}}
+{{--                            <input type="checkbox" id="one" checked>--}}
+{{--                            <label class="custom-checkbox" for="one"> Cellular Concrete </label>--}}
+{{--                            <input type="checkbox" id="two">--}}
+{{--                            <label class="custom-checkbox" for="two"> Ventilated Brick </label>--}}
+{{--                            <input type="checkbox" id="three">--}}
+{{--                            <label class="custom-checkbox" for="three"> Wood </label>--}}
+{{--                            <input type="checkbox" id="four">--}}
+{{--                            <label class="custom-checkbox" for="four"> Prefabricated </label>--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
+{{--                        <div class="form-group col-12">--}}
+{{--                            <div class="info-box"> <i class="lni lni-checkmark-circle"></i> Explore Cheatsheet to Start Using With Your Projects. </div>--}}
+{{--                            <!-- end info-box -->--}}
+{{--                            <div class="price-box"> <small>Estimated Price :</small> <span>$ 67.800</span> </div>--}}
+{{--                            <!-- end price-box -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end form-group -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end form row -->--}}
+{{--                </form>--}}
+{{--                <!-- end mortgage-form -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-9 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 <!-- end content-section -->
-<section class="content-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h6>FRIEND SALES TEAM</h6>
-                    <h2>Sales Representives</h2>
-                </div>
-                <!-- end section-title -->
-            </div>
-            <!-- end col-12 -->
-        </div>
-        <!-- end row -->
-        <div class="row no-gutters">
-            <div class="col">
-                <div class="sales-team">
-                    <figure><img src="images/team01.jpg" alt="Image"></figure>
-                    <div class="infos">
-                        <h6>Jane O'neil</h6>
-                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
-                        <ul>
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- end infos -->
-                </div>
-                <!-- end sales-team -->
-            </div>
-            <!-- end col -->
-            <div class="col">
-                <div class="sales-team">
-                    <figure><img src="images/team02.jpg" alt="Image"></figure>
-                    <div class="infos">
-                        <h6>Bob Voss</h6>
-                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
-                        <ul>
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- end infos -->
-                </div>
-                <!-- end sales-team -->
-            </div>
-            <!-- end col -->
-            <div class="col">
-                <div class="sales-team">
-                    <figure><img src="images/team03.jpg" alt="Image"></figure>
-                    <div class="infos">
-                        <h6>Christina Eden</h6>
-                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
-                        <ul>
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- end infos -->
-                </div>
-                <!-- end sales-team -->
-            </div>
-            <!-- end col -->
-            <div class="col">
-                <div class="sales-team">
-                    <figure><img src="images/team04.jpg" alt="Image"></figure>
-                    <div class="infos">
-                        <h6>Eric Mendes</h6>
-                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
-                        <ul>
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- end infos -->
-                </div>
-                <!-- end sales-team -->
-            </div>
-            <!-- end col -->
-            <div class="col">
-                <div class="sales-team">
-                    <figure><img src="images/team05.jpg" alt="Image"></figure>
-                    <div class="infos">
-                        <h6>Marie Sheldon</h6>
-                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
-                        <ul>
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- end infos -->
-                </div>
-                <!-- end sales-team -->
-            </div>
-            <!-- end col -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+{{--<section class="content-section">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="section-title">--}}
+{{--                    <h6>FRIEND SALES TEAM</h6>--}}
+{{--                    <h2>Sales Representives</h2>--}}
+{{--                </div>--}}
+{{--                <!-- end section-title -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col">--}}
+{{--                <div class="sales-team">--}}
+{{--                    <figure><img src="images/team01.jpg" alt="Image"></figure>--}}
+{{--                    <div class="infos">--}}
+{{--                        <h6>Jane O'neil</h6>--}}
+{{--                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- end infos -->--}}
+{{--                </div>--}}
+{{--                <!-- end sales-team -->--}}
+{{--            </div>--}}
+{{--            <!-- end col -->--}}
+{{--            <div class="col">--}}
+{{--                <div class="sales-team">--}}
+{{--                    <figure><img src="images/team02.jpg" alt="Image"></figure>--}}
+{{--                    <div class="infos">--}}
+{{--                        <h6>Bob Voss</h6>--}}
+{{--                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- end infos -->--}}
+{{--                </div>--}}
+{{--                <!-- end sales-team -->--}}
+{{--            </div>--}}
+{{--            <!-- end col -->--}}
+{{--            <div class="col">--}}
+{{--                <div class="sales-team">--}}
+{{--                    <figure><img src="images/team03.jpg" alt="Image"></figure>--}}
+{{--                    <div class="infos">--}}
+{{--                        <h6>Christina Eden</h6>--}}
+{{--                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- end infos -->--}}
+{{--                </div>--}}
+{{--                <!-- end sales-team -->--}}
+{{--            </div>--}}
+{{--            <!-- end col -->--}}
+{{--            <div class="col">--}}
+{{--                <div class="sales-team">--}}
+{{--                    <figure><img src="images/team04.jpg" alt="Image"></figure>--}}
+{{--                    <div class="infos">--}}
+{{--                        <h6>Eric Mendes</h6>--}}
+{{--                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- end infos -->--}}
+{{--                </div>--}}
+{{--                <!-- end sales-team -->--}}
+{{--            </div>--}}
+{{--            <!-- end col -->--}}
+{{--            <div class="col">--}}
+{{--                <div class="sales-team">--}}
+{{--                    <figure><img src="images/team05.jpg" alt="Image"></figure>--}}
+{{--                    <div class="infos">--}}
+{{--                        <h6>Marie Sheldon</h6>--}}
+{{--                        <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- end infos -->--}}
+{{--                </div>--}}
+{{--                <!-- end sales-team -->--}}
+{{--            </div>--}}
+{{--            <!-- end col -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 <!-- end content-section -->
 <section class="content-section no-spacing white-space-top" data-background="#f7f6f1">
     <div class="container">
@@ -531,38 +540,40 @@
     <!-- end container -->
 </section>
 <!-- end content-section -->
-<div class="content-section" data-background="#f7f6f1">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo01.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo02.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo03.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo04.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo05.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo06.png" alt="Image"> </figure>
-            </div>
-            <!-- end col-2 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</div>
+{{--<div class="content-section" data-background="#f7f6f1">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo01.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo02.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo03.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo04.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo05.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--            <div class="col-lg-2 col-md-4 col-6">--}}
+{{--                <figure class="logo-item"> <img src="images/logo06.png" alt="Image"> </figure>--}}
+{{--            </div>--}}
+{{--            <!-- end col-2 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</div>--}}
+
+
 {{--<!-- end content-section -->--}}
 {{--<section class="content-section">--}}
 {{--    <div class="container">--}}

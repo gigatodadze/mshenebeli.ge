@@ -38,6 +38,15 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 
     <!-- CSS FILES -->
     @include('styles')
+<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-55TLDD4');</script>
+    <!-- End Google Tag Manager -->
+
+
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -133,13 +142,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 
             </ul>
         </div>
-        <div class="languages">
-            <ul>
-                @foreach (config('app.locales') as $key => $data)
-                    <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
-                @endforeach
-            </ul>
-        </div>
+
 {{--        <div class="languages">--}}
 {{--            <ul>--}}
 {{--                <select onChange="window.location.href=this.value">--}}
@@ -173,7 +176,13 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <!-- end hamburher -->
         <a href="#sales-specialist-form" class="navbar-button" data-fancybox><i class="lni lni-mobile"></i> <span>SALES SPECIALIST</span></a> </div>
     <!-- end container -->
-
+    <div class="languages">
+        <ul>
+            @foreach (config('app.locales') as $key => $data)
+                <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
+            @endforeach
+        </ul>
+    </div>
 
     <!-- მესენჯერის ჩატი  -->
     <!-- Load Facebook SDK for JavaScript -->
