@@ -15,6 +15,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     <!-- SOCIAL MEDIA META -->
     <meta property="og:description" content="მშენებელი.ჯი | mshenebeli.ge">
 {{--    <meta property="og:image" content="http://www.themezinho.net/consto/preview.png">--}}
+    <meta name="facebook-domain-verification" content="j25d0czph0tlzafg03aqdfgtnhyyqx" />
     <meta property="og:site_name" content="მშენებელი.ჯი | mshenebeli.ge">
     <meta property="og:title" content="მშენებელი.ჯი | mshenebeli.ge" />
     <meta property="og:type" content="website">
