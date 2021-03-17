@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
     }); // PAGE TRANSITION
 
     $('body a').on('click', function (e) {
-      if (typeof $(this).data('fancybox') == 'undefined') {
+      if (typeof $(this).data('fancybox') == 'undefined' && !$(this).hasClass("footer-address")) {
         e.preventDefault();
         var url = this.getAttribute("href");
 

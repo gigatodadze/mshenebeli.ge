@@ -76,7 +76,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <!-- end logo -->
         <div class="hide-mobile">
             <p>Extremity direction existence as dashwoods do up. Securing <u>marianne led</u> welcomed offended but offering six raptures. </p>
-            <figure class="gallery"><img src="images/slide02.jpg" alt="Image"><img src="images/slide03.jpg" alt="Image"></figure>
+            <figure class="gallery"><img src="{{asset('images/icon01.png')}}" alt="Image"><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
             <h6 class="widget-title">ADDRESS</h6>
             <address class="address">
                 <p>228 Cardigan Road, Leeds<br>

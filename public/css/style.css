@@ -121,7 +121,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 input[type="submit"], input[type="button"], button[type="button"], button[type="submit"] {
   height: 68px;
   border: none;
-  background: #feed01;
+  background: #F3B842;
   color: #0b0b0b;
   font-weight: 800;
   font-size: 13px;
@@ -193,7 +193,7 @@ a:hover {
     height: 4px;
     border-radius: 0 !important; }
   .swiper-pagination .swiper-pagination-bullet-active {
-    background: #feed01; }
+    background: #F3B842; }
 
 /* HAMBURGER */
 .hamburger {
@@ -294,14 +294,14 @@ a:hover {
         .accordion .card .card-header a i {
           float: right; }
         .accordion .card .card-header a:hover {
-          border-color: #feed01;
+          border-color: #F3B842;
           text-decoration: none; }
     .accordion .card .card-body {
       width: 100%;
       line-height: 26px;
       padding: 20px 0; }
     .accordion .card [aria-expanded="true"] {
-      border-color: #feed01 !important; }
+      border-color: #F3B842 !important; }
 
 /* SEARCH BOX */
 .search-box {
@@ -343,7 +343,7 @@ a:hover {
         color: #fff; }
       .search-box .inner form input[type="submit"] {
         height: 70px;
-        background: #feed01;
+        background: #F3B842;
         border: none;
         font-weight: 600;
         padding: 0 60px; }
@@ -404,7 +404,7 @@ a:hover {
     width: 100%;
     display: block;
     font-weight: 600;
-    color: #feed01;
+    color: #F3B842;
     font-size: 13px;
     margin-bottom: 10px;
     margin-top: 20px; }
@@ -485,7 +485,7 @@ a:hover {
   height: 68px;
   line-height: 68px;
   padding: 0 40px;
-  background: #feed01;
+  background: #F3B842;
   color: #0b0b0b;
   font-size: 13px;
   font-weight: 600;
@@ -637,11 +637,11 @@ a:hover {
             bottom: 0;
             height: 2px;
             width: 0;
-            background: #feed01;
+            background: #F3B842;
             transition: width .25s ease; }
           .navbar .languages ul li a:hover:before {
             width: 100%;
-            background: #feed01;
+            background: #F3B842;
             transition: width .25s ease; }
           .navbar .languages ul li a:hover:after {
             width: 100%;
@@ -665,7 +665,7 @@ a:hover {
           position: absolute;
           left: -30px;
           top: calc(100% + 20px);
-          background: #feed01;
+          background: #F3B842;
           padding: 30px; }
           .navbar .site-menu ul li ul:before {
             content: "";
@@ -711,11 +711,11 @@ a:hover {
             bottom: 0;
             height: 2px;
             width: 0;
-            background: #feed01;
+            background: #F3B842;
             transition: width .25s ease; }
           .navbar .site-menu ul li a:hover:before {
             width: 100%;
-            background: #feed01;
+            background: #F3B842;
             transition: width .25s ease; }
           .navbar .site-menu ul li a:hover:after {
             width: 100%;
@@ -734,7 +734,7 @@ a:hover {
     line-height: 58px;
     padding: 0 40px;
     color: #0b0b0b;
-    background: #feed01;
+    background: #F3B842;
     font-size: 13px;
     font-weight: 600; }
     .navbar .navbar-button i {
@@ -789,7 +789,7 @@ a:hover {
         height: 68px;
         line-height: 68px;
         padding: 0 40px;
-        background: #feed01;
+        background: #F3B842;
         color: #0b0b0b;
         font-size: 20px;
         font-weight: 600;
@@ -836,7 +836,7 @@ a:hover {
         transition: all .25s ease-in-out;
         margin-left: auto; }
         .slider .slider-content .controls .button-prev:hover {
-          background: #feed01; }
+          background: #F3B842; }
       .slider .slider-content .controls .button-next {
         width: 80px;
         height: 80px;
@@ -850,7 +850,7 @@ a:hover {
         margin-left: 2px;
         margin-right: 0; }
         .slider .slider-content .controls .button-next:hover {
-          background: #feed01; }
+          background: #F3B842; }
   .slider .slider-main {
     width: calc(50vw + 80px);
     height: calc(100vh - 150px);
@@ -873,7 +873,7 @@ a:hover {
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 30px;
       bottom: 30px;
@@ -939,7 +939,7 @@ a:hover {
         padding: 0;
         font-size: 13px;
         font-weight: 600;
-        color: #feed01; }
+        color: #F3B842; }
         .page-header .container ul li:last-child:after {
           display: none; }
         .page-header .container ul li:after {
@@ -981,7 +981,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1011,7 +1011,7 @@ a:hover {
     content: "";
     width: 100%;
     height: 100%;
-    background: #feed01;
+    background: #F3B842;
     position: absolute;
     left: 0;
     top: 0;
@@ -1020,7 +1020,7 @@ a:hover {
     z-index: -1;
     box-shadow: 0 30px 30px #eee; }
   .icon-content:hover {
-    border-color: #feed01; }
+    border-color: #F3B842; }
   .icon-content:hover:after {
     content: "";
     width: 30%;
@@ -1099,7 +1099,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1152,7 +1152,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1200,7 +1200,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1257,7 +1257,7 @@ a:hover {
       content: "";
       width: 0;
       height: 4px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1286,7 +1286,7 @@ a:hover {
       .projects li .project-box:hover img {
         filter: grayscale(0); }
       .projects li .project-box:hover figcaption {
-        background: #feed01;
+        background: #F3B842;
         color: #0b0b0b; }
       .projects li .project-box img {
         width: 100%;
@@ -1368,7 +1368,7 @@ a:hover {
         left: 30px;
         bottom: 15px;
         padding: 30px;
-        background: #feed01;
+        background: #F3B842;
         color: #0b0b0b;
         transition: all .25s ease-in-out;
         opacity: 0; }
@@ -1409,7 +1409,7 @@ a:hover {
     box-shadow: none;
     z-index: 1;
     text-decoration: none;
-    background: #feed01; }
+    background: #F3B842; }
   .sector-box:hover i {
     opacity: 1; }
   .sector-box span {
@@ -1463,8 +1463,8 @@ a:hover {
     .calculator .form input[type="checkbox"] {
       display: none; }
     .calculator .form input[type="checkbox"]:checked + .custom-checkbox {
-      border-color: #feed01;
-      background: #feed01;
+      border-color: #F3B842;
+      background: #F3B842;
       color: #0b0b0b; }
     .calculator .form .info-box {
       width: 65%;
@@ -1476,7 +1476,7 @@ a:hover {
       transform: translateY(2px); }
     .calculator .form .price-box {
       float: right;
-      background: #feed01;
+      background: #F3B842;
       padding: 30px 50px;
       margin-right: -50px;
       margin-bottom: -50px; }
@@ -1553,7 +1553,7 @@ a:hover {
         content: "";
         width: 100%;
         height: 6px;
-        background: #feed01;
+        background: #F3B842;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -1600,7 +1600,7 @@ a:hover {
 .cta-box-yellow {
   width: calc(100% - 50px);
   display: block;
-  background: #feed01;
+  background: #F3B842;
   color: #0b0b0b;
   padding: 50px;
   position: relative;
@@ -1620,7 +1620,7 @@ a:hover {
     line-height: 68px;
     padding: 0 40px;
     background: #0b0b0b;
-    color: #feed01;
+    color: #F3B842;
     font-size: 13px;
     font-weight: 600;
     transition: all .25s ease-in-out; }
@@ -1661,7 +1661,7 @@ a:hover {
     transition: all .25s ease-in-out; }
     .services-list-box .button:hover {
       text-decoration: none;
-      background: #feed01;
+      background: #F3B842;
       color: #0b0b0b; }
 
 /* CUSTOM LIST */
@@ -1680,7 +1680,7 @@ a:hover {
     font-weight: 600;
     position: relative; }
     .custom-list li:hover:before {
-      background: #feed01;
+      background: #F3B842;
       width: 100%; }
     .custom-list li:before {
       content: "";
@@ -1720,9 +1720,9 @@ a:hover {
     top: 50px;
     background: #eee; }
   .our-history .swiper-pagination-progressbar-fill {
-    background: #feed01; }
+    background: #F3B842; }
   .our-history .swiper-slide:hover b:after {
-    background: #feed01; }
+    background: #F3B842; }
   .our-history .swiper-slide {
     z-index: 1; }
   .our-history figure {
@@ -1769,7 +1769,7 @@ a:hover {
       transition: all .25s ease-in-out;
       margin: 0 2px; }
       .our-history .controls .button-prev:hover {
-        background: #feed01; }
+        background: #F3B842; }
     .our-history .controls .button-next {
       width: 80px;
       height: 80px;
@@ -1783,7 +1783,7 @@ a:hover {
       margin: 0 2px;
       margin-right: 0; }
       .our-history .controls .button-next:hover {
-        background: #feed01; }
+        background: #F3B842; }
 
 /* CORE VALUES BOX */
 .core-values-box {
@@ -1824,7 +1824,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1876,7 +1876,7 @@ a:hover {
       content: "";
       width: 100%;
       height: 6px;
-      background: #feed01;
+      background: #F3B842;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -1899,7 +1899,7 @@ a:hover {
   transition: all .25s ease-in-out;
   position: relative; }
   .sales-team:hover {
-    background: #feed01;
+    background: #F3B842;
     transform: translateY(-20px);
     box-shadow: 0 30px 30px #eee;
     z-index: 1; }
@@ -1997,12 +1997,12 @@ a:hover {
         position: relative; }
         .tab-left ul li a:hover {
           text-decoration: none;
-          color: #feed01; }
+          color: #F3B842; }
         .tab-left ul li a:before {
           content: "";
           width: 0;
           height: 5px;
-          background: #feed01;
+          background: #F3B842;
           position: absolute;
           left: 0;
           bottom: 0;
@@ -2045,8 +2045,8 @@ a:hover {
     font-size: 20px;
     text-indent: 2px; }
     .video-box .play-btn:hover {
-      background: #feed01;
-      border-color: #feed01;
+      background: #F3B842;
+      border-color: #F3B842;
       color: #0b0b0b; }
   .video-box video {
     width: 100%;
@@ -2082,7 +2082,7 @@ a:hover {
       line-height: 80px;
       display: inline-block;
       text-align: center;
-      background: #feed01;
+      background: #F3B842;
       border-radius: 50%;
       color: #0b0b0b;
       transition: all .25s ease-in-out;
@@ -2096,7 +2096,7 @@ a:hover {
       line-height: 80px;
       display: inline-block;
       text-align: center;
-      background: #feed01;
+      background: #F3B842;
       border-radius: 50%;
       color: #0b0b0b;
       transition: all .25s ease-in-out;
@@ -2131,7 +2131,7 @@ a:hover {
       height: 60px;
       line-height: 60px;
       float: left;
-      background: #feed01;
+      background: #F3B842;
       color: #0b0b0b;
       text-align: center;
       font-size: 30px;
@@ -2182,7 +2182,7 @@ a:hover {
     margin: 0;
     position: relative;
     overflow: hidden;
-    background: #feed01; }
+    background: #F3B842; }
     .recent-news figure img {
       width: 100%;
       max-width: inherit;
@@ -2199,7 +2199,7 @@ a:hover {
     .recent-news .content small {
       display: inline-block;
       padding: 4px 8px;
-      background: #feed01;
+      background: #F3B842;
       margin-bottom: 20px;
       color: #0b0b0b; }
     .recent-news .content h3 {
@@ -2257,7 +2257,7 @@ a:hover {
     margin: 0;
     position: relative;
     overflow: hidden;
-    background: #feed01; }
+    background: #F3B842; }
     .news-box figure img {
       width: 100%;
       max-width: inherit; }
@@ -2272,7 +2272,7 @@ a:hover {
     .news-box .content small {
       display: inline-block;
       padding: 4px 8px;
-      background: #feed01;
+      background: #F3B842;
       margin-bottom: 20px;
       color: #0b0b0b; }
     .news-box .content h3 {
@@ -2313,7 +2313,7 @@ a:hover {
       width: 100%;
       display: block;
       padding: 40px;
-      background: #feed01;
+      background: #F3B842;
       color: #0b0b0b;
       font-size: 19px; }
     .news-box .content ul {
@@ -2348,7 +2348,7 @@ a:hover {
         content: "";
         width: 100%;
         height: 6px;
-        background: #feed01;
+        background: #F3B842;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -2430,7 +2430,7 @@ a:hover {
     height: 68px;
     line-height: 68px;
     padding: 0 40px;
-    background: #feed01;
+    background: #F3B842;
     color: #0b0b0b;
     font-size: 13px;
     font-weight: 600;
@@ -2463,7 +2463,7 @@ a:hover {
         content: "";
         width: 100%;
         height: 4px;
-        background: #feed01;
+        background: #F3B842;
         position: absolute;
         left: 0;
         bottom: 20px; }
@@ -2478,7 +2478,7 @@ a:hover {
   color: #fff; }
   .footer .scroll-top {
     width: 100px;
-    background: #feed01;
+    background: #F3B842;
     position: absolute;
     right: 30px;
     top: -30px;
@@ -2508,7 +2508,7 @@ a:hover {
       color: #fff;
       font-weight: 600;
       font-size: 13px;
-      border-bottom: 3px solid #feed01; }
+      border-bottom: 3px solid #F3B842; }
       .footer address a:hover {
         text-decoration: none;
         border-color: #fff; }
@@ -2525,7 +2525,7 @@ a:hover {
       margin-bottom: 15px; }
     .footer form input[type="submit"] {
       height: 60px;
-      background: #feed01;
+      background: #F3B842;
       border: none;
       padding: 0 40px;
       font-size: 13px;
@@ -2554,8 +2554,8 @@ a:hover {
           color: #fff; }
           .footer .footer-bottom ul li a:hover {
             opacity: 1;
-            -webkit-text-decoration-color: #feed01;
-                    text-decoration-color: #feed01; }
+            -webkit-text-decoration-color: #F3B842;
+                    text-decoration-color: #F3B842; }
 
 /* SALES SPECIALIST FORM */
 #sales-specialist-form {
@@ -2597,7 +2597,7 @@ a:hover {
       height: 100%;
       top: 0;
       left: 0;
-      background: #feed01;
+      background: #F3B842;
       font-weight: 600;
       transition: all .25s ease-in-out; }
   .yes-no label {
@@ -2624,7 +2624,7 @@ a:hover {
   .yes-no input[type=radio] {
     display: none; }
   .yes-no #no:checked ~ .switch {
-    background: #feed01; }
+    background: #F3B842; }
   .yes-no #no:checked ~ .switch span {
     background: #0b0b0b; }
   .yes-no #no:checked ~ .switch span:after {
@@ -2656,7 +2656,7 @@ a:hover {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #feed01;
+  background: #F3B842;
   cursor: pointer;
   -webkit-transition: background .15s ease-in-out;
   transition: background .15s ease-in-out; }
@@ -2666,16 +2666,16 @@ a:hover {
   height: 20px;
   border: 0;
   border-radius: 50%;
-  background: #feed01;
+  background: #F3B842;
   cursor: pointer;
   -moz-transition: background .15s ease-in-out;
   transition: background .15s ease-in-out; }
 
 .range-slider__range:active::-moz-range-thumb {
-  background: #feed01; }
+  background: #F3B842; }
 
 .range-slider__range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #feed01; }
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #F3B842; }
 
 .range-slider__value {
   display: inline-block;
@@ -2684,11 +2684,11 @@ a:hover {
   color: #0b0b0b;
   line-height: 20px;
   text-align: center;
-  background: #feed01;
+  background: #F3B842;
   padding: 5px 10px; }
 
 ::-moz-range-track {
-  background: #feed01;
+  background: #F3B842;
   border: 0; }
 
 input::-moz-focus-inner, input::-moz-focus-outer {
@@ -2848,6 +2848,15 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-bottom: 50px; } }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+
+    .slide-image {
+        height: 70%;
+    }
+    .swiper-wrapper {
+        height: 70%;
+    }
+
   .side-widget {
     width: 240px; }
 
@@ -2958,7 +2967,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     line-height: inherit; }
 
   .footer-bar .sales-representive b {
-    color: #feed01; }
+    color: #F3B842; }
 
   .footer-bar .sales-representive b:before {
     display: none; }
@@ -2975,15 +2984,17 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
   .footer .footer-bottom ul li {
     margin-left: 0;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+
+}
     .footer-web{
         opacity: 0.7;
         font-size: 13px;
         color: #fff; }
     .footer-web:hover {
         opacity: 1;
-        -webkit-text-decoration-color: #feed01;
-                text-decoration-color: #feed01;
+        -webkit-text-decoration-color: #F3B842;
+                text-decoration-color: #F3B842;
         color: #fff;
     }
     button, select {
@@ -3004,8 +3015,4 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         margin-right: 15px;
     }
 
-    /*.navbar {*/
-    /*    padding: 0;*/
-    /*    margin: 0;*/
-    /*}*/
 

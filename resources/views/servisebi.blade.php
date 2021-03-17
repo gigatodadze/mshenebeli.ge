@@ -42,6 +42,35 @@
         </div>
         <!-- end row -->
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
+                    <h3>We plan with sensetive</h3>
+                    <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
+                <!-- end icon-content -->
+            </div>
+            <!-- end col-4 -->
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3>For futuristic buildings</h3>
+                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
+                <!-- end icon-content -->
+            </div>
+            <!-- end col-4 -->
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src="{{asset('images/icon03.png')}}" alt="Image"></figure>
+                    <h3>Make living beautiful</h3>
+                    <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
+                <!-- end icon-content -->
+            </div>
+            <!-- end col-4 -->
+        </div>
+        <!-- end row -->
+    </div>
     <!-- end container -->
 </section>
 <!-- end content-section -->
