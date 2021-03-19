@@ -606,7 +606,7 @@ a:hover {
       display: block;
       margin: 0; }
       .navbar .logo a img {
-        height: 40px; }
+        height: 70px; }
   .navbar .languages {
     display: inline-block;
     margin: 0 20px; }
@@ -3014,11 +3014,11 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
 
-    .slide-image {
-        height: 70%;
+    .container {
+        height: 35% !important;
     }
-    .swiper-wrapper {
-        height: 70%;
+    .swiper-slide .swiper-slide-prev {
+
     }
 
   .side-widget {
@@ -3180,3 +3180,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         margin-right: 15px;
     }
 
+    .call-us-header {
+        height: 50px;
+        width: 220px;
+        background-color: #F3B842;
+        text-align: center;
+    }

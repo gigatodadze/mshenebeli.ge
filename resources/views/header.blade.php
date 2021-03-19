@@ -72,51 +72,36 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 <!-- end search-box -->
 <aside class="side-widget">
     <div class="inner">
-        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div>
+        <div class="logo"> <a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Image"></a> </div>
         <!-- end logo -->
         <div class="hide-mobile">
-            <p>Extremity direction existence as dashwoods do up. Securing <u>marianne led</u> welcomed offended but offering six raptures. </p>
-            <figure class="gallery"><img src="{{asset('images/icon01.png')}}" alt="Image"><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
-            <h6 class="widget-title">ADDRESS</h6>
-            <address class="address">
-                <p>228 Cardigan Road, Leeds<br>
-                    Geneva Switzerland</p>
-                <p>+1 (850) 344 0 66 #20</p>
+            <h6 class="widget-title">MSHENEBELI.GE</h6>
+            <address>
+                <p>@lang('footer.address') :&nbsp <a class="footer-address" href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
+                <p>@lang('footer.contact us') :&nbsp <a class="footer-address" href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
+                <p>@lang('footer.message us') :&nbsp <a class="footer-address" href="mailto:info@mshenebeli.ge">info@mshenebeli.ge</a><br></p>
             </address>
-            <h6 class="widget-title">FOLLOW US</h6>
-            <ul class="social-media">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8621527713676!2d44.769894614843615!3d41.745066081708885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728c58c23e81%3A0xc49459a6ea09aec8!2zOSDhg5Dhg5rhg5jhg50g4YOb4YOY4YOg4YOq4YOu4YOj4YOa4YOQ4YOV4YOQ4YOhIOGDpeGDo-GDqeGDkCwgVCdiaWxpc2k!5e0!3m2!1sen!2sge!4v1616144965400!5m2!1sen!2sge" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <!-- end hide-mobile -->
         <div class="show-mobile">
             <div class="languages">
                 <ul>
-                    <li><a href="#">en</a></li>
-                    <li><a href="#">ru</a></li>
+                    @foreach (config('app.locales') as $key => $data)
+                        <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
+                    @endforeach
                 </ul>
+            </div>
             </div>
             <!-- end languages -->
             <div class="site-menu">
-                <ul>
-                    <li><a href="#">Consto</a><i class="lni lni-chevron-down-circle"></i>
-                        <ul>
-                            <li><a href="about-company.html">About Company</a></li>
-                            <li><a href="core-values.html">Core Values</a></li>
-                            <li><a href="leadership.html">Leadership</a></li>
-                            <li><a href="our-history.html">Our History</a></li>
-                            <li><a href="offices.html">Offices</a></li>
-                            <li><a href="certificates.html">Certificates</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <p>@lang('footer.Გამოგვყევით ციფრულ არხებში')</p>
             </div>
+        <ul>
+            <li><a href="https://www.facebook.com/mshenebeli.ge">Facebook</a></li>
+            <li><a href="https://www.instagram.com/mshenebeli.ge/">Instagram</a></li>
+            {{--                        <li><a href="#">Twitter</a></li>--}}
+        </ul>
             <!-- end site-menu -->
         </div>
         <!-- end show-mobile -->
@@ -128,17 +113,25 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     <div class="container">
         <div class="logo"> <a href={{ route('index') }}><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
         <!-- end logo -->
+        &nbsp
+        <div class="hamburger">
+            <div id="hamburger"> <span></span> <span></span> <span></span> </div>
+            <div id="cross"> <span></span> <span></span> </div>
+        </div>
 
         <div class="site-menu">
             <ul>
                 <li><a href="{{ route('index') }}">@lang('app.main')</a></li>
-                <li><a href="{{ route('mshenebloba') }}">@lang('app.construction')</a></li>
+                <li><a href="{{ route('mshenebloba') }}">@lang('app.construction')</a>
+                    <ul>
+                        <li><a href="{{ route('agarakebi') }}">@lang('app.აგარაკების')</a></li>
+                        <li><a href="{{route('kerdzo-saxlebi')}}">@lang('app.კერძო სახლების დაპროექტება')</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{ route('remonti') }}">@lang('app.renovation')</a></li>
                 <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
-{{--                    <ul>--}}
-{{--                        <li><a href="{{ route('momsakhurebebi') }}">@lang('app.routing')</a></li>--}}
-{{--                        <li><a href="core-values.html">ხარჯთაღრიცხვა</a></li>--}}
-{{--                    </ul>--}}
+
+
                 </li>
                 <li><a href="{{ route('about') }}">@lang('app.about us')</a></li>
                 <li><a href="{{ route('kontaqti') }}">@lang('app.contact')</a></li>
@@ -171,21 +164,24 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <div class="search"> <i class="lni lni-search-alt"></i> </div>
         <!-- end search -->
 
-        <div class="hamburger">
-            <div id="hamburger"> <span></span> <span></span> <span></span> </div>
-            <div id="cross"> <span></span> <span></span> </div>
+        <div class="languages">
+            <ul>
+                @foreach (config('app.locales') as $key => $data)
+                    <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
+                @endforeach
+            </ul>
         </div>
-        <!-- end hamburger -->
-        <!-- end hamburher -->
-        <a href="#sales-specialist-form" class="navbar-button" data-fancybox><i class="lni lni-mobile"></i> <span>SALES SPECIALIST</span></a> </div>
-    <!-- end container -->
-    <div class="languages">
-        <ul>
-            @foreach (config('app.locales') as $key => $data)
-                <li><a href="{{ route(request()->route()->getName(), array_merge(request()->route()->parameters(), ['locale' => $key])) }}">{{ $data['display'] }}</a></li>
-            @endforeach
-        </ul>
+
+        <div class="call-us-header footer-address">
+             <span>
+                <p>
+                    <a data-fancybox href="tel:(+995) 558 348 000">
+                      @lang('footer.contact us') <br> (+995) 558 348 000</a>
+                </p>
+             </span>
+        </div>
     </div>
+
 
     <!-- მესენჯერის ჩატი  -->
     <!-- Load Facebook SDK for JavaScript -->

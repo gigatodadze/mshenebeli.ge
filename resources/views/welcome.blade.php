@@ -7,25 +7,32 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>Making <b>Dreams</b> Comes Real</h2>
+                        <h2> <b>  აგარაკების მშენებლობა </b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="giga.html"> გაყიდვები <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="giga.html"> დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>All <b>Smart</b> Apartments</h2>
+                        <h2>კატლავანის ამოღება <b></b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="#">SEE ALL CATALOGUE <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('remonti') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
+                    <!-- end inner -->
+                </div>
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <h2>რემონტი <b></b> </h2>
+                        <p>We building ambientic living spaces for families</p>
+                        <a href="{{ route('remonti') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>Mock <b>Living</b> Environment</h2>
+                        <h2>კორპუსები <b></b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="#">DISCOVER CONSTO <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="#">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
@@ -46,17 +53,20 @@
         <div class="swiper-container slider-main">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="images/slide01.jpg"></div>
+                    <div class="slide-image" data-background="{{asset('images/project.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="images/slide02.jpg"></div>
+                    <div class="slide-image" data-background="{{asset('images/bar.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="images/slide03.jpg"></div>
+                    <div class="slide-image" data-background="{{asset('images/kitchen.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="slide-image" data-background="{{asset('images/livingroom.jpg')}}"></div>
+                </div>
             </div>
             <!-- end swiper-wrapper -->
             <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
@@ -74,7 +84,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="images/icon01.png" alt="Image"></figure>
+                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
                     <h3>We plan with sensetive</h3>
                     <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
                 <!-- end icon-content -->
@@ -82,7 +92,7 @@
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="images/icon02.png" alt="Image"></figure>
+                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
                     <h3>For futuristic buildings</h3>
                     <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
                 <!-- end icon-content -->
@@ -90,7 +100,7 @@
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="images/icon03.png" alt="Image"></figure>
+                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
                     <h3>Make living beautiful</h3>
                     <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
                 <!-- end icon-content -->
