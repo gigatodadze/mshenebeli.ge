@@ -32,14 +32,6 @@ Route::get('/mshenebloba',function (){
     return view('mshenebloba');
 })->name('mshenebloba');
 
-Route::get('/agarakebi',function (){
-    return view('agarakebi');
-})->name('agarakebi');
-
-Route::get('/kerdzo-saxlebi',function (){
-    return view('kerdzo-saxlebi');
-})->name('kerdzo-saxlebi');
-
 
 
 Route::get('/remonti',function (){

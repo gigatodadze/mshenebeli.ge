@@ -2,11 +2,13 @@
 
 <header class="page-header">
     <div class="container">
-        <h1>SERVICES</h1>
-        <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+        <h1>@lang('app.services')</h1>
+        
+            <h6>TBD
+            </h6>
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li>SERVICES</li>
+            <li><a href="{{route('index')}}">HOME</a></li>
+            <li>@lang('app.services')</li>
         </ul>
     </div>
     <!-- end container -->
@@ -75,13 +77,15 @@
 </section>
 <!-- end content-section -->
 
+
+
     <!-- end container -->
 <!-- end content-section -->
 <section class="footer-bar">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <figure class="logo"> <img src="images/logo.png" alt="Image"> </figure>
+                <figure class="logo"> <img src="{{asset('images/logo.png')}}" alt="Image"> </figure>
                 <h2>Live <b>better</b> and <b>beautiful</b></h2>
                 <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
                 <div class="sales-representive">

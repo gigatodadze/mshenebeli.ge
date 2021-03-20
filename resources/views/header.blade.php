@@ -113,20 +113,15 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     <div class="container">
         <div class="logo"> <a href={{ route('index') }}><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
         <!-- end logo -->
-        &nbsp
-        <div class="hamburger">
-            <div id="hamburger"> <span></span> <span></span> <span></span> </div>
-            <div id="cross"> <span></span> <span></span> </div>
-        </div>
 
         <div class="site-menu">
             <ul>
                 <li><a href="{{ route('index') }}">@lang('app.main')</a></li>
                 <li><a href="{{ route('mshenebloba') }}">@lang('app.construction')</a>
-                    <ul>
-                        <li><a href="{{ route('agarakebi') }}">@lang('app.აგარაკების')</a></li>
-                        <li><a href="{{route('kerdzo-saxlebi')}}">@lang('app.კერძო სახლების დაპროექტება')</a></li>
-                    </ul>
+{{--                    <ul>--}}
+{{--                        <li><a href="{{ route('agarakebi') }}">@lang('app.აგარაკების')</a></li>--}}
+{{--                        <li><a href="{{route('kerdzo-saxlebi')}}">@lang('app.კერძო სახლების დაპროექტება')</a></li>--}}
+{{--                    </ul>--}}
                 </li>
                 <li><a href="{{ route('remonti') }}">@lang('app.renovation')</a></li>
                 <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
@@ -163,6 +158,10 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     <!-- end site-menu -->
         <div class="search"> <i class="lni lni-search-alt"></i> </div>
         <!-- end search -->
+        <div class="hamburger">
+            <div id="hamburger"> <span></span> <span></span> <span></span> </div>
+            <div id="cross"> <span></span> <span></span> </div>
+        </div>
 
         <div class="languages">
             <ul>
