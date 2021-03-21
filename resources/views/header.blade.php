@@ -125,8 +125,6 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
                 </li>
                 <li><a href="{{ route('remonti') }}">@lang('app.renovation')</a></li>
                 <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
-
-
                 </li>
                 <li><a href="{{ route('about') }}">@lang('app.about us')</a></li>
                 <li><a href="{{ route('kontaqti') }}">@lang('app.contact')</a></li>
@@ -174,7 +172,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <div class="call-us-header footer-address">
              <span>
                 <p>
-                    @lang('footer.contact us') <br> <a data-fancybox href="tel:(+995) 558 348 000"> (+995) 558 348 000</a>
+                  <a class="footer-address" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
                 </p>
              </span>
         </div>
