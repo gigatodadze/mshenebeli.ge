@@ -38,9 +38,37 @@ Route::get('/remonti',function (){
     return view('remonti');
 })->name('remonti');
 
+Route::get('/black-frame',function (){
+    return view('black-frame');
+})->name('black-frame');
+
+Route::get('/green-frame',function (){
+    return view('green-frame');
+})->name('green-frame');
+
+Route::get('/white-frame',function (){
+    return view('white-frame');
+})->name('white-frame');
+
 Route::get('/about',function (){
     return view('about');
 })->name('about');
+
+Route::get('/dizaini',function (){
+    return view('dizaini');
+})->name('dizaini');
+
+Route::get('/gayidvebi',function (){
+    return view('gayidvebi');
+})->name('gayidvebi');
+
+Route::get('/teqnikis-gaqiraveba',function (){
+    return view('teqnikis-gaqiraveba');
+})->name('teqnikis-gaqiraveba');
+
+Route::get('/dasuftaveba',function (){
+    return view('dasuftaveba');
+})->name('dasuftaveba');
 
 Route::get('/kontaqti',function (){
     return view('kontaqti');

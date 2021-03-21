@@ -1006,7 +1006,10 @@ a:hover {
   border: 1px solid #e8e8e8;
   padding: 45px 30px;
   /* box-shadow: 7px 7px 0 #f9f9f9; */
-  position: relative; }
+  position: relative;
+    height: 450px;
+    margin-bottom: 45px;
+    }
   .icon-content:before {
     content: "";
     width: 100%;
@@ -3016,9 +3019,24 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     }
 
     .call-us-header {
-        height: 50px;
-        width: 220px;
+        height: 40px;
+        width: 185px;
         background-color: #F3B842;
         text-align: center;
+        line-height: 40px;
+    }
+
+    .icon-content .green-frame{
+        background: forestgreen;
+    }
+    .icon-content .white-frame {
+        background: white;
+        color: black;
+        border: 2px black solid;
+    }
+
+    .icon-content .black-frame:hover{
+        background: black;
+        color: white;
     }
 

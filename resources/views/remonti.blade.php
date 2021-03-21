@@ -8,25 +8,25 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
-                    <h3>@lang('app.black frame')</h3>
-                    <small> </small> <a href="#">+</a> </div>
-                <!-- end icon-content -->
-            </div>
-            <!-- end col-4 -->
-            <div class="col-lg-4">
-                <div class="icon-content">
-                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
-                    <h3>@lang('app.white frame')</h3>
-                    <small> </small> <a href="#">+</a> </div>
-                <!-- end icon-content -->
-            </div>
-            <!-- end col-4 -->
-            <div class="col-lg-4">
-                <div class="icon-content">
                     <figure><img src="{{asset('images/icon03.png')}}" alt="Image"></figure>
+                    <h3>@lang('app.black frame')</h3>
+                    <small> ფასი 100$ დან </small> <a class="black-frame" href="{{route('black-frame')}}">+</a> </div>
+                <!-- end icon-content -->
+            </div>
+            <!-- end col-4 -->
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src=" {{asset('images/icon01.png')}}" alt="Image"></figure>
+                    <h3>@lang('app.white frame')</h3>
+                    <small>ფასი 120$ დან</small> <a class="white-frame" href="{{route('white-frame')}}">+</a> </div>
+                <!-- end icon-content -->
+            </div>
+            <!-- end col-4 -->
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>@lang('app.green frame')</h3>
-                    <small> </small> <a href="#">+</a> </div>
+                    <small> ფასი 140$ დან </small> <a class="green-frame" href="{{route('green-frame')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -35,37 +35,42 @@
     </div>
 </section>
 
+<div class="cta-box-yellow">
+    <h4>The first thing we build is relationships</h4>
+    <p>
+        აირიდეთ თავიდან რემონტის ხარჯების გაორმაგება, დაივიწყეთ გაურკვეველი სამუშაო ეთიკისა და ექსპერტიზის მქონე ხალხთან მუშაობა, ბრიგადების გამოცვლა და უკვე შესრულებული სამუშაოების ხელახლა დაწყება - ჩვენი თანამშრომლები გაგიკეთებენ ზუსტად ისეთ რემონტს, როგორიც თქვენ გსურთ: შავი ან თეთრი კარკასიდან - გასაღების ჩაბარებამდე (შედი-იცხოვრე).
+        სარემონტო სამუშაოები ძვირიან თავის ტკივილად რომ არ გექცეთ, ჩვენი კომპანია მხოლოდ მაღალი კვალიფიკაციის მქონე, გამოცდილ კონტრაქტორებთან და ხელოსნებთან თანამშრომლობს, რომლებიც უზრუნველყოფენ იმას რომ თქვენი რემონტი იყოს იაფი, გარანტირებულად ხარისხიანი და სწრაფი.
+        სარემონტო სამუშაოების დაწყებამდე თქვენი პროექტის პასუხისმგებელი მენეჯერი თქვენთან თანამშრომლობით შეადგენს და მოგაწვდით დაწვრილებით ხარჯთაღრიცხვას და მასალების სიას რომელიც რემონტის პროცესში აღარ გაიზრდება(!).
+        ჩვენი განხორციელებული სამუშაოები მკაცრი ზედამხედველობისა და მუდმივი აღწერის ქვეშ მიმდინარეობს, ბოლოს კი ხარისხის სრულ კონტროლს გადის: როცა რემონტს ჩვენ გვიკვეთავთ, თქვენი ინტერესები კონტრაქტითაა დაცული.
+    </p>                      <a class="footer-address button" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
 
-<section class="content-section no-bottom-spacing">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
+</div>
 
-                <p>
-                    აირიდეთ თავიდან რემონტის ხარჯების გაორმაგება, დაივიწყეთ გაურკვეველი სამუშაო ეთიკისა და ექსპერტიზის მქონე ხალხთან მუშაობა, ბრიგადების გამოცვლა და უკვე შესრულებული სამუშაოების ხელახლა დაწყება - ჩვენი თანამშრომლები გაგიკეთებენ ზუსტად ისეთ რემონტს, როგორიც თქვენ გსურთ: შავი ან თეთრი კარკასიდან - გასაღების ჩაბარებამდე (შედი-იცხოვრე).
-                    სარემონტო სამუშაოები ძვირიან თავის ტკივილად რომ არ გექცეთ, ჩვენი კომპანია მხოლოდ მაღალი კვალიფიკაციის მქონე, გამოცდილ კონტრაქტორებთან და ხელოსნებთან თანამშრომლობს, რომლებიც უზრუნველყოფენ იმას რომ თქვენი რემონტი იყოს იაფი, გარანტირებულად ხარისხიანი და სწრაფი.
-                    სარემონტო სამუშაოების დაწყებამდე თქვენი პროექტის პასუხისმგებელი მენეჯერი თქვენთან თანამშრომლობით შეადგენს და მოგაწვდით დაწვრილებით ხარჯთაღრიცხვას და მასალების სიას რომელიც რემონტის პროცესში აღარ გაიზრდება(!).
-                    ჩვენი განხორციელებული სამუშაოები მკაცრი ზედამხედველობისა და მუდმივი აღწერის ქვეშ მიმდინარეობს, ბოლოს კი ხარისხის სრულ კონტროლს გადის: როცა რემონტს ჩვენ გვიკვეთავთ, თქვენი ინტერესები კონტრაქტითაა დაცული.
-                </p>
+{{--<section class="content-section no-bottom-spacing">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-5">--}}
 
-            </div>
-            <!-- end col-7 -->
-            <div class="col-lg-5 offset-lg-2">
-                <ul class="custom-list">
-                    <div class="section-title text-left"> <h6>სარემონტო მომსახურებები რომლებსაც ჩვენ გთავაზობთ მოიცავს, მაგრამ შეზღუდული არაა შემდეგით:</h6> </div>
-                    <li><i class="lni lni-checkmark"></i> ელექტროგაყვანილობა - დაქსელვა, კაბელების შერჩევა, როზეტების და განათების მონტაჟი</li>
-                    <li><i class="lni lni-checkmark"></i> Teamwork and collabration</li>
-                    <li><i class="lni lni-checkmark"></i> Culture of mutual trust and respect</li>
-                    <li><i class="lni lni-checkmark"></i> Being leader in our profession</li>
-                    <li><i class="lni lni-checkmark"></i> Pride in our works and excellences</li>
-                </ul>
-            </div>
-            <!-- end col-5 -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+
+
+{{--            </div>--}}
+{{--            <!-- end col-7 -->--}}
+{{--            <div class="col-lg-5 offset-lg-2">--}}
+{{--                <ul class="custom-list">--}}
+{{--                    <div class="section-title text-left"> <h6>სარემონტო მომსახურებები რომლებსაც ჩვენ გთავაზობთ მოიცავს, მაგრამ შეზღუდული არაა შემდეგით:</h6> </div>--}}
+{{--                    <li><i class="lni lni-checkmark"></i> ელექტროგაყვანილობა - დაქსელვა, კაბელების შერჩევა, როზეტების და განათების მონტაჟი</li>--}}
+{{--                    <li><i class="lni lni-checkmark"></i> Teamwork and collabration</li>--}}
+{{--                    <li><i class="lni lni-checkmark"></i> Culture of mutual trust and respect</li>--}}
+{{--                    <li><i class="lni lni-checkmark"></i> Being leader in our profession</li>--}}
+{{--                    <li><i class="lni lni-checkmark"></i> Pride in our works and excellences</li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--            <!-- end col-5 -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 
 
 @include('footer');
