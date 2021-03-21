@@ -7,6 +7,8 @@ return [
     'contact' => 'Контакт',
     'main'  =>  'Главная страница',
     'construction' => 'Строителство',
-    'renovation' => 'Ремонт'
-
+    'renovation' => 'Ремонт',
+    'black frame' => 'черный каркас',
+    'white frame' => 'белый каркас',
+    'green frame' => 'зеленый каркас'
 ];

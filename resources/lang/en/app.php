@@ -7,7 +7,10 @@ return [
     'contact' => 'Contact',
     'main'  =>  'Main',
     'construction' => 'Construction',
-    'renovation' => 'Renovation'
+    'renovation' => 'Renovation',
+    'black frame' => 'Black frame',
+    'white frame' => 'White frame',
+    'green frame' => 'Green frame',
 ];
 
 //    'navbar' => [

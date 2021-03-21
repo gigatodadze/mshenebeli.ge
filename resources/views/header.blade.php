@@ -174,8 +174,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <div class="call-us-header footer-address">
              <span>
                 <p>
-                    <a data-fancybox href="tel:(+995) 558 348 000">
-                      @lang('footer.contact us') <br> (+995) 558 348 000</a>
+                    @lang('footer.contact us') <br> <a data-fancybox href="tel:(+995) 558 348 000"> (+995) 558 348 000</a>
                 </p>
              </span>
         </div>

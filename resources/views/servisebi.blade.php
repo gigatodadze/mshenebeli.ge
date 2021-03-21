@@ -3,7 +3,7 @@
 <header class="page-header">
     <div class="container">
         <h1>@lang('app.services')</h1>
-        
+
             <h6>TBD
             </h6>
         <ul>
