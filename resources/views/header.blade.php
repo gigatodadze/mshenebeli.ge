@@ -72,7 +72,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 <!-- end search-box -->
 <aside class="side-widget">
     <div class="inner">
-        <div class="logo"> <a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Image"></a> </div>
+        <div class="logo"> <a href="{{route('index')}}"><img src="{{asset('images/logo.png')}}" alt="Image"></a> </div>
         <!-- end logo -->
         <div class="site-menu">
             <ul>
@@ -128,7 +128,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
 <!-- end side-widget -->
 <nav class="navbar">
     <div class="container">
-        <div class="logo"> <a href={{ route('index') }}><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
+        <div class="logo"><a href={{ route('index') }}><img src="{{ asset('images/logo.png') }}" alt="Image"></a> </div>
         <!-- end logo -->
 
         <div class="site-menu">
