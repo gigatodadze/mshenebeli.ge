@@ -2,7 +2,7 @@
 
 <header class="page-header">
     <div class="container">
-        <h1>@lang('app.construction')</h1>
+        <h1><div class="header-headings">@lang('app.construction')</div></h1>
         <h6>ჩვენი პროფესიონალებისგან შემდგარი გუნდი უზრუნველყოფს თქვენი აგარაკის, სასტუმროსა თუ კორპუსის დაპროექტებას, სამშენებლო სამუშაოების ხარჯთაღრიცხვას და სწრაფ, ხარისხიან მშენებლობას უახლესი ტექნოლოგიებით.
         </h6>
         <ul>

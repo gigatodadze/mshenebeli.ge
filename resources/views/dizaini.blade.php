@@ -2,7 +2,7 @@
 
 <header class="page-header">
     <div class="container">
-        <h1>@lang('app.architecture')</h1>
+        <h1><div class="header-headings">@lang('app.architecture')</div></h1>
         <h6>აქაც ბლა ბლა ბლა
         </h6>
         <ul>
