@@ -1,7 +1,19 @@
 @include('header');
 
-<br>
-<br>
+<header class="page-header">
+    <div class="container">
+        <h1><div class="header-headings"> @lang('app.black frame') </div> </h1>
+
+        <h6>TBD
+        </h6>
+        <ul>
+            <li><a href="{{route('index')}}">HOME</a></li>
+            <li><a href="{{route('remonti')}}">@lang('app.renovation')</a></li>
+            <li>@lang('app.black frame')</li>
+        </ul>
+    </div>
+    <!-- end container -->
+</header>
 
 <section class="content-section no-bottom-spacing">
     <div class="container">

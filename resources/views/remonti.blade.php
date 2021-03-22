@@ -1,8 +1,20 @@
 @include('header');
 
-<div>
-    &nbsp;
-</div>
+
+<header class="page-header">
+    <div class="container">
+        <h1><div class="header-headings"> @lang('app.renovation') </div> </h1>
+
+        <h6>TBD
+        </h6>
+        <ul>
+            <li><a href="{{route('index')}}">HOME</a></li>
+            <li>@lang('app.renovation')</li>
+        </ul>
+    </div>
+    <!-- end container -->
+</header>
+
 <section class="content-section">
     <div class="container">
         <div class="row">

@@ -74,6 +74,23 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
     <div class="inner">
         <div class="logo"> <a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Image"></a> </div>
         <!-- end logo -->
+        <div class="site-menu">
+            <ul>
+                <li><a href="{{ route('index') }}">@lang('app.main')</a></li>
+                <li><a href="{{ route('mshenebloba') }}">@lang('app.construction')</a>
+                    {{--                    <ul>--}}
+                    {{--                        <li><a href="{{ route('agarakebi') }}">@lang('app.აგარაკების')</a></li>--}}
+                    {{--                        <li><a href="{{route('kerdzo-saxlebi')}}">@lang('app.კერძო სახლების დაპროექტება')</a></li>--}}
+                    {{--                    </ul>--}}
+                </li>
+                <li><a href="{{ route('remonti') }}">@lang('app.renovation')</a></li>
+                <li><a href="{{ route('servisebi') }}">@lang('app.services')</a>
+                </li>
+                <li><a href="{{ route('about') }}">@lang('app.about us')</a></li>
+                <li><a href="{{ route('kontaqti') }}">@lang('app.contact')</a></li>
+
+            </ul>
+        </div>
         <div class="hide-mobile">
             <h6 class="widget-title">MSHENEBELI.GE</h6>
             <address>
@@ -105,7 +122,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
             <!-- end site-menu -->
         </div>
         <!-- end show-mobile -->
-        <small>© 2020 Consto | Industrial Construction Company</small> </div>
+        <small>© 2021 <a class="footer-web" href="http://mshenebeli.ge/"> mshenebeli.ge</a>  | ყველა უფლება დაცულია </small> </div>
     <!-- end inner -->
 </aside>
 <!-- end side-widget -->
@@ -169,14 +186,14 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
             </ul>
         </div>
 
-        <div class="call-us-header footer-address">
-             <span>
-                <p>
-                  <a class="footer-address" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
-                </p>
-             </span>
-        </div>
-    </div>
+{{--        <div class="call-us-header footer-address">--}}
+{{--             <span>--}}
+{{--                <p>--}}
+{{--                  <a class="footer-address" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>--}}
+{{--                </p>--}}
+{{--             </span>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
 
     <!-- მესენჯერის ჩატი  -->

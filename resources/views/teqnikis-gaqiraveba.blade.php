@@ -2,7 +2,7 @@
 
 <header class="page-header">
     <div class="container">
-        <h1>@lang('app.technique rental')</h1>
+        <h1><div class="header-headings">@lang('app.technique rental')</div></h1>
         <h6>აქაც ბლა ბლა ბლა
         </h6>
         <ul>
@@ -15,7 +15,7 @@
 <!-- end page-header -->
 
 
-<section class="content-section no-spacing" data-background="{{asset('images/livingroom.jpg')}}">
+<section class="content-section no-spacing" data-background="{{asset('images/technique.jpg')}}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-lg-6 col-md-9">
@@ -34,7 +34,7 @@
                         <li>სეისმომედეგი მშენებლობა;</li>
                         <li>კატლავანის ამოღება/გატანა.</li>
                     </ul>
-                    <a href="#" class="button">ააწყვე შენი დიზაინი</a> </div>
+                    <a href="#" class="button">დაგვიქირავე</a> </div>
                 <!-- end services-list-box -->
             </div>
             <!-- end col-6 -->

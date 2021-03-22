@@ -7,36 +7,52 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2> <b>  აგარაკების მშენებლობა </b> </h2>
+                        <h2> <b>  @lang('app.construction') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="giga.html"> დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{route('mshenebloba')}}"> დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>კატლავანის ამოღება <b></b> </h2>
+                        <h2> <b> @lang('app.renovation')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('remonti') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>რემონტი <b></b> </h2>
+                        <h2> <b> @lang('app.design') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('remonti') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('dizaini') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2>კორპუსები <b></b> </h2>
+                        <h2> <b>@lang('app.sales')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="#">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('gayidvebi') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                    <!-- end inner -->
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <h2> <b>@lang('app.technique rental')</b> </h2>
+                        <p>We building ambientic living spaces for families</p>
+                        <a href="{{ route('teqnikis-gaqiraveba') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <h2> <b>@lang('app.cleaning')</b> </h2>
+                        <p>We building ambientic living spaces for families</p>
+                        <a href="{{ route('dasuftaveba') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                    <!-- end inner -->
+                </div>
             </div>
+
             <!-- end swiper-wrapper -->
             <div class="controls">
                 <div class="swiper-pagination"></div>
@@ -67,6 +83,14 @@
                 <div class="swiper-slide">
                     <div class="slide-image" data-background="{{asset('images/livingroom.jpg')}}"></div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-image" data-background="{{asset('images/technique2.jpg')}}"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-image" data-background="{{asset('images/livingroom.jpg')}}"></div>
+                </div>
             </div>
             <!-- end swiper-wrapper -->
             <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
@@ -84,25 +108,25 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
-                    <h3>We plan with sensetive</h3>
-                    <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
+                    <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
+                    <h3>@lang('app.construction')</h3>
+                    <small>The awards for design, creativity and innovation on the Internet</small> <a href="{{route('mshenebloba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
-                    <h3>For futuristic buildings</h3>
-                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
+                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3>@lang('app.renovation')</h3>
+                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('remonti')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon-phone.png')}}" alt="Image"></figure>
-                    <h3>Make living beautiful</h3>
-                    <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
+                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3>@lang('app.sales')</h3>
+                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->

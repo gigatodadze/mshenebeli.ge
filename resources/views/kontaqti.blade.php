@@ -2,7 +2,7 @@
 
 <header class="page-header">
     <div class="container">
-        <h1>@lang('app.contact')</h1>
+        <h1> <div class="header-headings"> @lang('app.contact')</div></h1>
         <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
         <ul>
             <li><a href="{{route('index')}}">@lang('app.main')</a></li>
