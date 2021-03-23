@@ -98,8 +98,10 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
                 <p>@lang('footer.contact us') :&nbsp <a class="footer-address" href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
                 <p>@lang('footer.message us') :&nbsp <a class="footer-address" href="mailto:info@mshenebeli.ge">info@mshenebeli.ge</a><br></p>
             </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8621527713676!2d44.769894614843615!3d41.745066081708885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728c58c23e81%3A0xc49459a6ea09aec8!2zOSDhg5Dhg5rhg5jhg50g4YOb4YOY4YOg4YOq4YOu4YOj4YOa4YOQ4YOV4YOQ4YOhIOGDpeGDo-GDqeGDkCwgVCdiaWxpc2k!5e0!3m2!1sen!2sge!4v1616144965400!5m2!1sen!2sge" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8621527713676!2d44.769894614843615!3d41.745066081708885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728c58c23e81%3A0xc49459a6ea09aec8!2zOSDhg5Dhg5rhg5jhg50g4YOb4YOY4YOg4YOq4YOu4YOj4YOa4YOQ4YOV4YOQ4YOhIOGDpeGDo-GDqeGDkCwgVCdiaWxpc2k!5e0!3m2!1sen!2sge!4v1616144965400!5m2!1sen!2sge" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
         <!-- end hide-mobile -->
         <div class="show-mobile">
             <div class="languages">

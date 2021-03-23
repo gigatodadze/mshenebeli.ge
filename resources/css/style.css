@@ -556,7 +556,7 @@ a:hover {
 .first-transition img {
     align-content: center;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 45%;
     margin-top: 25%;
     height: 40px;
     width: 120px;
@@ -584,7 +584,7 @@ a:hover {
 .page-transition img{
     align-content: center;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 45%;
     margin-top: 25%;
     height: 40px;
     width: 120px;
@@ -3031,7 +3031,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     .page-header {
         height: 350px;
     }
-    
+
     .page-header .container h1 {
         display: block;
         font-size: 10vw;
