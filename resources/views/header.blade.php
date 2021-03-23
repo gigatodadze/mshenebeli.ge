@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#feed01"/>
     <title> მშენებელი.ჯი | mshenebeli.ge </title>
+    <link rel="icon" href='{{asset('images/logo2.png')}}' >
+    <link rel='mask-icon' href='{{asset('images/logo2.png')}}'>
     <meta name="author" content="Themezinho">
     <meta name="description" content="For all kind of construction company website">
     <meta name="keywords" content="consto, business, construction, company, industrial, building, projects, corporate, apartments, flat, condo, brick, website, design, animation, transition, რემონტი: რემონტი, რემონტი დიზაინი, აბაზანის რემონტი, სამზარეულოს რემონტი, ბინა და რემონტი, დიზაინი და რემონტი, ბინების რემონტი, თაღი რემონტი, რა ჯდება რემონტი, რემონტი ბინის.

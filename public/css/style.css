@@ -1054,12 +1054,12 @@ a:hover {
   .icon-content h3 {
     width: 100%;
     display: block;
-    margin-bottom: 40px; }
+    margin-bottom: 10px; }
   .icon-content small {
     width: 100%;
     display: block;
-    margin-bottom: 70px;
-    font-size: 16px; }
+    margin-bottom: 10px;
+    font-size: 14px; }
   .icon-content a {
     width: 50px;
     height: 50px;
