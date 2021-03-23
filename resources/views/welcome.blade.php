@@ -516,57 +516,57 @@
                 <!-- end video-box -->
             </div>
             <!-- end col-12 -->
-            <div class="col-12">
-                <div class="testimonials-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>Consto Construction is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Consto again in the near future!</p>
-                                <i class="lni lni-quotation"></i>
-                                <h6>William James</h6>
-                                <small>Life Touch LLC</small> </div>
-                            <!-- end testimonial -->
-                        </div>
-                        <!-- end swiper-slide -->
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>Consto was completely respectful of the building and its surroundings - they immediately became part of our team and they know teamwork! They kept the jobsite clean and safe; working with Consto is nothing short of a first class experience!</p>
-                                <i class="lni lni-quotation"></i>
-                                <h6>William James</h6>
-                                <small>Life Touch LLC</small> </div>
-                            <!-- end testimonial -->
-                        </div>
-                        <!-- end swiper-slide -->
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>Thank you for all of your hard work on our project…I seriously don’t know how you did it but it came together SO WELL. I know we are a particular bunch and want things a certain way but you guys did such an amazing job!</p>
-                                <i class="lni lni-quotation"></i>
-                                <h6>William James</h6>
-                                <small>Life Touch LLC</small> </div>
-                            <!-- end testimonial -->
-                        </div>
-                        <!-- end swiper-slide -->
-                        <div class="swiper-slide">
-                            <div class="testimonial">
-                                <p>I was truly impressed with Consto’s quality workmanship and the final product. Consto provided an outstanding team that completed our project on-time and on schedule with no disruption to the staff.</p>
-                                <i class="lni lni-quotation"></i>
-                                <h6>William James</h6>
-                                <small>Life Touch LLC</small> </div>
-                            <!-- end testimonial -->
-                        </div>
-                        <!-- end swiper-slide -->
-                    </div>
-                    <!-- end swiper-wrapper -->
-                    <div class="controls">
-                        <div class="button-prev"><i class="lni lni-arrow-left"></i></div>
-                        <!-- end button-prev -->
-                        <div class="button-next"><i class="lni lni-arrow-right"></i></div>
-                        <!-- end button-next -->
-                    </div>
-                    <!-- end controls -->
-                </div>
-                <!-- end testimonials-slider -->
-            </div>
+{{--            <div class="col-12">--}}
+{{--                <div class="testimonials-slider">--}}
+{{--                    <div class="swiper-wrapper">--}}
+{{--                        <div class="swiper-slide">--}}
+{{--                            <div class="testimonial">--}}
+{{--                                <p>Consto Construction is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Consto again in the near future!</p>--}}
+{{--                                <i class="lni lni-quotation"></i>--}}
+{{--                                <h6>William James</h6>--}}
+{{--                                <small>Life Touch LLC</small> </div>--}}
+{{--                            <!-- end testimonial -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end swiper-slide -->--}}
+{{--                        <div class="swiper-slide">--}}
+{{--                            <div class="testimonial">--}}
+{{--                                <p>Consto was completely respectful of the building and its surroundings - they immediately became part of our team and they know teamwork! They kept the jobsite clean and safe; working with Consto is nothing short of a first class experience!</p>--}}
+{{--                                <i class="lni lni-quotation"></i>--}}
+{{--                                <h6>William James</h6>--}}
+{{--                                <small>Life Touch LLC</small> </div>--}}
+{{--                            <!-- end testimonial -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end swiper-slide -->--}}
+{{--                        <div class="swiper-slide">--}}
+{{--                            <div class="testimonial">--}}
+{{--                                <p>Thank you for all of your hard work on our project…I seriously don’t know how you did it but it came together SO WELL. I know we are a particular bunch and want things a certain way but you guys did such an amazing job!</p>--}}
+{{--                                <i class="lni lni-quotation"></i>--}}
+{{--                                <h6>William James</h6>--}}
+{{--                                <small>Life Touch LLC</small> </div>--}}
+{{--                            <!-- end testimonial -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end swiper-slide -->--}}
+{{--                        <div class="swiper-slide">--}}
+{{--                            <div class="testimonial">--}}
+{{--                                <p>I was truly impressed with Consto’s quality workmanship and the final product. Consto provided an outstanding team that completed our project on-time and on schedule with no disruption to the staff.</p>--}}
+{{--                                <i class="lni lni-quotation"></i>--}}
+{{--                                <h6>William James</h6>--}}
+{{--                                <small>Life Touch LLC</small> </div>--}}
+{{--                            <!-- end testimonial -->--}}
+{{--                        </div>--}}
+{{--                        <!-- end swiper-slide -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end swiper-wrapper -->--}}
+{{--                    <div class="controls">--}}
+{{--                        <div class="button-prev"><i class="lni lni-arrow-left"></i></div>--}}
+{{--                        <!-- end button-prev -->--}}
+{{--                        <div class="button-next"><i class="lni lni-arrow-right"></i></div>--}}
+{{--                        <!-- end button-next -->--}}
+{{--                    </div>--}}
+{{--                    <!-- end controls -->--}}
+{{--                </div>--}}
+{{--                <!-- end testimonials-slider -->--}}
+{{--            </div>--}}
             <!-- end col-12 -->
         </div>
         <!-- end row -->
