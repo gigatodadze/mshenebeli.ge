@@ -1720,7 +1720,7 @@ a:hover {
 .services-list-box {
   width: 100%;
   display: block;
-  background: #fff;
+  background: #F3B842;
   padding: 50px;
   transform: translateY(100px);
   margin-bottom: 100px; }
@@ -2876,6 +2876,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     padding: 0 15px;
     margin-left: 20px; }
 
+    .page-header {
+        height: 350px;
+    }
   .navbar .navbar-button i {
     margin: 0; }
 
@@ -3025,6 +3028,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
+    .page-header {
+        height: 350px;
+    }
+    
+    .page-header .container h1 {
+        display: block;
+        font-size: 10vw;
+    }
     .side-widget .site-menu {
         display: block;
     }
@@ -3188,7 +3199,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     }
     .site-menu {
         margin: 0;
-        font-size: 16px;
+        font-size: 18px;
     }
     .search {
         width: 18px;
@@ -3204,7 +3215,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     }
 
     .icon-content .green-frame{
-        background: #0e4a1e;
+        background: #136027;
     }
     .icon-content .white-frame {
         background: white;
@@ -3223,3 +3234,15 @@ input::-moz-focus-inner, input::-moz-focus-outer {
             -webkit-text-fill-color: transparent;
             color: transparent;
         }
+
+       .black-frame-border {
+           border: solid black 4px;
+       }
+
+       .white-frame-border {
+           border: solid #eaeaea 4px;
+       }
+
+       .green-frame-border {
+           border: solid #136027 4px;
+       }

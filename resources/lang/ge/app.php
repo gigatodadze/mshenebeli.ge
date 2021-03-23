@@ -11,7 +11,7 @@ return [
     'design'=>'დიზაინი',
     'architecture'=>'არქიტექტურა',
     'sales'=>'გაყიდვები',
-    'technique rental'=>'ტექნიკის დაქირავება',
+    'technique rental'=>'ტექნიკის გაქირავება',
     'cleaning'=>'დასუფთავება',
     'black frame' => 'შავი კარკასი',
     'white frame' => 'თეთრი კარკასი',

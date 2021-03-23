@@ -18,8 +18,8 @@
 <section class="content-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="icon-content">
+            <div class="col-lg-4 ">
+                <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/icon03.png')}}" alt="Image"></figure>
                     <h3>@lang('app.black frame')</h3>
                     <small> ფასი 100$ დან </small> <a class="black-frame" href="{{route('black-frame')}}">+</a> </div>
@@ -27,7 +27,7 @@
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
-                <div class="icon-content">
+                <div class="icon-content white-frame-border">
                     <figure><img src=" {{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>@lang('app.white frame')</h3>
                     <small>ფასი 120$ დან</small> <a class="white-frame" href="{{route('white-frame')}}">+</a> </div>
@@ -35,7 +35,7 @@
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
-                <div class="icon-content">
+                <div class="icon-content green-frame-border">
                     <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>@lang('app.green frame')</h3>
                     <small> ფასი 140$ დან </small> <a class="green-frame" href="{{route('green-frame')}}">+</a> </div>
