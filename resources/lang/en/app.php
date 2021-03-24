@@ -9,6 +9,7 @@ return [
     'construction' => 'Construction',
     'renovation' => 'Renovation',
     'design'=>'Design',
+    'details'=>'Details',
     'architecture'=>'Architecture',
     'sales'=>'Sales',
     'technique rental'=>'Technique rental',

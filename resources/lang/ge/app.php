@@ -9,6 +9,7 @@ return [
     'construction' => 'მშენებლობა',
     'renovation' => 'რემონტი',
     'design'=>'დიზაინი',
+    'details'=>'დეტალურად',
     'architecture'=>'არქიტექტურა',
     'sales'=>'გაყიდვები',
     'technique rental'=>'ტექნიკის გაქირავება',
