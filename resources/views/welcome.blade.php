@@ -9,7 +9,7 @@
                     <div class="inner">
                         <h2> <b>  @lang('app.construction') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{route('mshenebloba')}}"> დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
@@ -17,14 +17,14 @@
                     <div class="inner">
                         <h2> <b> @lang('app.renovation')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('remonti') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('remonti') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.design') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('dizaini') }}">ფასები <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('dizaini') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
@@ -32,7 +32,7 @@
                     <div class="inner">
                         <h2> <b>@lang('app.sales')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('gayidvebi') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('gayidvebi') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
 
@@ -40,7 +40,7 @@
                     <div class="inner">
                         <h2> <b>@lang('app.technique rental')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('teqnikis-gaqiraveba') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('teqnikis-gaqiraveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <!-- end swiper-slide -->
@@ -48,7 +48,7 @@
                     <div class="inner">
                         <h2> <b>@lang('app.cleaning')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
-                        <a href="{{ route('dasuftaveba') }}">დეტალურად <i class="lni lni-arrow-right"></i></a> </div>
+                        <a href="{{ route('dasuftaveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
             </div>

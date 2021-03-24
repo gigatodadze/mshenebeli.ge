@@ -935,7 +935,7 @@ a:hover {
 /* PAGE HEADER */
 .page-header {
   width: 100%;
-  height: 300px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -2871,14 +2871,41 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   border: 0; }
 
 /* RESPONSIVE MEDIUM  */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
+
+    .page-header {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1197px), only screen and (max-device-width: 1197px) {
   .navbar .navbar-button {
     padding: 0 15px;
     margin-left: 20px; }
 
     .page-header {
-        height: 350px;
+        height: 400px;
     }
+
+    .first-transition img {
+        align-content: center;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 85%;
+        height: 60px;
+        width: 120px;
+    }
+
+    .page-transition img{
+        align-content: center;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 85%;
+        height: 60px;
+        width: 120px;
+    }
+
+
+
   .navbar .navbar-button i {
     margin: 0; }
 
