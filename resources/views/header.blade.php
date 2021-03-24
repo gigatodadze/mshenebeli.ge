@@ -8,7 +8,7 @@
     <link rel="icon" href='{{asset('images/logo2.png')}}' >
     <link rel='mask-icon' href='{{asset('images/logo2.png')}}'>
     <meta name="author" content="Themezinho">
-    <meta name="description" content="For all kind of construction company website">
+    <meta name="description" content="For all kind of construction company w ebsite">
     <meta name="keywords" content="consto, business, construction, company, industrial, building, projects, corporate, apartments, flat, condo, brick, website, design, animation, transition, რემონტი: რემონტი, რემონტი დიზაინი, აბაზანის რემონტი, სამზარეულოს რემონტი, ბინა და რემონტი, დიზაინი და რემონტი, ბინების რემონტი, თაღი რემონტი, რა ჯდება რემონტი, რემონტი ბინის.
 Remonti: remonti, remonti da dizaini, remonti ge, abanos remonti, evro remonti dizaini, remontis fasebi, vana tualetis remonti, binebis remonti ge, mshenebloba remonti, samzareulos remonti.
 მშენებლობა: კერძო სახლების მშენებლობა, კოტეჯების მშენებლობა, მშენებლობა, სახლების მშენებლობა, იაფი სახლების მშენებლობა, ხის კოტეჯების მშენებლობა, კერძო სახლის მშენებლობა თეთრი კარკასი, 60 კვ მ სახლის მშენებლობა, სეისმომედეგი მშენებლობა.
@@ -190,14 +190,14 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
             </ul>
         </div>
 
-{{--        <div class="call-us-header footer-address">--}}
-{{--             <span>--}}
-{{--                <p>--}}
-{{--                  <a class="footer-address" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>--}}
-{{--                </p>--}}
-{{--             </span>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+        <div class="call-us-header footer-address">
+             <span>
+                <p>
+                  <a class="footer-address" href="tel:(+995) 558 348 000">Under Construction</a>
+                </p>
+             </span>
+        </div>
+    </div>
 
 
     <!-- მესენჯერის ჩატი  -->
@@ -227,6 +227,5 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
          logged_in_greeting="გამარჯობა! რით შემიძლია დაგეხმაროთ? "
          logged_out_greeting="გამარჯობა! რით შემიძლია დაგეხმაროთ? ">
     </div>
-
+    </div>
 </nav>
-
