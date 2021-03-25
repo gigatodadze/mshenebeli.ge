@@ -313,7 +313,13 @@ __webpack_require__.r(__webpack_exports__);
     lastScrollTop = st;
   }
 
-  ;
+  (function () {
+    window.onpageshow = function (event) {
+      if (event.persisted) {
+        window.location.reload();
+      }
+    };
+  })();
 })(jQuery);
 
 /***/ }),
