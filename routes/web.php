@@ -50,6 +50,9 @@ Route::get('/white-frame',function (){
     return view('white-frame');
 })->name('white-frame');
 
+
+
+
 Route::get('/about',function (){
     return view('about');
 })->name('about');

@@ -347,7 +347,14 @@ import isotope from 'isotope-layout'
     }
 
     lastScrollTop = st;
-  };
+  }
 
+    (function () {
+        window.onpageshow = function(event) {
+            if (event.persisted) {
+                window.location.reload();
+            }
+        };
+    })();
 
 })(jQuery);
