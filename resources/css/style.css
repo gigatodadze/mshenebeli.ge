@@ -137,7 +137,8 @@ textarea {
 
 /* LINKS */
 a {
-  color: #0b0b0b; }
+  color: white;
+}
 
 a:hover {
   text-decoration: underline;
@@ -1769,7 +1770,7 @@ a:hover {
     margin: 0;
     padding: 20px 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     position: relative; }
     .custom-list li:hover:before {
