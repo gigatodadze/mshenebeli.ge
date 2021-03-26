@@ -24,18 +24,26 @@
                     <h2>120$ დან</h2>
                 </div>
                 <!-- end section-title -->
-                <p> ბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლა  .</p>
-                <h2><strong>120$ დან</strong></h2>
-                <b>YEARS OF EXPERIENCE</b>
+                <p> შავი კარკასიდან გასაღების ჩაბარებამდე ბინის სარემონტო სამუშაოები გამოიყურება შემდეგნაირად:</p>
+{{--                <h2><strong>150$ დან</strong></h2>--}}
+{{--                <b>YEARS OF EXPERIENCE</b>--}}
             </div>
             <!-- end col-7 -->
             <div class="col-lg-5 offset-lg-2">
                 <ul class="custom-list">
-                    <li><i class="lni lni-checkmark"></i> აქ რაღაცეები რაც ამაში შედის</li>
-                    <li><i class="lni lni-checkmark"></i> Teamwork and collabration</li>
-                    <li><i class="lni lni-checkmark"></i> Culture of mutual trust and respect</li>
-                    <li><i class="lni lni-checkmark"></i> Being leader in our profession</li>
-                    <li><i class="lni lni-checkmark"></i> Pride in our works and excellences</li>
+                    <li><i class="lni lni-checkmark"></i> გიფსოკარდონის (თაბაშირ-მუყაოს) გაკვრა - ტიხრების ამოყვანა და თაბაშირ-მუყაოს ჭერი, შიდა კედლების ამოყვანა და გალესვა</li>
+                    <li><i class="lni lni-checkmark"></i>   ბეტონის დასხმა - მოჭიმული იატაკი (სწიაჟკა)</li>
+                    <li><i class="lni lni-checkmark"></i>   ელექტროგაყვანილობა - კაბელებით დაქსელვა, როზეტების და განათების დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i>   სანტექნიკური სამუშაოები - სველი წერტილების, აბაზანის და ტუალეტის გაყვანილობის დამონტაჟება, უნიტაზების, სააბაზანო აქსესუარების დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i>   შიდა კარებების, რკინის მთავარი კარების და ფანჯრების მონტაჟი - ანჯამებისა და საკეტების დაყენება</li>
+                    <li><i class="lni lni-checkmark"></i>   კაფელ-მეტლახის დაგება</li>
+                    <li><i class="lni lni-checkmark"></i>   ვენტილაცია - სავენტილაციო სისტემა და მილები</li>
+                    <li><i class="lni lni-checkmark"></i>   ხმის და თბოიზოლაციური სამუშაოების ჩატარება</li>
+                    <li><i class="lni lni-checkmark"></i>    ლამინატის/პარკეტის დაგება</li>
+                    <li><i class="lni lni-checkmark"></i>    გათბობის სისტემის, რადიატორების, გათბობის ქვაბის დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i>    სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარება</li>
+                    <li><i class="lni lni-checkmark"></i>     ჭერის დამონტაჟება - ბარისოლი, ფრანგული გასაჭიმი ჭერი</li>
+                    <li><i class="lni lni-checkmark"></i>     რემონტის შემდგომი დალაგება</li>
                 </ul>
             </div>
             <!-- end col-5 -->

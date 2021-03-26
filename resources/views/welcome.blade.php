@@ -1,6 +1,5 @@
 @include('header')
 
-
 <header class="slider white-space-bottom">
     <div class="container">
         <div class="swiper-container slider-content">

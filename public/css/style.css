@@ -1688,7 +1688,7 @@ a:hover {
     margin: 0;
     padding: 20px 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     position: relative; }
     .custom-list li:hover:before {
@@ -2709,9 +2709,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
 
-    .slider .slider-main .slide-image {
-        height: 70%;
-    }
     .page-header {
         height: 300px;
     }
