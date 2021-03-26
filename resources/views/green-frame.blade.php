@@ -21,21 +21,27 @@
             <div class="col-lg-5">
                 <div class="section-title text-left">
                     <h6>@lang('app.green frame')</h6>
-                    <h2>140$ დან</h2>
+                    <h2>100$ დან</h2>
                 </div>
                 <!-- end section-title -->
-                <p> ბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლაბლა ბლა ბლა  .</p>
-                <h2><strong>140$ დან</strong></h2>
-                <b>YEARS OF EXPERIENCE</b>
+                <p>  მწვანე კარკასის მდგომარეობაში მოყვანილი ფართი საცხოვრებლად გამზადდება შემდგომი სარემონტო სამუშაოების შემდეგ:</p>
+{{--                <h2><strong>140$ დან</strong></h2>--}}
+{{--                <b>YEARS OF EXPERIENCE</b>--}}
             </div>
             <!-- end col-7 -->
             <div class="col-lg-5 offset-lg-2">
                 <ul class="custom-list">
-                    <li><i class="lni lni-checkmark"></i> აქ რაღაცეები რაც ამაში შედის</li>
-                    <li><i class="lni lni-checkmark"></i> Teamwork and collabration</li>
-                    <li><i class="lni lni-checkmark"></i> Culture of mutual trust and respect</li>
-                    <li><i class="lni lni-checkmark"></i> Being leader in our profession</li>
-                    <li><i class="lni lni-checkmark"></i> Pride in our works and excellences</li>
+                    <li><i class="lni lni-checkmark"></i> ელექტროგაყვანილობა - როზეტების და განათების დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i> სანტექნიკური სამუშაოები - უნიტაზების, სააბაზანო აქსესუარების დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i> სამზარეულო აქსესუარების დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i> შიდა კარებების დამონტაჟება, ანჯამებისა და საკეტების დაყენება</li>
+                    <li><i class="lni lni-checkmark"></i> კაფელ-მეტლახის დაგება</li>
+                    <li><i class="lni lni-checkmark"></i> ლამინატის/პარკეტის დაგება</li>
+                    <li><i class="lni lni-checkmark"></i> გათბობის სისტემის, რადიატორების, გათბობის ქვაბის დამონტაჟება</li>
+                    <li><i class="lni lni-checkmark"></i> სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარება</li>
+                    <li><i class="lni lni-checkmark"></i> სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარებ</li>
+                    <li><i class="lni lni-checkmark"></i> რემონტის შემდგომი დალაგება</li>
+
                 </ul>
             </div>
             <!-- end col-5 -->
