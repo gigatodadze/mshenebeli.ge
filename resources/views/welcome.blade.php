@@ -9,7 +9,8 @@
                         <h2> <b>  @lang('app.construction') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
@@ -17,14 +18,16 @@
                         <h2> <b> @lang('app.renovation')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('remonti') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.design') </b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('dizaini') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
@@ -32,7 +35,8 @@
                         <h2> <b>@lang('app.sales')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('gayidvebi') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
 
                 <div class="swiper-slide">
@@ -40,7 +44,8 @@
                         <h2> <b>@lang('app.technique rental')</b> </h2>
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('teqnikis-gaqiraveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
@@ -49,7 +54,11 @@
                         <p>We building ambientic living spaces for families</p>
                         <a href="{{ route('dasuftaveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
+
+                    <!-- end inner -->                    <div class="jump-class"><a class="footer-address" href="#jump">Scroll</a></div>
+
                 </div>
+
             </div>
 
             <!-- end swiper-wrapper -->
@@ -92,7 +101,7 @@
                 </div>
             </div>
             <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
+            <div class="header-box"> <b>10</b> <small>YEARS OF EXPERIENCE</small> </div>
             <!-- end header-box -->
         </div>
         <!-- end slider-main -->
@@ -102,7 +111,7 @@
 <!-- end slider -->
 <div class="section-note">This section contains your estimated account balance from the legacy <u>Constro platform</u>, cumulated with your sales</div>
 <!-- end section-note -->
-<section class="content-section">
+<section class="content-section" id="jump">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -672,5 +681,3 @@
 {{--<!-- end content-section -->--}}
 @include('footer')
 
-</body>
-</html>
