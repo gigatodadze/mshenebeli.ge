@@ -137,7 +137,7 @@ textarea {
 
 /* LINKS */
 a {
-  color: white;
+  color: black;
 }
 
 a:hover {
@@ -159,7 +159,12 @@ a:hover {
 
 /* CUSTOM CONTAINER */
 @media (min-width: 1170px) {
-  .container {
+    .jump-class a {
+        color: white;
+        display: none;
+    }
+
+    .container {
     max-width: 1100px; } }
 @media (min-width: 1280px) {
   .container {
@@ -3057,6 +3062,11 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-bottom: 50px; } }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+    .jump-class a{
+        color: white;
+        display: block;
+    }
 
     .page-header {
         height: 350px;
