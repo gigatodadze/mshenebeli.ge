@@ -108,24 +108,24 @@
             <div class="col-lg-4">
                 <div class="icon-content">
                     <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
-                    <h3>@lang('app.construction')</h3>
-                    <small>The awards for design, creativity and innovation on the Internet</small> <a href="{{route('mshenebloba')}}">+</a> </div>
+                    <h3>ოქროყანა</h3>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
-                    <h3>@lang('app.renovation')</h3>
-                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('remonti')}}">+</a> </div>
+                    <h3> დიდუბე </h3>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
-                    <h3>@lang('app.sales')</h3>
-                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <h3> მირცხულავა  </h3>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
