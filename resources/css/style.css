@@ -414,6 +414,7 @@ a:hover {
       width: 50%;
       padding: 0 3px; }
   .side-widget p {
+    font-size: 14px;
     width: 100%;
     display: block; }
   .side-widget .widget-title {
@@ -460,7 +461,8 @@ a:hover {
         .side-widget .languages ul li a {
           color: #fff;
           font-weight: 600;
-          font-size: 18px; }
+          font-size: 15px;
+        }
   .side-widget .site-menu {
     width: 100%;
     display: none;
@@ -3005,8 +3007,10 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     height: auto; }
 
   .slider .slider-main {
-    width: 100%;
-    position: static; }
+    width: 80%;
+    position: static;
+    margin:auto
+  }
 
   .slider .slider-content {
     width: 100%;
@@ -3064,19 +3068,22 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
     .slider .slider-main .slide-image {
-        width: 100%;
+        width: 110%;
         height: 45%;
         display: inline-block;
         background-position: center !important;
-        background-size: cover !important; }
+        background-size: cover !important;
+    }
 
     .swiper-slide {
         height: 146%;
+        width: 90%;
     }
     /*.jump-class a{*/
     /*    color: white;*/
     /*    display: block;*/
     /*}*/
+
 
     .page-header {
         height: 350px;
@@ -3122,7 +3129,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     display: none; }
 
   .slider .slider-content .inner {
-    padding-bottom: 30px; }
+    padding-bottom: 50px; }
 
   .slider .slider-content .inner h2 {
     font-size: 40px; }
