@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,10 @@
       <workItem from="1616142327692" duration="16211000" />
       <workItem from="1616483244928" duration="8865000" />
       <workItem from="1616657774855" duration="6118000" />
-      <workItem from="1616749755833" duration="9163000" />
+      <workItem from="1616749755833" duration="9519000" />
+      <workItem from="1617007539863" duration="46000" />
+      <workItem from="1617008632070" duration="1000" />
+      <workItem from="1617022794134" duration="970000" />
     </task>
     <servers />
   </component>
