@@ -47,7 +47,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>@lang('app.sales')</h3>
-                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <small></small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
