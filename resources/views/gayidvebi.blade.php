@@ -18,33 +18,33 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon03.png')}}" alt="Image"></figure>
+                    <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>ოქროყანა</h3>
-                    <small> ფასი 400$ დან </small> <a  href="{{route('black-frame')}}">+</a> </div>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('oqroyana')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src=" {{asset('images/icon01.png')}}" alt="Image"></figure>
-                    <h3>m2</h3>
-                    <small>ფასი 420$ დან</small> <a  href="{{route('white-frame')}}">+</a> </div>
+                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3> დიდუბე </h3>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('megadidube')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
-                    <h3>mega didube</h3>
-                    <small> ფასი 440$ დან </small> <a href="{{route('green-frame')}}">+</a> </div>
+                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3> მირცხულავა  </h3>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('mirtskhulava')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
         </div>
         <!-- end row -->
     </div>
+    <!-- end container -->
 </section>
-
 
 {{--<section class="content-section no-bottom-spacing">--}}
 {{--    <div class="container">--}}

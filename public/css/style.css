@@ -159,6 +159,17 @@ a:hover {
 
 /* CUSTOM CONTAINER */
 @media (min-width: 1170px) {
+    .row.justify-content-end {
+
+    }
+
+    .services-list-box {
+        width: 100%;
+        display: block;
+        background: #F3B842;
+        padding: 50px;
+        transform: translateY(100px);
+        margin-bottom: 100px; }
 
     .first-transition img {
         align-content: center;
@@ -1654,13 +1665,7 @@ a:hover {
       text-decoration: none; }
 
 /* SERVICE LIST BOX */
-.services-list-box {
-  width: 100%;
-  display: block;
-  background: #F3B842;
-  padding: 50px;
-  transform: translateY(100px);
-  margin-bottom: 100px; }
+
   .services-list-box h4 {
     font-size: 50px;
     font-weight: 800; }
@@ -2900,6 +2905,22 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-bottom: 50px; } }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+    .row.justify-content-end {
+        background-color: #0b0b0b;
+        background-image: url(/images/header-pattern.png?724572c064dc7d821d3cf804817c3768);
+        background-size: cover;
+    }
+    .page-header .container {
+        padding-top: 31px;
+    }
+    .services-list-box {
+        width: 100%;
+        display: block;
+        background: #F3B842;
+        padding: 17px;
+        transform: translateY(100px);
+        margin-bottom: 100px; }
 
     .slider .slider-main .slide-image {
         width: 110%;

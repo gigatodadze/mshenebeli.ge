@@ -50,26 +50,25 @@
 
 <!-- end container -->
 <!-- end content-section -->
-<section class="footer-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <figure class="logo"> <img src="{{asset('images/logo.png')}}" alt="Image"> </figure>
-                <h2>Live <b>better</b> and <b>beautiful</b></h2>
-                <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
-                <div class="sales-representive">
-                    <figure> <img src="images/author01.jpg" alt="Image"> </figure>
-                    Sales representative <b>+1 (850) 344 0 66 #20</b> free call ! </div>
-                <!-- end sales-representive -->
-            </div>
-            <!-- end col-12  -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-</section>
+{{--<section class="footer-bar">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12">--}}
+{{--                <figure class="logo"> <img src="{{asset('images/logo.png')}}" alt="Image"> </figure>--}}
+{{--                <h2>Live <b>better</b> and <b>beautiful</b></h2>--}}
+{{--                <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>--}}
+{{--                <div class="sales-representive">--}}
+{{--                    <figure> <img src="images/author01.jpg" alt="Image"> </figure>--}}
+{{--                    Sales representative <b>+1 (850) 344 0 66 #20</b> free call ! </div>--}}
+{{--                <!-- end sales-representive -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12  -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
+{{--</section>--}}
 
 
 @include('footer')
-</body>
-</html>
+

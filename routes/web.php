@@ -32,6 +32,20 @@ Route::get('/mshenebloba',function (){
     return view('mshenebloba');
 })->name('mshenebloba');
 
+Route::get('/oqroyana',function (){
+    return view('oqroyana');
+})->name('oqroyana');
+
+Route::get('/mirtskhulava',function (){
+    return view('mirtskhulava');
+})->name('mirtskhulava');
+
+Route::get('/megadidube',function (){
+    return view('megadidube');
+})->name('megadidube');
+
+
+
 
 
 Route::get('/remonti',function (){
