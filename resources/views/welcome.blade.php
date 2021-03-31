@@ -109,7 +109,7 @@
                 <div class="icon-content">
                     <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>ოქროყანა</h3>
-                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('oqroyana')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -117,7 +117,7 @@
                 <div class="icon-content">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3> დიდუბე </h3>
-                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('megadidube')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -125,7 +125,7 @@
                 <div class="icon-content">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3> მირცხულავა  </h3>
-                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('mirtskhulava')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
