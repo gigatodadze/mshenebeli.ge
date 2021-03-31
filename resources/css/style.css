@@ -1009,7 +1009,9 @@ a:hover {
   width: 100%;
   display: block;
   padding: 80px 0;
-  position: relative; }
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
 
 .section-note {
   width: 100%;
