@@ -4,7 +4,7 @@
     <div class="container">
         <h1><div class="header-headings"> @lang('app.services') </div> </h1>
 
-            <h6>TBD
+            <h6>გარდა სამშენებლო და სარემონტო სამუშაოებისა, ასევე შეგიძლიათ დაგვიქირაოთ ცალკეული მომსახურებების გასაწევადაც. ჩვენ გთავაზობთ მუდმივად ზრდად მომსახურებათა სიას:
             </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
@@ -30,7 +30,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src=" {{asset('images/homerepair.jpg')}}" alt="Image"></figure>
                     <h3>@lang('app.renovation')</h3>
-                    <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="{{route('remonti')}}">+</a> </div>
+                    <small>აირიდეთ თავიდან რემონტის ხარჯების გაორმაგება, დაივიწყეთ გაურკვეველი სამუშაო ეთიკისა და ექსპერტიზის მქონე ხალხთან მუშაობა, ბრიგადების გამოცვლა და უკვე შესრულებული სამუშაოების ხელახლა დაწყება</small> <a href="{{route('remonti')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -38,7 +38,9 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/design-icon.png')}}" alt="Image"></figure>
                     <h3>@lang('app.design')/@lang('app.architecture')</h3>
-                    <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="{{route('dizaini')}}">+</a> </div>
+                    <small>დიზაინერული მომსახურება - ინტერიერის დიზაინი, ექსტერიერის დიზაინი, 3D დიზაინი, მოდელირება, საინჟინრო გეგმის დახაზვა
+
+                        სახლის/ბინის პროექტირება, 3D მოდელირება, ვირტუალური ტურები</small> <a href="{{route('dizaini')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <div class="col-lg-4">
@@ -53,7 +55,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/tech-rent.jpg')}}" alt="Image"></figure>
                     <h3>@lang('app.technique rental')</h3>
-                    <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="{{route('teqnikis-gaqiraveba')}}">+</a> </div>
+                    <small>სპეც-ტექნიკის გაქირავება - ექსკავატორი, ამწე-კრანი, ბულდოზერი, ბეტონმრევი, ბობკატი, სატვირთო, თვითმცლელი</small> <a href="{{route('teqnikis-gaqiraveba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -61,7 +63,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>@lang('app.cleaning')</h3>
-                    <small>The awards for design, creativity and innovation on the Internet</small> <a href="{{route('dasuftaveba')}}">+</a> </div>
+                    <small>რემონტის შემდგომი დალაგება - სამშენებლო ნაგვის გატანა, ზედაპირების წმენდა და გასუფთავება, სადეზინფექციო ხსნარებით დამუშავება</small> <a href="{{route('dasuftaveba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -104,5 +106,3 @@
 </section>
 
 @include('footer')
-</body>
-</html>
