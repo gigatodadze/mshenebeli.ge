@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/didube.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/oqroyana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/w2-bigger.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/megadidube.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/megadidube.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mirtskhulava.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mirtskhulava.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/remonti.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/remonti.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +209,8 @@
       <workItem from="1617173404288" duration="4472000" />
       <workItem from="1617180285526" duration="184000" />
       <workItem from="1617181717074" duration="1390000" />
-      <workItem from="1617185439641" duration="1509000" />
+      <workItem from="1617185439641" duration="2143000" />
+      <workItem from="1617187886784" duration="1092000" />
     </task>
     <servers />
   </component>
