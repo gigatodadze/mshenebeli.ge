@@ -3,8 +3,7 @@
 <header class="page-header">
     <div class="container">
         <h1><div class="header-headings">@lang('app.sales')</div></h1>
-        <h6>აქაც ბლა ბლა ბლა
-        </h6>
+         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
             <li>@lang('app.sales')</li>
