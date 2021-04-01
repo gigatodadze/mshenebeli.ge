@@ -92,7 +92,7 @@
                 </div>
             </div>
             <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
+            <div class="header-box"> <b>12</b> <small>YEARS OF EXPERIENCE</small> </div>
             <!-- end header-box -->
         </div>
         <!-- end slider-main -->
@@ -100,32 +100,28 @@
     <!-- end container -->
 </header>
 <!-- end slider -->
-<div class="section-note">This section contains your estimated account balance from the legacy <u>Constro platform</u>, cumulated with your sales</div>
 <!-- end section-note -->
 <section class="content-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="icon-content">
-                    <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
-                    <h3>ოქროყანა</h3>
-                    <small> საცხოვრებელი კომპლექსი 990$-დან </small> <a href="{{route('oqroyana')}}">+</a> </div>
+            <div class="col-lg-4 oqroyana-background" >
+                <div class="icon-content no-background">
+                      <h3>ოქროყანა</h3>
+                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 990$-დან </small> <a href="{{route('oqroyana')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
-            <div class="col-lg-4">
-                <div class="icon-content">
-                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
-                    <h3> დიდუბე </h3>
-                    <small> საცხოვრებელი კომპლექსი 620$-დან</small> <a href="{{route('megadidube')}}">+</a> </div>
+            <div class="col-lg-4 didube">
+                <div class="icon-content no-background">
+                     <h3> დიდუბე </h3>
+                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 620$-დან</small> <a href="{{route('megadidube')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
-            <div class="col-lg-4">
-                <div class="icon-content">
-                    <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
+            <div class="col-lg-4 m2">
+                <div class="icon-content no-background">
                     <h3> მირცხულავა  </h3>
-                    <small> საცხოვრებელი კომპლექსი </small> <a href="{{route('mirtskhulava')}}">+</a> </div>
+                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი </small> <a href="{{route('mirtskhulava')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
