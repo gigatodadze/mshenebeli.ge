@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/servisebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servisebi.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/technique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +210,8 @@
       <workItem from="1617180285526" duration="184000" />
       <workItem from="1617181717074" duration="1390000" />
       <workItem from="1617185439641" duration="2143000" />
-      <workItem from="1617187886784" duration="2586000" />
+      <workItem from="1617187886784" duration="2877000" />
+      <workItem from="1617218676738" duration="1203000" />
     </task>
     <servers />
   </component>

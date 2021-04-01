@@ -3324,3 +3324,40 @@ input::-moz-focus-inner, input::-moz-focus-outer {
        .green-frame-border {
            border: solid #136027 4px;
        }
+
+.col-lg-4.oqroyana-background:hover {
+
+    background: url('/images/project.jpg');
+    background-size:contain ;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background-color: #8f9da9;
+    color: #F3B842;
+}
+.col-lg-4.didube:hover {
+
+    background: url('/images/didube.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #8f9da9;
+    color: #F3B842;
+    border: none;
+
+}
+.col-lg-4.m2:hover {
+    background: url('/images/w2-bigger.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #8f9da9;
+    color: #F3B842;
+    border: none;
+}
+.icon-content.no-background:hover{
+    border: none;
+}
+.icon-content.no-background:before {
+    background: none;
+}
+.oqroyana-content {
+    margin-top: 60%;
+}
