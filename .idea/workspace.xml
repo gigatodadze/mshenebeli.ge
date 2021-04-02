@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/technique.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Structurama_Didube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/megadidube-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/megadidube-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/Structurama_Didube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/megadidube-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/megadidube-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/megadidube.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/megadidube.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/servisebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servisebi.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,10 +160,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$/resources/lang/ge" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/css" />
-      <recent name="$PROJECT_DIR$/resources/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -212,6 +217,7 @@
       <workItem from="1617185439641" duration="2143000" />
       <workItem from="1617187886784" duration="2877000" />
       <workItem from="1617218676738" duration="1203000" />
+      <workItem from="1617295425871" duration="7477000" />
     </task>
     <servers />
   </component>
