@@ -3383,3 +3383,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     width: 3000px;
     height: 600px;
 }
+
+.services-list-box {
+    width: 68%;
+    margin-left: 40.5%;
+}
