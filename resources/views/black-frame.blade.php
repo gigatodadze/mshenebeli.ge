@@ -21,7 +21,7 @@
             <div class="col-lg-5">
                 <div class="section-title text-left">
                     <h6>@lang('app.black frame')</h6>
-                    <h2>120$ დან</h2>
+                    <h2>150$ დან</h2>
                 </div>
                 <!-- end section-title -->
                 <p> შავი კარკასიდან გასაღების ჩაბარებამდე ბინის სარემონტო სამუშაოები გამოიყურება შემდეგნაირად:</p>

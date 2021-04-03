@@ -3198,3 +3198,25 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-top: 60%;
 }
 
+
+.oqroyana-slide {
+    background: url(/images/renderi-1.jpg?c214323ef6a6f52d6c00435ad1cea9f1);
+    background-size: cover;
+
+}
+
+.blue {
+    background: url(/images/renderi-2.jpg?14150558a6853f944ecc2f8e35545c4f);
+    background-size: cover;
+}
+
+.red {
+    background: url(/images/renderi-3.jpg?87e118911b900fcaa0aab66fd5fdee24);
+    background-size: cover;
+
+}
+.oqroyana-slider {
+    width: 3000px;
+    height: 600px;
+}
+

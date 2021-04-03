@@ -3361,3 +3361,25 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 .oqroyana-content {
     margin-top: 60%;
 }
+
+
+.oqroyana-slide {
+    background: url("../images/renderi-1.jpg");
+    background-size: cover;
+
+}
+
+.blue {
+    background: url("../images/renderi-2.jpg");
+    background-size: cover;
+}
+
+.red {
+    background: url("../images/renderi-3.jpg");
+    background-size: cover;
+
+}
+.oqroyana-slider {
+    width: 3000px;
+    height: 600px;
+}
