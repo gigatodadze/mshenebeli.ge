@@ -1,17 +1,4 @@
 {
-    "/js/bootstrap.min.js": "/js/bootstrap.min.js?id=37b6cd66c93f7ee83984",
-    "/js/fancybox.min.js": "/js/fancybox.min.js?id=b37856effc4fca0cbf9b",
-    "/js/isotope.min.js": "/js/isotope.min.js?id=03adb6c0fa011deb6a85",
-    "/js/odometer.min.js": "/js/odometer.min.js?id=3554f011b51401c0fd7e",
-    "/js/scripts.js": "/js/scripts.js?id=26c91fbfaf8f1befcb90",
-    "/js/swiper.min.js": "/js/swiper.min.js?id=5a565691bb716705b940",
-    "/js/app.js": "/js/app.js?id=0c6dc149bca15055019c",
-    "/js/jquery.min.js": "/js/jquery.min.js?id=fa7e9e7b157d155d3c8d",
-    "/css/swiper.min.css": "/css/swiper.min.css?id=d72011d635913d04351e",
-    "/css/style.css": "/css/style.css?id=99f4707ce728960e7967",
-    "/css/lineicons.css": "/css/lineicons.css?id=3410406fe1d6d1f6f290",
-    "/css/odometer.min.css": "/css/odometer.min.css?id=f44eb8986560c8df5a44",
-    "/css/app.css": "/css/app.css?id=68b329da9893e34099c7",
-    "/css/bootstrap.min.css": "/css/bootstrap.min.css?id=238d0575015dda119f65",
-    "/css/fancybox.min.css": "/css/fancybox.min.css?id=3773a1128bb098e09c60"
+    "/js/merged.js": "/js/merged.js?id=6bd0e4b58d9e1596ca6c",
+    "/css/merged.css": "/css/merged.css?id=a25269974fec48bbe283"
 }

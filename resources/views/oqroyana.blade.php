@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8" >
-                <img src="{{asset('images/oqroyana-outside-1.jpg')}}" alt="ოქროყანა მშენებელი">
+                <img src="{{asset('images/oqroyana-outside-1.jpg')}}" alt="oqroyana mshenebeli">
             </div>
 <div class="col-lg-4">
     <div class="icon-content">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-lg-8" >
-                <img src="{{asset('images/oqroyana-outside-2.jpg')}}" alt="ოქროყანა მშენებელი">
+                <img src="{{asset('images/oqroyana-outside-2.jpg')}}" alt="oqroyana mshenebeli">
             </div>
         </div>
     </div>
@@ -102,13 +102,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{asset('images/renderi-1.jpg')}}" class="d-block w-100" alt="ოქროყანა რენდერი 1">
+            <img src="{{asset('images/renderi-1.jpg')}}" class="d-block w-100" alt="oqroyana renderi 1">
         </div>
         <div class="carousel-item">
-            <img src="{{asset('images/renderi-2.jpg')}}" class="d-block w-100" alt="ოქროყანა რენდერი 2">
+            <img src="{{asset('images/renderi-2.jpg')}}" class="d-block w-100" alt="oqroyana renderi 2">
         </div>
         <div class="carousel-item">
-            <img src="{{asset('images/renderi-3.jpg')}}" class="d-block w-100" alt="ოქროყანა რენდერი 3">
+            <img src="{{asset('images/renderi-3.jpg')}}" class="d-block w-100" alt="oqroyana renderi 3">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

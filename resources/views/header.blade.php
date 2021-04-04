@@ -59,9 +59,9 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="first-transition"><img src="{{asset('images/logo.png')}}" > </div>
+<div class="first-transition"><img src="{{asset('images/logo.png')}}" alt="logo"  > </div>
 <!-- end first-transition -->
-<div class="page-transition"><img src="{{asset('images/logo.png')}}" > </div>
+<div class="page-transition"><img src="{{asset('images/logo.png')}}" alt="logo"> </div>
 <!-- end page-transition -->
 <div class="search-box">
     <div class="inner">
