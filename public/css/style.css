@@ -164,6 +164,11 @@ a:hover {
     }
 
     .services-list-box {
+        width: 68%;
+        margin-left: 40.5%;
+    }
+
+    .services-list-box {
         width: 100%;
         display: block;
         background: #F3B842;
@@ -2908,6 +2913,11 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
+    .services-list-box {
+        width: 100%;
+    }
+
+
     .row.justify-content-end {
         background-color: #0b0b0b;
         background-image: url(/images/header-pattern.png?724572c064dc7d821d3cf804817c3768);
@@ -3137,7 +3147,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         border: 2px black solid;
     }
 
-    .icon-content .black-frame:hover{
+    .icon-content .premium-frame {
+        background: #F3B842;
+        color: black;
+        border: 2px black solid;
+    }
+.icon-content .black-frame:hover{
         background: black;
         color: white;
     }
@@ -3161,11 +3176,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
            border: solid #136027 4px;
        }
 
+        .premium-frame-border {
+            border: solid #F3B842 4px;
+        }
+
 .col-lg-4.oqroyana-background:hover {
 
-    background: url('/images/project.jpg');
-    background-size:contain ;
-    background-position-y: 50px;
+    background: url('/images/oqroyana-outside-2.jpg');
+    background-size: 24rem 100%;
     background-repeat: no-repeat;
     background-color: #8f9da9;
     color: #F3B842;
@@ -3181,8 +3199,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
 }
 .col-lg-4.m2:hover {
-    background: url('/images/w2-bigger.png');
-    background-size: cover;
+    background: url('/images/w2-whole.jpg');
+    background-size: 250%;
     background-repeat: no-repeat;
     background-color: #8f9da9;
     color: #F3B842;
@@ -3198,30 +3216,4 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-top: 60%;
 }
 
-
-.oqroyana-slide {
-    background: url(/images/renderi-1.jpg?c214323ef6a6f52d6c00435ad1cea9f1);
-    background-size: cover;
-
-}
-
-.blue {
-    background: url(/images/renderi-2.jpg?14150558a6853f944ecc2f8e35545c4f);
-    background-size: cover;
-}
-
-.red {
-    background: url(/images/renderi-3.jpg?87e118911b900fcaa0aab66fd5fdee24);
-    background-size: cover;
-
-}
-.oqroyana-slider {
-    width: 3000px;
-    height: 600px;
-}
-
-.services-list-box {
-    width: 68%;
-    margin-left: 40.5%;
-}
 
