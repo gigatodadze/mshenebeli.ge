@@ -11,14 +11,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isotope_layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! isotope-layout */ "./node_modules/isotope-layout/js/isotope.js");
 /* harmony import */ var isotope_layout__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(isotope_layout__WEBPACK_IMPORTED_MODULE_0__);
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
 (function ($) {
-  var _Swiper;
-
   $(document).ready(function () {
     "use strict";
     /* MENU TOGGLE */
@@ -324,31 +320,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }
     };
   })();
-
-  var mySwiper = new Swiper('.oqroyana-slider', (_Swiper = {
-    speed: 400,
-    spaceBetween: 100,
-    initialSlide: 0,
-    //truewrapper adoptsheight of active slide
-    autoHeight: false,
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    // delay between transitions in ms
-    autoplay: 5000,
-    autoplayStopOnLast: false,
-    // loop false also
-    // If we need pagination
-    pagination: '.swiper-pagination',
-    paginationType: "bullets",
-    // Navigation arrows
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    // And if we need scrollbar
-    //scrollbar: '.swiper-scrollbar',
-    // "slide", "fade", "cube", "coverflow" or "flip"
-    effect: 'slide'
-  }, _defineProperty(_Swiper, "spaceBetween", 60), _defineProperty(_Swiper, "slidesPerView", 2), _defineProperty(_Swiper, "centeredSlides", true), _defineProperty(_Swiper, "slidesOffsetBefore", 0), _defineProperty(_Swiper, "grabCursor", true), _Swiper)).call();
 })(jQuery);
 
 /***/ }),

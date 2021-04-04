@@ -18,30 +18,38 @@
 <section class="content-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 ">
+            <div class="col-lg-3 ">
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/icon03.png')}}" alt="Image"></figure>
                     <h3>@lang('app.black frame')</h3>
-                    <small> ფასი 150$ დან </small> <a class="black-frame" href="{{route('black-frame')}}">+</a> </div>
+                    <small> მ² 150$ დან </small> <a class="black-frame" href="{{route('black-frame')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="icon-content white-frame-border">
                     <figure><img src=" {{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>@lang('app.white frame')</h3>
-                    <small>ფასი 110$ დან</small> <a class="white-frame" href="{{route('white-frame')}}">+</a> </div>
+                    <small>მ² 110$ დან</small> <a class="white-frame" href="{{route('white-frame')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="icon-content green-frame-border">
                     <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>@lang('app.green frame')</h3>
-                    <small> ფასი 100$ დან </small> <a class="green-frame" href="{{route('green-frame')}}">+</a> </div>
+                    <small> მ² 100$ დან </small> <a class="green-frame" href="{{route('green-frame')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
+
+            <div class="col-lg-3">
+                <div class="icon-content premium-frame-border">
+                    <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
+                    <h3>პრემიუმ ხარისხი</h3>
+                    <small> მ² 160$ დან </small> <a class="premium-frame" href="{{route('green-frame')}}">+</a> </div>
+                <!-- end icon-content -->
+            </div>
         </div>
         <!-- end row -->
     </div>
