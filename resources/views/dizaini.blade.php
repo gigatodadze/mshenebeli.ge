@@ -3,7 +3,7 @@
 <header class="page-header">
     <div class="container">
         <h1><div class="header-headings">@lang('app.architecture')</div></h1>
-        <h6> 
+        <h6> ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში...
         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
@@ -21,12 +21,18 @@
             <div class="col-lg-6 col-md-9">
                 <div class="services-list-box">
                     <p>
-                        დიზაინერული მომსახურება - ინტერიერის დიზაინი, ექსტერიერის დიზაინი, 3D დიზაინი, მოდელირება, საინჟინრო გეგმის დახაზვა
-
-                        სახლის/ბინის პროექტირება, 3D მოდელირება, ვირტუალური ტურები
+                    <li>დიზაინერული მომსახურება :</li>
+                    <li>ინტერიერის დიზაინი</li>
+                    <li> ექსტერიერის დიზაინი</li>
+                    <li>3D დიზაინი></li>
+                    <li> მოდელირება</li>
+                    <li> საინჟინრო გეგმის დახაზვა</li>
+                    <li> სახლის/ბინის პროექტირება</li>
+                    <li> 3D მოდელირება</li>
+                    <li> ვირტუალური ტურები</li>
                      </p>
-
-                    <a href="#" class="button">დაგვიკავშირდით</a> </div>
+                    <a class="footer-address button" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
+                 </div>
                 <!-- end services-list-box -->
             </div>
             <!-- end col-6 -->
