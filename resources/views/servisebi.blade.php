@@ -21,7 +21,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>@lang('app.construction')</h3>
-                    <small> ჩვენი პროფესიონალებისგან შემდგარი გუნდი უზრუნველყოფს თქვენი აგარაკის, სასტუმროსა თუ კორპუსის დაპროექტებას, სამშენებლო სამუშაოების ხარჯთაღრიცხვას და სწრაფ, ხარისხიან მშენებლობას უახლესი ტექნოლოგიებით.
+                    <small>  აიშენეთ თქვენი საოცნებო სახლი. ჩვენ გთავაზობთ სამშენებლო მომსახურებათა ვრცელ ჩამონათვალს.
                     </small> <a href="{{route('mshenebloba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
@@ -38,16 +38,14 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/design-icon.png')}}" alt="Image"></figure>
                     <h3>@lang('app.design')/@lang('app.architecture')</h3>
-                    <small>დიზაინერული მომსახურება - ინტერიერის დიზაინი, ექსტერიერის დიზაინი, 3D დიზაინი, მოდელირება, საინჟინრო გეგმის დახაზვა
-
-                        სახლის/ბინის პროექტირება, 3D მოდელირება, ვირტუალური ტურები</small> <a href="{{route('dizaini')}}">+</a> </div>
+                    <small> ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში...</small> <a href="{{route('dizaini')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <div class="col-lg-4">
                 <div class="icon-content black-frame-border">
                     <figure><img src=" {{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>@lang('app.sales')</h3>
-                    <small></small> <a href="{{route('gayidvebi')}}">+</a> </div>
+                    <small>არ გსურთ აშენებას დაელოდოთ? შეიძინეთ საოცნებო ბინა დღეს. გამწვანება, ენერგოეფექტური მასალებით მშენებლობა და თქვენზე მორგებული ფასები...</small> <a href="{{route('gayidvebi')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -55,7 +53,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/tech-rent.jpg')}}" alt="Image"></figure>
                     <h3>@lang('app.technique rental')</h3>
-                    <small>სპეც-ტექნიკის გაქირავება - ექსკავატორი, ამწე-კრანი, ბულდოზერი, ბეტონმრევი, ბობკატი, სატვირთო, თვითმცლელი</small> <a href="{{route('teqnikis-gaqiraveba')}}">+</a> </div>
+                    <small>დაიქირავეთ სამშენებლო და სხვა ტიპის სპეც-ტექნიკა თქვენი მიზნებისთვის...</small> <a href="{{route('teqnikis-gaqiraveba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
@@ -63,7 +61,7 @@
                 <div class="icon-content black-frame-border">
                     <figure><img src="{{asset('images/icon01.png')}}" alt="Image"></figure>
                     <h3>@lang('app.cleaning')</h3>
-                    <small>რემონტის შემდგომი დალაგება - სამშენებლო ნაგვის გატანა, ზედაპირების წმენდა და გასუფთავება, სადეზინფექციო ხსნარებით დამუშავება</small> <a href="{{route('dasuftaveba')}}">+</a> </div>
+                    <small>ჩვენ გთავაზობთ მშენებლობის/რემონტის შემდგომი დასუფთავების სერვისების სრულ სიას...</small> <a href="{{route('dasuftaveba')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->

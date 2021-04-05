@@ -7,7 +7,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>  @lang('app.construction') </b> </h2>
-                        <p>აიშენეთ თქვენი საოცნებო სახლი. ჩვენ გთავაზობთ სამშენებლო მომსახურებათა ვრცელ ჩამონათვალს..</p>
+                        <p>აიშენეთ თქვენი საოცნებო სახლი. ჩვენ გთავაზობთ სამშენებლო მომსახურებათა ვრცელ ჩამონათვალს.</p>
                         <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/livingroom.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/dasuftaveba.jpg')}}"></div>
                 </div>
             </div>
             <!-- end swiper-wrapper -->
