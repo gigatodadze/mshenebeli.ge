@@ -5,7 +5,7 @@
     <div class="container">
         <h1><div class="header-headings"> @lang('app.renovation') </div> </h1>
 
-        <h6>
+        <h6>აირიდეთ თავიდან რემონტის ხარჯების გაორმაგება, დაივიწყეთ გაურკვეველი სამუშაო ეთიკისა და ექსპერტიზის მქონე ხალხთან მუშაობა, ბრიგადების გამოცვლა და უკვე შესრულებული სამუშაოების ხელახლა დაწყება
             ჩვენი თანამშრომლები გაგიკეთებენ ზუსტად ისეთ რემონტს, როგორიც თქვენ გსურთ: შავი ან თეთრი კარკასიდან - გასაღების ჩაბარებამდე (შედი-იცხოვრე).
         </h6>
 
@@ -49,7 +49,7 @@
                 <div class="icon-content premium-frame-border">
                     <figure><img src="{{asset('images/icon02.png')}}" alt="Image"></figure>
                     <h3>პრემიუმ ხარისხი</h3>
-                    <small> მ² 160$ დან </small> <a class="premium-frame" href="{{route('green-frame')}}">+</a> </div>
+                    <small> მ² 160$ დან </small> <a class="premium-frame" href="{{route('premium')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
         </div>
