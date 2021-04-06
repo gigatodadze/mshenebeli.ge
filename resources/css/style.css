@@ -162,6 +162,14 @@ a:hover {
     .row.justify-content-end {
 
     }
+    .col-lg-4.oqroyana-background:hover {
+
+        background: url('/images/oqroyana-outside-2.jpg');
+        background-size: 24rem 100%;
+        background-repeat: no-repeat;
+        background-color: #8f9da9;
+        color: #F3B842;
+    }
 
     .services-list-box {
         width: 68%;
@@ -204,7 +212,9 @@ a:hover {
         height: 100%;
         display: inline-block;
         background-position: center !important;
-        background-size: cover !important; }
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+    }
 
     .container {
     max-width: 1100px; } }
@@ -2921,7 +2931,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         height: 400px;
     }
 
+    .col-lg-4.oqroyana-background:hover {
 
+        background: url('/images/oqroyana-outside-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #8f9da9;
+        color: #F3B842;
+    }
 
 
 
@@ -2950,6 +2967,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     padding: 0; } }
 /* RESPONSIVE TABLET  */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    .col-lg-4.oqroyana-background:hover {
+
+        background: url('/images/oqroyana-outside-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #8f9da9;
+        color: #F3B842;
+    }
   .side-widget {
     box-shadow: none; }
 
@@ -3075,6 +3100,15 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-bottom: 50px; } }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+    .col-lg-4.oqroyana-background:hover {
+
+        background: url('/images/oqroyana-outside-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #8f9da9;
+        color: #F3B842;
+    }
 
     .services-list-box {
         width: 100%;
@@ -3344,14 +3378,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
             border: solid #F3B842 4px;
         }
 
-.col-lg-4.oqroyana-background:hover {
 
-    background: url('/images/oqroyana-outside-2.jpg');
-    background-size: 24rem 100%;
-    background-repeat: no-repeat;
-    background-color: #8f9da9;
-    color: #F3B842;
-}
 .col-lg-4.didube:hover {
 
     background: url('/images/didube.jpeg');

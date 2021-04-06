@@ -84,11 +84,11 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/technique2.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/technique.jpg')}}"></div>
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/dasuftaveba.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/cleaning.png')}}"></div>
                 </div>
             </div>
             <!-- end swiper-wrapper -->
@@ -178,33 +178,33 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="33" data-status="yes">0</span> <span class="value">%</span>
-                    <h6>Mortgage Credit</h6>
-                    <p>Out interested acceptance our reasonable companions an</p>
+                <div class="counter-box"> <span class="odometer" data-count="100" data-status="yes">0</span> <span class="value">$-დან</span>
+                    <h6>რემონტი</h6>
+                    <p>ხარისხიანი, ხელმისაწვდომი და კონტრაქტით დაცული სარემონტო მომსახურება</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="2021" data-status="yes">0</span> <span class="value">#</span>
-                    <h6>Estimated Time</h6>
-                    <p>Out interested acceptance our reasonable companions an</p>
+                <div class="counter-box"> <span class="odometer" data-count="160" data-status="yes">0</span> <span class="value">$-დან</span>
+                    <h6>პრემიუმ რემონტი</h6>
+                    <p>უმაღლესი ხარისხის მასალები, პროცესის ვიდეო მონიტორინგი, საჩუქრები</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="247" data-status="yes">0</span> <span class="value">m²</span>
-                    <h6>XXL Size of Flats</h6>
-                    <p>Out interested acceptance our reasonable companions an</p>
+                <div class="counter-box"> <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$-დან</span>
+                    <h6>მშენებლობა</h6>
+                    <p>შავი კარკასის აშენება, საბუთების მოძიება, ინტერიერის დიზაინი საჩუქრად</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="529" data-status="yes">0</span> <span class="value">+</span>
-                    <h6>Monthly Payment</h6>
-                    <p>Out interested acceptance our reasonable companions an</p>
+                <div class="counter-box"> <span class="odometer" data-count="600" data-status="yes">0</span> <span class="value">$-დან</span>
+                    <h6>ბინები</h6>
+                    <p>უახლესი ტექნოლოგიებით აშენებული ენერგოეფექტური ბინები ქალაქის გულში და ქალაქგარეთ, სუფთა ბუნებაში</p>
                 </div>
                 <!-- end counter-box -->
             </div>

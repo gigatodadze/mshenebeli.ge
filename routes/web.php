@@ -64,6 +64,12 @@ Route::get('/white-frame',function (){
     return view('white-frame');
 })->name('white-frame');
 
+Route::get('/premium',function (){
+    return view('premium');
+})->name('premium');
+
+
+
 
 
 
