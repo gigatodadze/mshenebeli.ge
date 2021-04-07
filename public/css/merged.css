@@ -5170,6 +5170,18 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     /*    display: block;*/
     /*}*/
 
+    .icon-content.black-frame-border.remonti-block{
+        height: 535px;
+    }
+    .page-header.remonti {
+        height: 500px;
+    }
+    .page-header.servisebi {
+        height: 447px;
+    }
+    .page-header.gayidvebi {
+        height: 393px;
+    }
 
     .page-header {
         height: 350px;

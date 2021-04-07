@@ -1,7 +1,7 @@
 @include('header');
 
 
-<header class="page-header">
+<header class="page-header remonti">
     <div class="container">
         <h1><div class="header-headings"> @lang('app.renovation') </div> </h1>
 

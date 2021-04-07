@@ -21,7 +21,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="inner">
-                        <h2> <b> @lang('app.design') </b> </h2>
+                        <h2> <b> @lang('app.design') / @lang('app.architecture') </b> </h2>
                         <p>ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში...</p>
                         <a href="{{ route('dizaini') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
@@ -68,7 +68,7 @@
         <div class="swiper-container slider-main">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/project.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/mshenebloba.png')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
@@ -76,7 +76,7 @@
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/kitchen.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/design-architecture.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/technique.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/kovzi.jpg')}}"></div>
                 </div>
 
                 <div class="swiper-slide">

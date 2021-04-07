@@ -12,7 +12,7 @@
             </div>
             <!-- end col-12 -->
             <div class="col-lg-6">
-                <figure class="side-image"><img src="https://www.build-review.com/wp-content/uploads/2019/12/A-guide-to-construction-safety-for-homebuilders.jpg" alt="Image"></figure>
+                <figure class="side-image"><img src="{{asset('images/about-us.jpg')}}" alt="Image"></figure>
                 <!-- end side-image -->
             </div>
             <!-- end col-6 -->

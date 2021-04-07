@@ -2,12 +2,12 @@
 
 <header class="page-header">
     <div class="container">
-        <h1><div class="header-headings">@lang('app.architecture')</div></h1>
+        <h1><div class="header-headings">@lang('app.design') / @lang('app.architecture')</div></h1>
         <h6> ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში...
         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
-            <li>@lang('app.architecture')</li>
+            <li>@lang('app.design') / @lang('app.architecture')</li>
         </ul>
     </div>
     <!-- end container -->
@@ -15,7 +15,7 @@
 <!-- end page-header -->
 
 
-<section class="content-section no-spacing" data-background="{{asset('images/livingroom.jpg')}}">
+<section class="content-section no-spacing" data-background="{{asset('images/design-architecture.jpg')}}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-lg-6 col-md-9">
@@ -24,7 +24,7 @@
                     <li>დიზაინერული მომსახურება :</li>
                     <li>ინტერიერის დიზაინი</li>
                     <li> ექსტერიერის დიზაინი</li>
-                    <li>3D დიზაინი></li>
+                    <li>3D დიზაინი </li>
                     <li> მოდელირება</li>
                     <li> საინჟინრო გეგმის დახაზვა</li>
                     <li> სახლის/ბინის პროექტირება</li>

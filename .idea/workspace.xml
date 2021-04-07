@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/about-us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/design-architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/katlavani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kovzi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mshenebloba-in.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mshenebloba.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/merged.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/merged.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dizaini.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dizaini.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gayidvebi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mshenebloba.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mshenebloba.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/remonti.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/remonti.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/servisebi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/servisebi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teqnikis-gaqiraveba.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +241,8 @@
       <workItem from="1617698893253" duration="966000" />
       <workItem from="1617729888284" duration="3066000" />
       <workItem from="1617774276295" duration="491000" />
-      <workItem from="1617788270326" duration="318000" />
+      <workItem from="1617788270326" duration="1223000" />
+      <workItem from="1617807000115" duration="1894000" />
     </task>
     <servers />
   </component>

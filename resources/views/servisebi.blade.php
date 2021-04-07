@@ -1,6 +1,6 @@
 @include('header')
 
-<header class="page-header">
+<header class="page-header servisebi">
     <div class="container">
         <h1><div class="header-headings"> @lang('app.services') </div> </h1>
 
@@ -27,7 +27,7 @@
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4">
-                <div class="icon-content black-frame-border">
+                <div class="icon-content black-frame-border remonti-block">
                     <figure><img src=" {{asset('images/homerepair.jpg')}}" alt="Image"></figure>
                     <h3>@lang('app.renovation')</h3>
                     <small>აირიდეთ თავიდან რემონტის ხარჯების გაორმაგება, დაივიწყეთ გაურკვეველი სამუშაო ეთიკისა და ექსპერტიზის მქონე ხალხთან მუშაობა, ბრიგადების გამოცვლა და უკვე შესრულებული სამუშაოების ხელახლა დაწყება</small> <a href="{{route('remonti')}}">+</a> </div>

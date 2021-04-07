@@ -1,6 +1,6 @@
 @include('header');
 
-<header class="page-header">
+<header class="page-header gayidvebi">
     <div class="container">
         <h1><div class="header-headings">@lang('app.sales')</div></h1>
         <h6>
