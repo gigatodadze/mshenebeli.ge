@@ -2396,7 +2396,9 @@ a:hover {
         height: 100%;
         display: inline-block;
         background-position: center !important;
-        background-size: cover !important; }
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+    }
 
     .container {
     max-width: 1100px; } }
@@ -5155,7 +5157,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         height: 45%;
         display: inline-block;
         background-position: center !important;
-        background-size: cover !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
     }
 
     .swiper-slide {

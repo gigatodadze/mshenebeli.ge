@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/cleaning.png')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/cleaning.jpg')}}"></div>
                 </div>
             </div>
             <!-- end swiper-wrapper -->
