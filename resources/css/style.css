@@ -165,7 +165,9 @@ a:hover {
     .col-lg-4.oqroyana-background:hover {
 
         background: url('/images/oqroyana-outside-2.jpg');
-        background-size: 24rem 100%;
+        /*background-size: 24rem 100%;*/
+        background-size: cover;
+
         background-repeat: no-repeat;
         background-color: #8f9da9;
         color: #F3B842;
