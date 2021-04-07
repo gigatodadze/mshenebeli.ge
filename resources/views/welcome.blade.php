@@ -92,7 +92,7 @@
                 </div>
             </div>
             <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>12</b> <small>YEARS OF EXPERIENCE</small> </div>
+            <div class="header-box"> <b>12</b> <small>წლიანი გამოცდილება</small> </div>
             <!-- end header-box -->
         </div>
         <!-- end slider-main -->
@@ -196,7 +196,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="counter-box"> <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$-დან</span>
                     <h6>მშენებლობა</h6>
-                    <p>შავი კარკასის აშენება, საბუთების მოძიება, ინტერიერის დიზაინი საჩუქრად</p>
+                    <p>შავი კარკასის აშენება უმოკლეს დროში, ხარისხის გარანტიით. ინტერიერის დიზაინი საჩუქრად</p>
                 </div>
                 <!-- end counter-box -->
             </div>

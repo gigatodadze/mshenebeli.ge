@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/cleaning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/premium.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/merged.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/merged.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/remonti.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/remonti.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +222,8 @@
       <workItem from="1617451214419" duration="11055000" />
       <workItem from="1617641948422" duration="5479000" />
       <workItem from="1617698893253" duration="966000" />
-      <workItem from="1617729888284" duration="2571000" />
+      <workItem from="1617729888284" duration="3066000" />
+      <workItem from="1617774276295" duration="149000" />
     </task>
     <servers />
   </component>
