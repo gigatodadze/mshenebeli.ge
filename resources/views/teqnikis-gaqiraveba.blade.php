@@ -15,7 +15,7 @@
 <!-- end page-header -->
 
 
-<section class="content-section no-spacing" data-background="{{asset('images/technique.png')}}">
+<section class="content-section no-spacing" data-background="{{asset('images/katlavani.jpg')}}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-lg-6 col-md-9">
@@ -30,6 +30,7 @@
                         <li>ბობკატი,</li>
                         <li>სატვირთო,</li>
                         <li>თვითმცლელი</li>
+                     <li>კატლავანის ამოღება გატანა</li>
                     </ul>
                     <a class="footer-address button" href="tel:(+995) 558 348 000">@lang('app.contact')</a>
                 <!-- end services-list-box -->

@@ -15,7 +15,7 @@
 <!-- end page-header -->
 
 
-<section class="content-section no-spacing" data-background="{{asset('images/livingroom.jpg')}}">
+<section class="content-section no-spacing" data-background="{{asset('images/mshenebloba-in.jpg')}}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-lg-6 col-md-9">
