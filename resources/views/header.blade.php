@@ -193,7 +193,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
         <div class="call-us-header footer-address">
              <span>
                 <p>
-                  <a class="footer-address" href="tel:(+995) 558 348 000">Under Construction</a>
+                  <a class="footer-address" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
                 </p>
              </span>
         </div>
