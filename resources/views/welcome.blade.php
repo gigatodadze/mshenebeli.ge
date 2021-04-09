@@ -72,11 +72,11 @@
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/bar.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/remonti.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/design-architecture.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/11111.jpg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">

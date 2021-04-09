@@ -103,30 +103,30 @@
 <section class="content-section no-spacing">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8537164076133!2d44.77325848583909!3d41.74524803875764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728dcca6790b%3A0x4f7976feeb7ef2ff!2z4YOQ4YOa4YOY4YOdIOGDm-GDmOGDoOGDquGDruGDo-GDmuGDkOGDleGDkOGDoSDhg6Xhg6Phg6nhg5AsIFQnYmlsaXNp!5e0!3m2!1sen!2sge!4v1614939559270!5m2!1sen!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
 <!-- end content-section -->
-<section class="footer-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+{{--<section class="footer-bar">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12">--}}
 
-                <figure class="logo"> <img src="{{asset('/img/logo.png')}}" alt="Image"> </figure>
-                <h2>Live <b>better</b> and <b>beautiful</b></h2>
-                <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
-                <div class="sales-representive">
-                    <figure>
-                        <img src="images/author01.jpg" alt="Image">
-                    </figure>Sales representative
+{{--                <figure class="logo"> <img src="{{asset('/img/logo.png')}}" alt="Image"> </figure>--}}
+{{--                <h2>Live <b>better</b> and <b>beautiful</b></h2>--}}
+{{--                <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>--}}
+{{--                <div class="sales-representive">--}}
+{{--                    <figure>--}}
+{{--                        <img src="images/author01.jpg" alt="Image">--}}
+{{--                    </figure>Sales representative--}}
 
-                    <b>+1 (850) 344 0 66 #20</b> free call !
-                </div>
-                <!-- end sales-representive -->
-            </div>
-            <!-- end col-12  -->
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
+{{--                    <b>+1 (850) 344 0 66 #20</b> free call !--}}
+{{--                </div>--}}
+{{--                <!-- end sales-representive -->--}}
+{{--            </div>--}}
+{{--            <!-- end col-12  -->--}}
+{{--        </div>--}}
+{{--        <!-- end row -->--}}
+{{--    </div>--}}
+{{--    <!-- end container -->--}}
 
-</section>
+{{--</section>--}}
 
 
 
