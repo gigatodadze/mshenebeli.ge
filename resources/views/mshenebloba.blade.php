@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-lg-6 col-md-9">
-                <div class="services-list-box">
+                <div class="services-list-box mshenebloba">
                     <p>
                         ჩვენ შემოგთავაზებთ მოქნილ ფასებს, შეგიდგენთ პროექტს, დაგეხმარებით იურიდიული და საბუღალტრო საბუთების მოგვარებაში, მოგაწვდით დეტალურ, წინასწარ ხარჯთაღრიცხვას და მოგცემთ კონტრაქტით უზრუნველყოფილ მაღალი ხარისხის გარანტიას.
                     </p>
@@ -34,14 +34,11 @@
                         <li>სეისმომედეგი მშენებლობა;</li>
                         <li>კატლავანის ამოღება/გატანა.</li>
                     </ul>
-                    <a href="#" class="button">GET AN ESTIMATE</a> </div>
-                <!-- end services-list-box -->
+                    <a class="footer-address button" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
             </div>
-            <!-- end col-6 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
+    </div>
 </section>
 
 

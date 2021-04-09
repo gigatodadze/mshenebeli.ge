@@ -164,7 +164,7 @@ a:hover {
     }
     .col-lg-4.oqroyana-background:hover {
 
-        background: url('/images/oqroyana-outside-2.jpg');
+        background: url('/images/oqroyana-outside-2.JPG');
         /*background-size: 24rem 100%;*/
         background-size: cover;
 
@@ -172,7 +172,10 @@ a:hover {
         background-color: #8f9da9;
         color: #F3B842;
     }
-
+    .services-list-box.mshenebloba {
+        width: 80%;
+        margin-left: 20.5%;
+    }
     .services-list-box {
         width: 68%;
         margin-left: 40.5%;
@@ -2935,7 +2938,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
     .col-lg-4.oqroyana-background:hover {
 
-        background: url('/images/oqroyana-outside-2.jpg');
+        background: url('/images/oqroyana-outside-2.JPG');
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #8f9da9;
@@ -2971,7 +2974,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
     .col-lg-4.oqroyana-background:hover {
 
-        background: url('/images/oqroyana-outside-2.jpg');
+        background: url('/images/oqroyana-outside-2.JPG');
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #8f9da9;
@@ -3105,7 +3108,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
     .col-lg-4.oqroyana-background:hover {
 
-        background: url('/images/oqroyana-outside-2.jpg');
+        background: url('/images/oqroyana-outside-2.JPG');
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #8f9da9;
@@ -3124,6 +3127,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     }
     .page-header .container {
         padding-top: 31px;
+    }
+    .services-list-box.mshenebloba {
+
     }
     .services-list-box {
         width: 100%;
