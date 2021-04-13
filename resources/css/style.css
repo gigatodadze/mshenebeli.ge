@@ -3428,3 +3428,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin-top: 60%;
 }
 
+.icon-content.design{
+    height: 100%;
+}

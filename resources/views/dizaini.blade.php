@@ -23,7 +23,7 @@
                 <img src="{{asset('images/design-architecture.jpg')}}" alt="oqroyana mshenebeli">
             </div>
             <div class="col-lg-7">
-                <div class="icon-content">
+                <div class="icon-content design">
                     <strong>დიზაინერული მომსახურება</strong>
                     სწორად დაგეგმილი სახლი ესთეტიკურად, ფუნქციურად და ენერგომოხმარების მხრივ ოპტიმიზირებულია. ჩვენი დიზაინერები თქვენთან ერთად დაგეგმავენ ზუსტად ისეთ სახლს, როგორზეც ოცნებობთ.
                     <br> დიზაინერული მომსახურებები რომლებსაც ჩვენ გთავაზობთ მოიცავს:
@@ -50,7 +50,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <div class="icon-content">
+                <div class="icon-content design">
                     <strong>არქიტექტურული მომსახურება</strong>
                     ჩვენი არქიტექტორები მათი თანამედროვე, მოდერნისტული მიდგომებით დაგეხმარებიან თქვენთვის იდეალური სახლის აშენებაში.
                     <br>ჩვენ გთავაზობთ შემდეგ მომსახურებებს:
