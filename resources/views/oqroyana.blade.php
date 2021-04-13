@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-lg-8" >
-                <img src="{{asset('images/oqroyana-outside-2.JPG')}}" alt="oqroyana mshenebeli">
+                <img src="{{asset('images/oqroyana-outside-2.JPG   ')}}" alt="oqroyana mshenebeli">
             </div>
         </div>
     </div>
