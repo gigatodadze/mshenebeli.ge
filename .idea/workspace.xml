@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dizaini.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dizaini.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/oqroyana.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +230,9 @@
       <workItem from="1617807000115" duration="2430000" />
       <workItem from="1617859685760" duration="246000" />
       <workItem from="1617969275960" duration="1681000" />
+      <workItem from="1618044049194" duration="658000" />
+      <workItem from="1618078061008" duration="67000" />
+      <workItem from="1618301143484" duration="1389000" />
     </task>
     <servers />
   </component>
