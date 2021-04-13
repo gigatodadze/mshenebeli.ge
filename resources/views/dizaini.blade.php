@@ -49,6 +49,9 @@
 <section class="content-section">
     <div class="container">
         <div class="row">
+            <div class="col-lg-5" >
+                <img src="{{asset('images/11111.jpg')}}" alt="oqroyana mshenebeli">
+            </div>
             <div class="col-lg-7">
                 <div class="icon-content design">
                     <strong>არქიტექტურული მომსახურება</strong>
@@ -66,9 +69,7 @@
                   </ul>
                 </div>
             </div>
-            <div class="col-lg-5" >
-                <img src="{{asset('images/11111.jpg')}}" alt="oqroyana mshenebeli">
-            </div>
+
         </div>
     </div>
 </section>
