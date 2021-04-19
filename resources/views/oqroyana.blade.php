@@ -2,12 +2,12 @@
 
 <header class="page-header">
     <div class="container">
-        <h1><div class="header-headings">ოქროყანა</div></h1>
+        <h1><div class="header-headings">მთაწმინდა ჰილს</div></h1>
         <h6> გსურთ, ქალაქისგან მოშორებით, სუფთა ჰაერზე, ენერგოეფექტური ტექნოლოგიებით აშენებულ სახლში ცხოვრება?
         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
-            <li>ოქროყანა</li>
+            <li>მთაწმინდა ჰილს</li>
         </ul>
     </div>
 

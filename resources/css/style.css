@@ -3106,6 +3106,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
+
     .col-lg-4.oqroyana-background:hover {
 
         background: url('/images/oqroyana-outside-2.JPG');
@@ -3431,3 +3432,34 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 .icon-content.design{
     height: 100%;
 }
+
+.subscribers-button {
+    border : 0;
+    background-color:#F3B842 ;
+    width: 100%;
+    color: black;
+    border-radius: 0;
+}
+input.subscribers-input {
+    width: 100%;
+}
+
+.text-success {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.text-error {
+    color: orangered;
+    display: block;
+    text-align: center;
+}
+
+/*.display-text-success{*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*}*/
+.hide-success{
+    display: none !important;
+}
+

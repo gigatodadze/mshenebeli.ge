@@ -106,7 +106,7 @@
         <div class="row">
             <div class="col-lg-4 oqroyana-background " >
                 <div class="icon-content no-background black-frame-border">
-                      <h3>ოქროყანა</h3>
+                      <h3>მთაწმინდა ჰილს</h3>
                     <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 990$-დან </small> <a href="{{route('oqroyana')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>

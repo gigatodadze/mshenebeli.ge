@@ -20,6 +20,7 @@
 </div>
 <!-- end sales-specialist-form -->
 
+@include('scripts')
 
 <footer class="footer">
     <div class="container">
@@ -34,14 +35,22 @@
 {{--                </address>--}}
 {{--            </div>--}}
             <!-- end col-4 -->
-            <div class="col-lg-12 col-md-12">
-                <h6 class="widget-title">SALES OFFICES</h6>
-                <address>
-                        <p>@lang('footer.address') :&nbsp <a class="footer-address" href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
-                    <p>@lang('footer.contact us') :&nbsp <a class="footer-address" href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
-                    <p>@lang('footer.message us') :&nbsp <a class="footer-address" href="mailto:info@mshenebeli.ge">info@mshenebeli.ge</a><br></p>
-                </address>
-            </div>
+
+    <div class="row">
+        <div class="col-lg-7 col-md-7 ">
+        <h6 class="widget-title">SALES OFFICES</h6>
+        <address>
+            <p>@lang('footer.address') :&nbsp <a class="footer-address" href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
+            <p>@lang('footer.contact us') :&nbsp <a class="footer-address" href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
+            <p>@lang('footer.message us') :&nbsp <a class="footer-address" href="mailto:info@mshenebeli.ge">info@mshenebeli.ge</a><br></p>
+        </address>
+        </div>
+        <div class="col-lg-5 col-md-5">
+            @include('ajaxRequest')
+
+        </div>
+        <!-- end col-4 -->
+    </div>
             <!-- end col-4 -->
 {{--            <div class="col-lg-4">--}}
 {{--                <h6 class="widget-title">SUBSCRIPTION</h6>--}}
@@ -70,5 +79,3 @@
     <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i>  </a>
     <!-- end scroll-top -->
 </footer>
-<!-- end footer -->
-@include('scripts')
