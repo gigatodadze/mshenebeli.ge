@@ -3,6 +3,10 @@
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
+use App\Http\Controllers\SubscribersController;
+use App\Http\Controllers\AjaxController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -101,3 +105,13 @@ Route::get('/momsakhurebebi',function (){
     return view('momsakhurebebi');
 })->name('momsakhurebebi');
 
+
+//Route::get('/subscribers-form', [SubscribersController::class, 'create']);
+//Route::post('/subscribers-form', [SubscribersController::class, 'store']);
+
+//Route::get('subscribers-form', 'SubscribersController@create');
+//Route::post('subscribers-form', 'SubscribersController@store');
+
+Route::get('ajaxRequest', [AjaxController::class, 'ajaxRequest']);
+
+Route::post('ajaxRequest', [AjaxController::class, 'ajaxRequestPost'])->name('ajaxRequest.post');
