@@ -15,7 +15,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.renovation')</b> </h2>
-                        <p>შეგვიკეთეთ ხარისხიანი, სწრაფი, იაფი და რაც მთავარია, კონტრაქტით დაცული რემონტი..</p>
+                        <p>შეგვიკვეთეთ ხარისხიანი, სწრაფი, იაფი და რაც მთავარია, კონტრაქტით დაცული რემონტი..</p>
                         <a href="{{ route('remonti') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -121,7 +121,7 @@
             <div class="col-lg-4 m2">
                 <div class="icon-content no-background black-frame-border">
                     <h3> მირცხულავა  </h3>
-                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი </small> <a href="{{route('mirtskhulava')}}">+</a> </div>
+                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 600%-დან</small> <a href="{{route('mirtskhulava')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
