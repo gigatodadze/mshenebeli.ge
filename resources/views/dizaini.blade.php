@@ -3,7 +3,7 @@
 <header class="page-header">
     <div class="container">
         <h1><div class="header-headings">@lang('app.design') / @lang('app.architecture')</div></h1>
-        <h6> ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში.
+        <h6> @lang('design.header')
         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
@@ -24,24 +24,21 @@
             </div>
             <div class="col-lg-7">
                 <div class="icon-content design">
-                    <strong>დიზაინერული მომსახურება</strong>
-                    სწორად დაგეგმილი სახლი ესთეტიკურად, ფუნქციურად და ენერგომოხმარების მხრივ ოპტიმიზირებულია. ჩვენი დიზაინერები თქვენთან ერთად დაგეგმავენ ზუსტად ისეთ სახლს, როგორზეც ოცნებობთ.
-                    <br> დიზაინერული მომსახურებები რომლებსაც ჩვენ გთავაზობთ მოიცავს:
+                    <strong>@lang('design.list-header')</strong>
+                   @lang('design.list-paragraph')
                   <ul>
-                    <li>სიტუაციური შეფასება და გეგმის ჩამოყალიბება</li>
-                    <li> ინტერიერის დიზაინი, ზონირება</li>
-                    <li>განათების დიზაინი </li>
-                    <li> ექსტერიერის დიზაინი </li>
-                    <li> დენდროლოგიური დიზაინი, ეზოს დაგეგმარება, ზონირება</li>
-                    <li> 3D დიზაინი, მოდელირება</li>
-                    <li>ვირტუალური ტურები</li>
-                  </ul>
+                  <li>@lang('design.li1')</li>
+                  <li>@lang('design.li2')</li>
+                  <li>@lang('design.li3')</li>
+                  <li>@lang('design.li4')</li>
+                  <li>@lang('design.li5')</li>
+                  <li>@lang('design.li6')</li>
+                  <li>@lang('design.li7')</li>
 
+                  </ul>
                 </div>
             </div>
-            <!-- end col-4 -->
         </div>
-        <!-- end row -->
     </div>
 
 </section>
@@ -54,19 +51,18 @@
             </div>
             <div class="col-lg-7">
                 <div class="icon-content design">
-                    <strong>არქიტექტურული მომსახურება</strong>
-                    ჩვენი არქიტექტორები მათი თანამედროვე, მოდერნისტული მიდგომებით დაგეხმარებიან თქვენთვის იდეალური სახლის აშენებაში.
-                    <br>ჩვენ გთავაზობთ შემდეგ მომსახურებებს:
-                  <ul>
-                    <li>საბუთების მოძიება, შედგენა და შესაბამის ორგანოებთან კომუნიკაცია</li>
-                    <li> მთლიანი არქიტექტურული გეგმის შედგენა</li>
-                    <li>საინჟინრო კომუნიკაციები, წყალგაყვანილობის სისტემის და ელექტროობის დაგეგმარება </li>
-                    <li> 3D ვიზუალიზაცია </li>
-                    <li> კონსტრუქციული პროექტის შედგენა</li>
-                    <li> არქიტექტურული პროექტის შედგენა </li>
-                    <li>არქიტექტურული პროექტის ექსპერტის მიერ შეფასება</li>
-                    <li>არქიტექტურული პროექტის ექსპერტის მიერ შეფასება</li>
-                  </ul>
+                    <strong>@lang('design.2list-header')</strong>
+                    @lang('design.2list-paragraph')
+                    <ul>
+                        <li>@lang('design.2li1')</li>
+                        <li>@lang('design.2li2')</li>
+                        <li>@lang('design.2li3')</li>
+                        <li>@lang('design.2li4')</li>
+                        <li>@lang('design.2li5')</li>
+                        <li>@lang('design.2li6')</li>
+                        <li>@lang('design.2li7')</li>
+                        <li>@lang('design.2li8')</li>
+                    </ul>
                 </div>
             </div>
 

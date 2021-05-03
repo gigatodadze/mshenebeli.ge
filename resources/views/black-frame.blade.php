@@ -21,29 +21,30 @@
             <div class="col-lg-5">
                 <div class="section-title text-left">
                     <h6>@lang('app.black frame')</h6>
-                    <h2>150$ დან</h2>
+                    <h2>@lang('black-frame.Starting at $150 per m²')</h2>
                 </div>
                 <!-- end section-title -->
-                <p> შავი კარკასიდან გასაღების ჩაბარებამდე ბინის სარემონტო სამუშაოები გამოიყურება შემდეგნაირად:</p>
+                <p> @lang('black-frame.list-header')</p>
 {{--                <h2><strong>150$ დან</strong></h2>--}}
 {{--                <b>YEARS OF EXPERIENCE</b>--}}
             </div>
             <!-- end col-7 -->
             <div class="col-lg-5 offset-lg-2">
                 <ul class="custom-list">
-                    <li><i class="lni lni-checkmark"></i> გიფსოკარდონის (თაბაშირ-მუყაოს) გაკვრა - ტიხრების ამოყვანა და თაბაშირ-მუყაოს ჭერი, შიდა კედლების ამოყვანა და გალესვა</li>
-                    <li><i class="lni lni-checkmark"></i>   ბეტონის დასხმა - მოჭიმული იატაკი (სწიაჟკა)</li>
-                    <li><i class="lni lni-checkmark"></i>   ელექტროგაყვანილობა - კაბელებით დაქსელვა, როზეტების და განათების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i>   სანტექნიკური სამუშაოები - სველი წერტილების, აბაზანის და ტუალეტის გაყვანილობის დამონტაჟება, უნიტაზების, სააბაზანო აქსესუარების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i>   შიდა კარებების, რკინის მთავარი კარების და ფანჯრების მონტაჟი - ანჯამებისა და საკეტების დაყენება</li>
-                    <li><i class="lni lni-checkmark"></i>   კაფელ-მეტლახის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i>   ვენტილაცია - სავენტილაციო სისტემა და მილები</li>
-                    <li><i class="lni lni-checkmark"></i>   ხმის და თბოიზოლაციური სამუშაოების ჩატარება</li>
-                    <li><i class="lni lni-checkmark"></i>    ლამინატის/პარკეტის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i>    გათბობის სისტემის, რადიატორების, გათბობის ქვაბის დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i>    სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარება</li>
-                    <li><i class="lni lni-checkmark"></i>     ჭერის დამონტაჟება - ბარისოლი, ფრანგული გასაჭიმი ჭერი</li>
-                    <li><i class="lni lni-checkmark"></i>     რემონტის შემდგომი დალაგება</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li1')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li2')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li3')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li4')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li5')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li6')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li7')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li8')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li9')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li10')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li11')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li12')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li13')</li>
+                    <li><i class="lni lni-checkmark"></i>   @lang('black-frame.li14')</li>
                 </ul>
             </div>
             <!-- end col-5 -->

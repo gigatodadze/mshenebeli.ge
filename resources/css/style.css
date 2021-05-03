@@ -91,7 +91,12 @@ theme.
   font-style: normal; }
 * {
   outline: none !important; }
-
+.giga{
+    color :#F3B842;
+}
+.giga:hover{
+    color :#218838;
+}
 body {
   margin: 0;
   padding: 0;
