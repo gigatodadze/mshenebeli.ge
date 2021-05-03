@@ -21,34 +21,29 @@
             <div class="col-lg-5">
                 <div class="section-title text-left">
                     <h6>@lang('app.green frame')</h6>
-                    <h2>100$ დან</h2>
+                    <h2>@lang('green-frame.price')</h2>
                 </div>
-                <!-- end section-title -->
-                <p>  მწვანე კარკასის მდგომარეობაში მოყვანილი ფართი საცხოვრებლად გამზადდება შემდგომი სარემონტო სამუშაოების შემდეგ:</p>
-{{--                <h2><strong>140$ დან</strong></h2>--}}
-{{--                <b>YEARS OF EXPERIENCE</b>--}}
+                <p> @lang('green-frame.top-paragraph') </p>
             </div>
-            <!-- end col-7 -->
             <div class="col-lg-5 offset-lg-2">
                 <ul class="custom-list">
-                    <li><i class="lni lni-checkmark"></i> ელექტროგაყვანილობა - როზეტების და განათების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სანტექნიკური სამუშაოები - უნიტაზების, სააბაზანო აქსესუარების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სამზარეულო აქსესუარების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> შიდა კარებების დამონტაჟება, ანჯამებისა და საკეტების დაყენება</li>
-                    <li><i class="lni lni-checkmark"></i> კაფელ-მეტლახის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i> ლამინატის/პარკეტის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i> გათბობის სისტემის, რადიატორების, გათბობის ქვაბის დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარება</li>
-                    <li><i class="lni lni-checkmark"></i> სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარებ</li>
-                    <li><i class="lni lni-checkmark"></i> რემონტის შემდგომი დალაგება</li>
-
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li1')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li2')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li3')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li4')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li5')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li6')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li7')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li8')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li9')</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('green-frame.li10')</li>
+                    @if ( Config::get('app.locale') == 'ru')
+                        <li><i class="lni lni-checkmark"></i> @lang('green-frame.li11')</li>
+                     @endif
                 </ul>
             </div>
-            <!-- end col-5 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
-</section>
+]</section>
 
 @include('footer');

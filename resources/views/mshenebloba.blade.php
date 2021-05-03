@@ -3,7 +3,7 @@
 <header class="page-header">
     <div class="container">
         <h1><div class="header-headings">@lang('app.construction')</div></h1>
-        <h6>ჩვენი პროფესიონალებისგან შემდგარი გუნდი უზრუნველყოფს თქვენი აგარაკის, სასტუმროსა თუ კორპუსის დაპროექტებას, სამშენებლო სამუშაოების ხარჯთაღრიცხვას და სწრაფ, ხარისხიან მშენებლობას უახლესი ტექნოლოგიებით.
+        <h6>@lang('construction.header')
         </h6>
         <ul>
             <li><a href="{{route('index')}}">HOME</a></li>
@@ -21,18 +21,17 @@
             <div class="col-lg-6 col-md-9">
                 <div class="services-list-box mshenebloba">
                     <p>
-                        ჩვენ შემოგთავაზებთ მოქნილ ფასებს, შეგიდგენთ პროექტს, დაგეხმარებით იურიდიული და საბუღალტრო საბუთების მოგვარებაში, მოგაწვდით დეტალურ, წინასწარ ხარჯთაღრიცხვას და მოგცემთ კონტრაქტით უზრუნველყოფილ მაღალი ხარისხის გარანტიას.
-                    </p>
-                    კომპანიის სამშენებლო მომსახურებების ფართო და არასრული სპექტრი ასე გამოიყურება:
-
+                        @lang('construction.first-paragraph')                    </p>
+                        @lang('construction.second-paragraph')
                     <ul>
-                        <li>კერძო სახლის მშენებლობა;</li>
-                        <li>სასტუმროს მშენებლობა;</li>
-                        <li>აგარაკის მშენებლობა;</li>
-                        <li>კორპუსის მშენებლობა;</li>
-                        <li>აუზების მშენებლობა;</li>
-                        <li>სეისმომედეგი მშენებლობა;</li>
-                        <li>კატლავანის ამოღება/გატანა.</li>
+                        <li>@lang('construction.li1')</li>
+                        <li>@lang('construction.li2')</li>
+                        <li>@lang('construction.li3')</li>
+                        <li>@lang('construction.li4')</li>
+                        <li>@lang('construction.li5')</li>
+                        <li>@lang('construction.li6')</li>
+                        <li>@lang('construction.li7')</li>
+
                     </ul>
                     <a class="footer-address button" href="tel:(+995) 558 348 000">@lang('footer.contact us')</a>
             </div>

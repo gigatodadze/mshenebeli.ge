@@ -21,26 +21,30 @@
             <div class="col-lg-5">
                 <div class="section-title text-left">
                     <h6>@lang('app.white frame')</h6>
-                    <h2>110$ დან</h2>
+                    <h2>@lang('white-frame.price')</h2>
                 </div>
                 <!-- end section-title -->
-                <p> თეთრი კარკასიდან - სანამ შესვლას და ცხოვრებას შეძლებთ, თქვენს ფართს ჩაუტარდება შემდეგი სარემონტო სამუშაოები: </p>
+                <p> @lang('white-frame.paragraph') </p>
 {{--                <h2><strong>110$ დან</strong></h2>--}}
-                <b> თეთრი კარკასი </b>
+{{--                <b> @lang('white-frame.header') </b>--}}
             </div>
             <!-- end col-7 -->
             <div class="col-lg-5 offset-lg-2">
                 <ul class="custom-list">
-                    <li><i class="lni lni-checkmark"></i> ელექტროგაყვანილობა - კაბელებით დაქსელვა, როზეტების და განათების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სანტექნიკური სამუშაოები - სველი წერტილების, აბაზანის და ტუალეტის გაყვანილობის დამონტაჟება, უნიტაზების, სააბაზანო აქსესუარების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სამზარეულოს გაყვანილობის დამონტაჟება, სამზარეულო აქსესუარების დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> შიდა კარებების დამონტაჟება, ანჯამებისა და საკეტების დაყენება</li>
-                    <li><i class="lni lni-checkmark"></i> კაფელ-მეტლახის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i> ლამინატის/პარკეტის დაგება</li>
-                    <li><i class="lni lni-checkmark"></i> გათბობის სისტემის, რადიატორების, გათბობის ქვაბის დამონტაჟება</li>
-                    <li><i class="lni lni-checkmark"></i> სამღებრო და მოსაპირკეთებელი სამუშაოების ჩატარება</li>
-                    <li><i class="lni lni-checkmark"></i> ჭერის დამონტაჟება - ბარისოლი, ფრანგული გასაჭიმი ჭერი</li>
-                    <li><i class="lni lni-checkmark"></i> რემონტის შემდგომი დალაგება</li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li1') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li2') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li3') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li4') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li5') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li6') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li7') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li8') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li9') </li>
+                    <li><i class="lni lni-checkmark"></i> @lang('white-frame.li10') </li>
+                    @if ( Config::get('app.locale') == 'ru')
+                        <li><i class="lni lni-checkmark"></i> @lang('white-frame.li11') </li>
+                        <li><i class="lni lni-checkmark"></i> @lang('white-frame.li12') </li>
+                    @endif
 
                 </ul>
             </div>

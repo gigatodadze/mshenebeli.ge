@@ -17,4 +17,8 @@ return [
     'black frame' => 'შავი კარკასი',
     'white frame' => 'თეთრი კარკასი',
     'green frame' => 'მწვანე კარკასი',
+    'premium quality'=>'პრემიუმ ხარისხი',
+    'm²'=>'მ²',
+    'from'=>'დან',
+    'experience'=>'წლიანი გამოცდილება'
 ];

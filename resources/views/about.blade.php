@@ -6,7 +6,9 @@
         <div class="row align-items-center">
             <div class="col-12">
                 <div class="section-title">
-                    <h6>ჩვენს შესახებ</h6>
+                    <h6>
+                        @lang('about-us.header')
+                    </h6>
                 </div>
                 <!-- end section-title -->
             </div>
@@ -18,8 +20,11 @@
             <!-- end col-6 -->
             <div class="col-lg-6">
                 <div class="side-content">
+                    <h6>
+                        @lang('about-us.header')
+                    </h6>
                    <p>
-                       ჩვენ ვართ სამშენებლო კომპანია მრავალწლიანი გამოცდილებითა და მომსახურებათა ფართო სპექტრით, რომელსაც შეგიძლიათ ენდოთ სარემონტო/სამშენებლო პროცესის ყველა საფეხურზე. სრული გამჭვირვალობა, თქვენზე მორგებული ფასები და ხარისხის გარანტია.
+                    @lang('about-us.first-paragraph')
                    </p>
             </div>
             <!-- end col-6 -->

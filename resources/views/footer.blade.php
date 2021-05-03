@@ -38,7 +38,7 @@
 
     <div class="row">
         <div class="col-lg-7 col-md-7 ">
-        <h6 class="widget-title">SALES OFFICES</h6>
+{{--        <h6 class="widget-title">SALES OFFICES</h6>--}}
         <address>
             <p>@lang('footer.address') :&nbsp <a class="footer-address" href="https://www.google.com/maps/@41.7453148,44.7738537,18.9z" data-fancybox data-width="640" data-height="360">@lang('footer.alio mirtskhulava str. 9/11') </a></p>
             <p>@lang('footer.contact us') :&nbsp <a class="footer-address" href="tel:(+995) 558 348 000">(+995) 558 348 000</a></p>
@@ -62,7 +62,15 @@
 {{--            </div>--}}
             <!-- end col-4 -->
             <div class="col-12">
-                <div class="footer-bottom"> <span>© 2021 <a class="footer-web" href="http://mshenebeli.ge/">mshenebeli.ge</a> | @lang('footer.rights')</span>
+                <div class="footer-bottom"> <span>© 2021 <a class="footer-web" href="http://mshenebeli.ge/">mshenebeli.ge</a> | @lang('footer.rights') |
+                        @if ( Config::get('app.locale') == 'ge')
+                            დამზადებულია <a class="giga" href="https://www.linkedin.com/in/giga-todadze/"> გიგა თოდაძის</a> მიერ
+                    @elseif( Config::get('app.locale') == 'ru')
+                            Создатель <a class="giga" href="https://www.linkedin.com/in/giga-todadze/"> Гига Тодадзе </a>
+                    @else
+                            Created by <a class="giga" href="https://www.linkedin.com/in/giga-todadze/"> Giga Todadze </a>
+                    @endif
+                    </span>
                     <ul>
                         <li><a href="https://www.facebook.com/mshenebeli.ge">Facebook</a></li>
                         <li><a href="https://www.instagram.com/mshenebeli.ge/">Instagram</a></li>

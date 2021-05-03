@@ -12,11 +12,16 @@ return [
     'details'=>'Details',
     'architecture'=>'Architecture',
     'sales'=>'Sales',
-    'technique rental'=>'Technique rental',
+    'technique rental'=>'Construction Machinery',
     'cleaning'=>'Cleaning',
     'black frame' => 'Black frame',
     'white frame' => 'White frame',
     'green frame' => 'Green frame',
+    'premium quality' => 'Premium Quality',
+    'from' => '+',
+    'm²'=>'m²',
+    'experience'=>'years of experience'
+
 ];
 
 //    'navbar' => [

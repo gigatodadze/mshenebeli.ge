@@ -7,7 +7,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>  @lang('app.construction') </b> </h2>
-                        <p>აიშენეთ თქვენი საოცნებო სახლი. ჩვენ გთავაზობთ სამშენებლო მომსახურებათა ვრცელ ჩამონათვალს.</p>
+                        <p>@lang('services.construction_copy')</p>
                         <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -15,14 +15,14 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.renovation')</b> </h2>
-                        <p>შეგვიკვეთეთ ხარისხიანი, სწრაფი, იაფი და რაც მთავარია, კონტრაქტით დაცული რემონტი..</p>
+                        <p>@lang('services.remont_copy')</p>
                         <a href="{{ route('remonti') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.design') / @lang('app.architecture') </b> </h2>
-                        <p>ჩვენი კვალიფიცირებული დიზაინერები და ინჟინრები დაგეხმარებიან თქვენი არქიტექტურული იდეების რეალიზებაში...</p>
+                        <p>@lang('services.design_copy')</p>
                         <a href="{{ route('dizaini') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -30,7 +30,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.sales')</b> </h2>
-                        <p>არ გსურთ აშენებას დაელოდოთ? შეიძინეთ საოცნებო ბინა დღეს. გამწვანება, ენერგოეფექტური მასალებით მშენებლობა და თქვენზე მორგებული ფასები...</p>
+                        <p> @lang('services.sales_copy')</p>
                         <a href="{{ route('gayidvebi') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -38,7 +38,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.technique rental')</b> </h2>
-                        <p>დაიქირავეთ სამშენებლო და სხვა ტიპის სპეც-ტექნიკა თქვენი მიზნებისთვის...</p>
+                        <p> @lang('services.technique_copy')</p>
                         <a href="{{ route('teqnikis-gaqiraveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -46,7 +46,7 @@
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.cleaning')</b> </h2>
-                        <p>ჩვენ გთავაზობთ მშენებლობის/რემონტის შემდგომი დასუფთავების სერვისების სრულ სიას...</p>
+                        <p> @lang('services.cleaning_copy')</p>
                         <a href="{{ route('dasuftaveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
@@ -92,47 +92,40 @@
                 </div>
             </div>
             <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>12</b> <small>წლიანი გამოცდილება</small> </div>
+            <div class="header-box"> <b>12</b> <small> @lang('app.experience') </small> </div>
             <!-- end header-box -->
         </div>
         <!-- end slider-main -->
     </div>
     <!-- end container -->
 </header>
-<!-- end slider -->
-<!-- end section-note -->
+
+
 <section class="content-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 oqroyana-background " >
+            <div class="col-lg-4 oqroyana-background" >
                 <div class="icon-content no-background black-frame-border">
-                      <h3>მთაწმინდა ჰილს</h3>
-                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 990$-დან </small> <a href="{{route('oqroyana')}}">+</a> </div>
+                    <h3>@lang('sales.mtatsminda-hills')</h3>
+                    <small class="sales-content oqroyana-content"> <br> @lang('sales.residental-complex') @lang('sales.hills-price') </small> <a href="{{route('oqroyana')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4 didube">
                 <div class="icon-content no-background black-frame-border">
-                     <h3> დიდუბე </h3>
-                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 620$-დან</small> <a href="{{route('megadidube')}}">+</a> </div>
+                    <h3>@lang('sales.didube')</h3>
+                    <small class="sales-content oqroyana-content"> <br> @lang('sales.residental-complex') @lang('sales.didube-price')</small> <a href="{{route('megadidube')}}">+</a> </div>
                 <!-- end icon-content -->
             </div>
             <!-- end col-4 -->
             <div class="col-lg-4 m2">
                 <div class="icon-content no-background black-frame-border">
-                    <h3> მირცხულავა  </h3>
-                    <small class="sales-content oqroyana-content"> საცხოვრებელი კომპლექსი 600%-დან</small> <a href="{{route('mirtskhulava')}}">+</a> </div>
-                <!-- end icon-content -->
+                    <h3> @lang('sales.mirtskhulava')  </h3>
+                    <small class="sales-content oqroyana-content"> <br> @lang('sales.residental-complex')  @lang('sales.mirtskhulava-price')</small> <a href="{{route('mirtskhulava')}}">+</a> </div>
             </div>
-            <!-- end col-4 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </section>
-<!-- end content-section -->
-
-
 
 
 
@@ -178,33 +171,56 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="100" data-status="yes">0</span> <span class="value">$-დან</span>
-                    <h6>რემონტი</h6>
-                    <p>ხარისხიანი, ხელმისაწვდომი და კონტრაქტით დაცული სარემონტო მომსახურება</p>
+                @if ( Config::get('app.locale') == 'ge')
+                    <div class="counter-box"> <span class="odometer" data-count="100" data-status="yes">0</span> <span class="value">$-დან</span><br>
+                        @elseif( Config::get('app.locale') == 'ru')
+                            <div class="counter-box"> от <span class="odometer" data-count="100" data-status="yes">0</span> <span class="value">$</span><br>
+                                @else
+                                    <div class="counter-box"> from <span class="odometer" data-count="100" data-status="yes">0</span> <span class="value">$</span><br>
+                                        @endif                    <h6>@lang('4block.remont')</h6>
+                    <p>@lang('4block.block1')</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="160" data-status="yes">0</span> <span class="value">$-დან</span>
-                    <h6>პრემიუმ რემონტი</h6>
-                    <p>უმაღლესი ხარისხის მასალები, პროცესის ვიდეო მონიტორინგი, საჩუქრები</p>
+                @if ( Config::get('app.locale') == 'ge')
+                    <div class="counter-box"> <span class="odometer" data-count="160" data-status="yes">0</span> <span class="value">$-დან</span><br>
+                    @elseif( Config::get('app.locale') == 'ru')
+                    <div class="counter-box"> от <span class="odometer" data-count="160" data-status="yes">0</span> <span class="value">$</span><br>
+                    @else
+                    <div class="counter-box"> from <span class="odometer" data-count="160" data-status="yes">0</span> <span class="value">$</span><br>
+                    @endif
+                    <h6>@lang('4block.premium-remont')</h6>
+                    <p>@lang('4block.block2')</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$-დან</span>
-                    <h6>მშენებლობა</h6>
-                    <p>შავი კარკასის აშენება უმოკლეს დროში, ხარისხის გარანტიით. ინტერიერის დიზაინი საჩუქრად</p>
+                @if ( Config::get('app.locale') == 'ge')
+                    <div class="counter-box"> <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$-დან</span><br>
+                    @elseif( Config::get('app.locale') == 'ru')
+                    <div class="counter-box"> от <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$</span><br>
+                    @else
+                    <div class="counter-box"> from <span class="odometer" data-count="120" data-status="yes">0</span> <span class="value">$</span><br>
+                    @endif
+                    <h6>@lang('4block.construction')</h6>
+                    <p>@lang('4block.block3')</p>
                 </div>
                 <!-- end counter-box -->
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="600" data-status="yes">0</span> <span class="value">$-დან</span>
-                    <h6>ბინები</h6>
-                    <p>უახლესი ტექნოლოგიებით აშენებული ენერგოეფექტური ბინები ქალაქის გულში და ქალაქგარეთ, სუფთა ბუნებაში</p>
+                @if ( Config::get('app.locale') == 'ge')
+                    <div class="counter-box"> <span class="odometer" data-count="600" data-status="yes">0</span> <span class="value">$-დან</span><br>
+                    @elseif( Config::get('app.locale') == 'ru')
+                    <div class="counter-box"> от <span class="odometer" data-count="600" data-status="yes">0</span> <span class="value">$</span><br>
+                    @else
+                    <div class="counter-box"> from <span class="odometer" data-count="600" data-status="yes">0</span> <span class="value">$</span><br>
+                    @endif
+                    <h6>@lang('4block.houses')</h6>
+                    <p>@lang('4block.block4')</p>
                 </div>
                 <!-- end counter-box -->
             </div>

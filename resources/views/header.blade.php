@@ -126,7 +126,7 @@ Mshenebloba: mshenebloba, mshenebloba ge, mshenebloba remonti, saxlebis mshenebl
             <!-- end site-menu -->
         </div>
         <!-- end show-mobile -->
-        <small>© 2021 <a class="footer-web" href="http://mshenebeli.ge/"> mshenebeli.ge</a>  | ყველა უფლება დაცულია </small> </div>
+        <small>© 2021 <a class="footer-web" href="http://mshenebeli.ge/"> mshenebeli.ge</a>  | @lang('footer.rights') </small> </div>
     <!-- end inner -->
 </aside>
 <!-- end side-widget -->
