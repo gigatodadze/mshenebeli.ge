@@ -1,10 +1,10 @@
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <form>
 <div class="subscribers-form">
-<input type="email" name="email" class="subscribers-input" placeholder="გამოიწერეთ სიახლეები" required="">
- <button class="btn btn-success btn-submit subscribers-button">დადასტურება</button>
-    <span id="success_message" class="text-success hide-success">შეინახა წარმატებით!</span>
-    <span id="error_message" class="text-error hide-success">მოხდა შეცდომა!</span>
+<input type="email" name="email" class="subscribers-input" placeholder="@lang('subscriber.subscribe-us')" required="">
+ <button class="btn btn-success btn-submit subscribers-button">@lang('subscriber.submit')</button>
+    <span id="success_message" class="text-success hide-success"></span>
+    <span id="error_message" class="text-error hide-success"></span>
 </div>
 </form>
 <script type="text/javascript">
