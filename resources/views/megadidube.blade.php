@@ -99,6 +99,8 @@
             <div class="col-lg-4">
                 <h3>
                     @lang('sales.didube-material-block')
+                    <br>
+                    <br>  <a class="brochure footer-address" href="https://www.megadidube.ge/assets/files/MEGADIDUBE_GE.pdf" target="_blank" > @lang('sales.download the brochure')</a>
                 </h3>
             </div>
             <div class="col-lg-8" >
