@@ -3468,3 +3468,10 @@ input.subscribers-input {
     display: none !important;
 }
 
+.brochure {
+    color: #F3B842;
+}
+.brochure:hover{
+    color: #1c7430;
+    transition: width .25s ease;
+}
