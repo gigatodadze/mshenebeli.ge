@@ -38,5 +38,5 @@ return [
     'didube-2li9'=>'Concrete screed-covered floors',
     'didube-2li10'=>'Central electric wiring reaching the apartment',
     'didube-2li11'=>'A fully refurbished balcony',
-    'download the brochure'=>'ჩამოტვირთეთ ბროშურა',
+    'download the brochure'=>'Download the brochure',
 ];
