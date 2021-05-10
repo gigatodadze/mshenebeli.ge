@@ -68,27 +68,27 @@
         <div class="swiper-container slider-main">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/mshenebloba.png')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/mshenebloba.svg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/remonti.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/remont2.svg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/11111.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/architecture.svg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/livingroom.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/gayidvebi.svg')}}"></div>
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/kovzi.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/technique1.svg')}}"></div>
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/cleaning.jpg')}}"></div>
+                    <div class="slide-image" data-background="{{asset('images/dasuftaveba1.svg')}}"></div>
                 </div>
             </div>
             <!-- end swiper-wrapper -->
