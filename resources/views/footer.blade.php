@@ -77,13 +77,8 @@
 {{--                        <li><a href="#">Twitter</a></li>--}}
                     </ul>
                 </div>
-                <!-- end footer-bottom -->
             </div>
-            <!-- end col-12  -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
     <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i>  </a>
-    <!-- end scroll-top -->
 </footer>
