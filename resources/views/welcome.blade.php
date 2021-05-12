@@ -521,7 +521,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="video-box"> <a href="videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
+                <div class="video-box"> <a alt="Video Couldn't load" title="Mshenebeli Video" href="videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
                     <video src="videos/video01.mp4" autoplay muted loop playsinline></video>
                 </div>
                 <!-- end video-box -->
