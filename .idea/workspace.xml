@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/architecture.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dasuftaveba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dasuftaveba1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gayidvebi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mshenebloba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/remont1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/remont2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/technique.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/technique1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/megadidube.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/megadidube.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +261,7 @@
       <workItem from="1620573748666" duration="407000" />
       <workItem from="1620582271063" duration="639000" />
       <workItem from="1620637443518" duration="1029000" />
-      <workItem from="1620673411011" duration="1363000" />
+      <workItem from="1620673411011" duration="3756000" />
     </task>
     <servers />
   </component>

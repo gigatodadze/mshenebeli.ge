@@ -64,11 +64,11 @@
             <div class="col-12">
                 <div class="footer-bottom"> <span>© 2021 <a class="footer-web" href="http://mshenebeli.ge/">mshenebeli.ge</a> | @lang('footer.rights') |
                         @if ( Config::get('app.locale') == 'ge')
-                            დამზადებულია <a class="giga footer-address" target="_blank" href="https://www.linkedin.com/in/giga-todadze/"> გიგა თოდაძის</a> მიერ
+                            დამზადებულია <a class="giga footer-address" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/giga-todadze/"> გიგა თოდაძის</a> მიერ
                     @elseif( Config::get('app.locale') == 'ru')
-                            Создатель <a class="giga footer-address"  target="_blank" href="https://www.linkedin.com/in/giga-todadze/"> Гига Тодадзе </a>
+                            Создатель <a class="giga footer-address"  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/giga-todadze/"> Гига Тодадзе </a>
                     @else
-                            Created by <a class="giga footer-address"  target="_blank" href="https://www.linkedin.com/in/giga-todadze/"> Giga Todadze </a>
+                            Created by <a class="giga footer-address"   target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/giga-todadze/"> Giga Todadze </a>
                     @endif
                     </span>
                     <ul>
