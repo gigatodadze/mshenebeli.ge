@@ -55,7 +55,7 @@
 <!-- end content-section -->
 <!-- end content-section -->
 <section class="content-section no-spacing">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8537164076133!2d44.77325848583909!3d41.74524803875764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728dcca6790b%3A0x4f7976feeb7ef2ff!2z4YOQ4YOa4YOY4YOdIOGDm-GDmOGDoOGDquGDruGDo-GDmuGDkOGDleGDkOGDoSDhg6Xhg6Phg6nhg5AsIFQnYmlsaXNp!5e0!3m2!1sen!2sge!4v1614939559270!5m2!1sen!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
+    <iframe title="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8537164076133!2d44.77325848583909!3d41.74524803875764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044728dcca6790b%3A0x4f7976feeb7ef2ff!2z4YOQ4YOa4YOY4YOdIOGDm-GDmOGDoOGDquGDruGDo-GDmuGDkOGDleGDkOGDoSDhg6Xhg6Phg6nhg5AsIFQnYmlsaXNp!5e0!3m2!1sen!2sge!4v1614939559270!5m2!1sen!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
 <!-- end content-section -->
 {{--<section class="footer-bar">--}}
 {{--    <div class="container">--}}

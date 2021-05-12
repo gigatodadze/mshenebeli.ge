@@ -80,5 +80,5 @@
             </div>
         </div>
     </div>
-    <a href="#" class="scroll-top"><i class="lni lni-arrow-up"></i>  </a>
+    <a href="#" alt="easy scroll couldn't load" class="scroll-top"><i class="lni lni-arrow-up"></i>  </a>
 </footer>
