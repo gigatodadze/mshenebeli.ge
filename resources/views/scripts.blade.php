@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 {{--<script src="{{ asset(mix('js/jquery.min.js')) }}"></script>--}}
