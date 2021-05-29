@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4933f895-5a88-4646-baea-e18d75b2cb27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/merged.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/merged.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/subscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/subscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ajaxRequest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ajaxRequest.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +262,11 @@
       <workItem from="1620673411011" duration="3756000" />
       <workItem from="1620809180375" duration="874000" />
       <workItem from="1620840359142" duration="1086000" />
-      <workItem from="1621324264530" duration="4123000" />
+      <workItem from="1621324264530" duration="5175000" />
+      <workItem from="1621500285835" duration="961000" />
+      <workItem from="1621511020874" duration="507000" />
+      <workItem from="1621751130000" duration="406000" />
+      <workItem from="1622281808627" duration="650000" />
     </task>
     <servers />
   </component>
