@@ -40349,10 +40349,10 @@ process.umask = function() { return 0; };
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [
+/******/ 			["./resources/js/scripts.js"],
 /******/ 			["./resources/js/bootstrap.min.js"],
 /******/ 			["./resources/js/fancybox.min.js"],
 /******/ 			["./resources/js/odometer.min.js"],
-/******/ 			["./resources/js/scripts.js"],
 /******/ 			["./resources/js/app.js"],
 /******/ 			["./resources/css/app.css"],
 /******/ 			["./resources/css/bootstrap.min.css"],

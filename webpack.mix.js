@@ -13,11 +13,12 @@ const mix = require('laravel-mix');
 // mix.js(['resources/assets/js/*'], 'js/merged.js')
 
 // mix.autoload({ 'jquery': ['window.$', 'window.jQuery'] })
+mix.js('resources/js/scripts.js', 'js/merged.js')
+
 mix.js('resources/js/bootstrap.min.js', 'js/merged.js')
 mix.js('resources/js/fancybox.min.js', 'js/merged.js')
 // mix.js('resources/js/isotope.min.js', 'js/merged.js')
 mix.js('resources/js/odometer.min.js', 'js/merged.js')
-mix.js('resources/js/scripts.js', 'js/merged.js')
 // mix.js('resources/js/swiper.min.js', 'js/merged.js')
 mix.js('resources/js/app.js', 'js/merged.js')
 // mix.js('resources/js/jquery.min.js', 'js/merged.js')

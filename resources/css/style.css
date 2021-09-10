@@ -3469,10 +3469,12 @@ input.subscribers-input {
     display: none !important;
 }
 
-.brochure {
-    color: #F3B842;
+
+.home-youtube-video {
+    width: 100%;
+    height: 100%;
+    margin-bottom:25%
 }
-.brochure:hover{
-    color: #1c7430;
-    transition: width .25s ease;
+.video-box {
+    height: 100%;
 }

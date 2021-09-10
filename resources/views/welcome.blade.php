@@ -68,6 +68,8 @@
         <div class="swiper-container slider-main">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+
+
                     <div class="slide-image" data-background="{{asset('images/mshenebloba.svg')}}"></div>
                 </div>
                 <!-- end swiper-slide -->
@@ -521,8 +523,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="video-box"> <a alt="Video Couldn't load" title="Mshenebeli Video" href="videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
-                    <video src="videos/video01.mp4" autoplay muted loop playsinline></video>
+                <div class="video-box">
+                    <iframe class="home-youtube-video" src="https://www.youtube.com/embed/CvAJePSEIYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!-- end video-box -->
             </div>
