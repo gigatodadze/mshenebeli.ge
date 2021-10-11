@@ -14,15 +14,15 @@ const mix = require('laravel-mix');
 
 // mix.autoload({ 'jquery': ['window.$', 'window.jQuery'] })
 mix.js('resources/js/scripts.js', 'js/merged.js')
+mix.js('resources/js/app.js', 'js/merged.js')
+mix.js('resources/js/odometer.min.js', 'js/merged.js')
 
 mix.js('resources/js/bootstrap.min.js', 'js/merged.js')
 mix.js('resources/js/fancybox.min.js', 'js/merged.js')
 // mix.js('resources/js/isotope.min.js', 'js/merged.js')
-mix.js('resources/js/odometer.min.js', 'js/merged.js')
 // mix.js('resources/js/swiper.min.js', 'js/merged.js')
-mix.js('resources/js/app.js', 'js/merged.js')
 // mix.js('resources/js/jquery.min.js', 'js/merged.js')
-    mix.css('resources/css/app.css', 'public/css/merged.css')
+    mix.sass('resources/css/app.scss', 'public/css/merged.css')
     .css('resources/css/bootstrap.min.css', 'public/css/merged.css')
     .css('resources/css/odometer.min.css', 'public/css/merged.css')
     .css('resources/css/lineicons.css', 'public/css/merged.css')
