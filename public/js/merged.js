@@ -35869,19 +35869,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/css/app.css":
-/*!*******************************!*\
-  !*** ./resources/css/app.css ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
 /***/ "./resources/css/bootstrap.min.css":
 /*!*****************************************!*\
   !*** ./resources/css/bootstrap.min.css ***!
@@ -40349,12 +40336,11 @@ process.umask = function() { return 0; };
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [
+/******/ 			["./resources/js/scripts.js"],
 /******/ 			["./resources/js/bootstrap.min.js"],
 /******/ 			["./resources/js/fancybox.min.js"],
 /******/ 			["./resources/js/odometer.min.js"],
-/******/ 			["./resources/js/scripts.js"],
 /******/ 			["./resources/js/app.js"],
-/******/ 			["./resources/css/app.css"],
 /******/ 			["./resources/css/bootstrap.min.css"],
 /******/ 			["./resources/css/odometer.min.css"],
 /******/ 			["./resources/css/lineicons.css"],

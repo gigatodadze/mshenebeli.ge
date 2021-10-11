@@ -8,11 +8,10 @@
                     <div class="inner">
                         <h2> <b>  @lang('app.construction') </b> </h2>
                         <p>@lang('services.construction_copy')</p>
-                        <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
+                            <a href="{{route('mshenebloba')}}"> @lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
+                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b> @lang('app.renovation')</b> </h2>
                         <p>@lang('services.remont_copy')</p>
@@ -26,15 +25,13 @@
                         <a href="{{ route('dizaini') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
+                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.sales')</b> </h2>
                         <p> @lang('services.sales_copy')</p>
                         <a href="{{ route('gayidvebi') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
-
                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.technique rental')</b> </h2>
@@ -42,14 +39,12 @@
                         <a href="{{ route('teqnikis-gaqiraveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
                     <!-- end inner -->
                 </div>
-                <!-- end swiper-slide -->
-                <div class="swiper-slide">
+                 <div class="swiper-slide">
                     <div class="inner">
                         <h2> <b>@lang('app.cleaning')</b> </h2>
                         <p> @lang('services.cleaning_copy')</p>
                         <a href="{{ route('dasuftaveba') }}">@lang('app.details') <i class="lni lni-arrow-right"></i></a> </div>
-                    <!-- end inner -->
-                </div>
+                 </div>
             </div>
 
             <!-- end swiper-wrapper -->
@@ -65,39 +60,44 @@
 
         </div>
         <!-- end slider-content -->
-        <div class="swiper-container slider-main">
+
+
+        <div class="swiper-container slider-content images">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/mshenebloba.svg')}}"></div>
+                    <div class="inner">
+                        <img src="{{asset('images/mshenebloba.svg')}}" alt="mshenebloba">
+                    </div>
                 </div>
-                <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/remont2.svg')}}"></div>
+                    <div class="inner">
+                        <img src="{{asset('images/remont2.svg')}}" alt="remonti">
+                    </div>
                 </div>
-                <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/architecture.svg')}}"></div>
+                    <div class="inner">
+                        <img src="{{asset('images/architecture.svg' )}}" alt="architecture">
+                    </div>
                 </div>
-                <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/gayidvebi.svg')}}"></div>
+                    <div class="inner">
+                        <img src="{{asset('images/gayidvebi.svg')}}" alt="gayidvebi">
+                    </div>
                 </div>
-
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/technique1.svg')}}"></div>
+                    <div class="inner">
+                        <img src="{{asset('images/technique1.svg')}}" alt="technique">
+                    </div>
                 </div>
-
                 <div class="swiper-slide">
-                    <div class="slide-image" data-background="{{asset('images/dasuftaveba1.svg')}}"></div>
-                </div>
+                    <div class="inner">
+                        <img src="{{asset('images/dasuftaveba1.svg')}}" alt="dasuftaveba">
+                 </div>
             </div>
-            <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>12</b> <small> @lang('app.experience') </small> </div>
-            <!-- end header-box -->
+            </div>
         </div>
-        <!-- end slider-main -->
+
     </div>
-    <!-- end container -->
 </header>
 
 
@@ -521,8 +521,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="video-box"> <a alt="Video Couldn't load" title="Mshenebeli Video" href="videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
-                    <video src="videos/video01.mp4" autoplay muted loop playsinline></video>
+                <div class="video-box">
+                    <iframe class="home-youtube-video" src="https://www.youtube.com/embed/CvAJePSEIYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <!-- end video-box -->
             </div>

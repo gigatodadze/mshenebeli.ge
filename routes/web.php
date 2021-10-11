@@ -1,11 +1,8 @@
 <?php
 
-use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\App;
-use App\Http\Controllers\SubscribersController;
+//use App\Http\Controllers\SubscribersController;
 use App\Http\Controllers\AjaxController;
-use Illuminate\Support\Facades\Cache;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +14,6 @@ use Illuminate\Support\Facades\Cache;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/cache', function () {
-    return Cache::get('key');
-});
 
 
 Route::get('/', function () {
